@@ -6,10 +6,10 @@
     "hindi": "गोल आकार ढूँढो",
     "answer": "Circle",
     "options": [
-      "Triangle",
-      "Oval",
+      "Diamond",
       "Circle",
-      "Heart"
+      "Rectangle",
+      "Square"
     ],
     "voiceEnglish": "Find the Circle",
     "voiceHindi": "गोल आकार ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "वर्ग आकार ढूँढो",
     "answer": "Square",
     "options": [
-      "Oval",
-      "Star",
       "Square",
-      "Heart"
+      "Rectangle",
+      "Diamond",
+      "Circle"
     ],
     "voiceEnglish": "Find the Square",
     "voiceHindi": "वर्ग आकार ढूँढो"
@@ -36,10 +36,10 @@
     "hindi": "त्रिभुज आकार ढूँढो",
     "answer": "Triangle",
     "options": [
+      "Rectangle",
       "Triangle",
-      "Heart",
-      "Star",
-      "Rectangle"
+      "Circle",
+      "Square"
     ],
     "voiceEnglish": "Find the Triangle",
     "voiceHindi": "त्रिभुज आकार ढूँढो"
@@ -51,10 +51,10 @@
     "hindi": "आयत आकार ढूँढो",
     "answer": "Rectangle",
     "options": [
+      "Rectangle",
       "Triangle",
       "Star",
-      "Circle",
-      "Rectangle"
+      "Diamond"
     ],
     "voiceEnglish": "Find the Rectangle",
     "voiceHindi": "आयत आकार ढूँढो"
@@ -66,9 +66,9 @@
     "hindi": "तारा आकार ढूँढो",
     "answer": "Star",
     "options": [
-      "Star",
-      "Heart",
       "Diamond",
+      "Triangle",
+      "Star",
       "Rectangle"
     ],
     "voiceEnglish": "Find the Star",
@@ -81,10 +81,10 @@
     "hindi": "दिल आकार ढूँढो",
     "answer": "Heart",
     "options": [
-      "Star",
-      "Square",
-      "Diamond",
-      "Heart"
+      "Triangle",
+      "Heart",
+      "Circle",
+      "Oval"
     ],
     "voiceEnglish": "Find the Heart",
     "voiceHindi": "दिल आकार ढूँढो"
@@ -96,10 +96,10 @@
     "hindi": "अंडाकार आकार ढूँढो",
     "answer": "Oval",
     "options": [
-      "Diamond",
-      "Star",
-      "Oval",
-      "Rectangle"
+      "Circle",
+      "Triangle",
+      "Rectangle",
+      "Oval"
     ],
     "voiceEnglish": "Find the Oval",
     "voiceHindi": "अंडाकार आकार ढूँढो"
@@ -111,10 +111,10 @@
     "hindi": "हीरा आकार ढूँढो",
     "answer": "Diamond",
     "options": [
-      "Diamond",
-      "Square",
+      "Rectangle",
       "Oval",
-      "Rectangle"
+      "Diamond",
+      "Triangle"
     ],
     "voiceEnglish": "Find the Diamond",
     "voiceHindi": "हीरा आकार ढूँढो"

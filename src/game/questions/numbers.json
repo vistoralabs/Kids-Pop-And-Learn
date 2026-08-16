@@ -6,10 +6,10 @@
     "hindi": "संख्या 1 ढूँढो",
     "answer": "1",
     "options": [
-      "11",
-      "1",
-      "16",
-      "10"
+      "20",
+      "8",
+      "17",
+      "1"
     ],
     "voiceEnglish": "Find the number 1",
     "voiceHindi": "संख्या 1 ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "संख्या 2 ढूँढो",
     "answer": "2",
     "options": [
-      "2",
-      "10",
       "12",
-      "1"
+      "18",
+      "2",
+      "13"
     ],
     "voiceEnglish": "Find the number 2",
     "voiceHindi": "संख्या 2 ढूँढो"
@@ -36,10 +36,10 @@
     "hindi": "संख्या 3 ढूँढो",
     "answer": "3",
     "options": [
-      "10",
-      "14",
+      "20",
+      "8",
       "3",
-      "7"
+      "12"
     ],
     "voiceEnglish": "Find the number 3",
     "voiceHindi": "संख्या 3 ढूँढो"
@@ -51,10 +51,10 @@
     "hindi": "संख्या 4 ढूँढो",
     "answer": "4",
     "options": [
-      "19",
-      "13",
+      "12",
       "4",
-      "10"
+      "2",
+      "8"
     ],
     "voiceEnglish": "Find the number 4",
     "voiceHindi": "संख्या 4 ढूँढो"
@@ -66,10 +66,10 @@
     "hindi": "संख्या 5 ढूँढो",
     "answer": "5",
     "options": [
-      "12",
-      "20",
+      "8",
+      "13",
       "5",
-      "8"
+      "6"
     ],
     "voiceEnglish": "Find the number 5",
     "voiceHindi": "संख्या 5 ढूँढो"
@@ -81,9 +81,9 @@
     "hindi": "संख्या 6 ढूँढो",
     "answer": "6",
     "options": [
-      "14",
-      "12",
-      "9",
+      "1",
+      "11",
+      "16",
       "6"
     ],
     "voiceEnglish": "Find the number 6",
@@ -96,10 +96,10 @@
     "hindi": "संख्या 7 ढूँढो",
     "answer": "7",
     "options": [
-      "20",
-      "17",
-      "15",
-      "7"
+      "7",
+      "19",
+      "5",
+      "10"
     ],
     "voiceEnglish": "Find the number 7",
     "voiceHindi": "संख्या 7 ढूँढो"
@@ -111,10 +111,10 @@
     "hindi": "संख्या 8 ढूँढो",
     "answer": "8",
     "options": [
-      "5",
-      "15",
+      "17",
       "8",
-      "3"
+      "18",
+      "7"
     ],
     "voiceEnglish": "Find the number 8",
     "voiceHindi": "संख्या 8 ढूँढो"
@@ -126,10 +126,10 @@
     "hindi": "संख्या 9 ढूँढो",
     "answer": "9",
     "options": [
-      "5",
-      "12",
       "9",
-      "19"
+      "4",
+      "1",
+      "5"
     ],
     "voiceEnglish": "Find the number 9",
     "voiceHindi": "संख्या 9 ढूँढो"
@@ -141,10 +141,10 @@
     "hindi": "संख्या 10 ढूँढो",
     "answer": "10",
     "options": [
-      "10",
-      "1",
-      "15",
-      "6"
+      "18",
+      "6",
+      "3",
+      "10"
     ],
     "voiceEnglish": "Find the number 10",
     "voiceHindi": "संख्या 10 ढूँढो"
@@ -156,10 +156,10 @@
     "hindi": "संख्या 11 ढूँढो",
     "answer": "11",
     "options": [
-      "12",
+      "5",
+      "1",
       "11",
-      "18",
-      "6"
+      "10"
     ],
     "voiceEnglish": "Find the number 11",
     "voiceHindi": "संख्या 11 ढूँढो"
@@ -171,10 +171,10 @@
     "hindi": "संख्या 12 ढूँढो",
     "answer": "12",
     "options": [
+      "1",
       "12",
-      "5",
-      "11",
-      "3"
+      "2",
+      "4"
     ],
     "voiceEnglish": "Find the number 12",
     "voiceHindi": "संख्या 12 ढूँढो"
@@ -186,9 +186,9 @@
     "hindi": "संख्या 13 ढूँढो",
     "answer": "13",
     "options": [
-      "7",
-      "20",
-      "19",
+      "15",
+      "8",
+      "5",
       "13"
     ],
     "voiceEnglish": "Find the number 13",
@@ -201,10 +201,10 @@
     "hindi": "संख्या 14 ढूँढो",
     "answer": "14",
     "options": [
-      "16",
-      "1",
+      "2",
+      "3",
       "14",
-      "13"
+      "5"
     ],
     "voiceEnglish": "Find the number 14",
     "voiceHindi": "संख्या 14 ढूँढो"
@@ -216,10 +216,10 @@
     "hindi": "संख्या 15 ढूँढो",
     "answer": "15",
     "options": [
-      "5",
       "15",
-      "7",
-      "2"
+      "2",
+      "20",
+      "8"
     ],
     "voiceEnglish": "Find the number 15",
     "voiceHindi": "संख्या 15 ढूँढो"
@@ -231,10 +231,10 @@
     "hindi": "संख्या 16 ढूँढो",
     "answer": "16",
     "options": [
+      "15",
       "9",
-      "16",
-      "11",
-      "2"
+      "17",
+      "16"
     ],
     "voiceEnglish": "Find the number 16",
     "voiceHindi": "संख्या 16 ढूँढो"
@@ -246,10 +246,10 @@
     "hindi": "संख्या 17 ढूँढो",
     "answer": "17",
     "options": [
-      "3",
-      "6",
-      "1",
-      "17"
+      "15",
+      "17",
+      "7",
+      "11"
     ],
     "voiceEnglish": "Find the number 17",
     "voiceHindi": "संख्या 17 ढूँढो"
@@ -261,10 +261,10 @@
     "hindi": "संख्या 18 ढूँढो",
     "answer": "18",
     "options": [
-      "12",
-      "7",
-      "18",
-      "1"
+      "20",
+      "17",
+      "16",
+      "18"
     ],
     "voiceEnglish": "Find the number 18",
     "voiceHindi": "संख्या 18 ढूँढो"
@@ -276,10 +276,10 @@
     "hindi": "संख्या 19 ढूँढो",
     "answer": "19",
     "options": [
-      "11",
-      "7",
       "19",
-      "15"
+      "6",
+      "8",
+      "11"
     ],
     "voiceEnglish": "Find the number 19",
     "voiceHindi": "संख्या 19 ढूँढो"
@@ -291,10 +291,10 @@
     "hindi": "संख्या 20 ढूँढो",
     "answer": "20",
     "options": [
+      "1",
+      "15",
       "20",
-      "5",
-      "7",
-      "12"
+      "5"
     ],
     "voiceEnglish": "Find the number 20",
     "voiceHindi": "संख्या 20 ढूँढो"
@@ -306,10 +306,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "1",
     "options": [
-      "7",
-      "10",
-      "1",
-      "9"
+      "9",
+      "3",
+      "8",
+      "1"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -321,10 +321,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "2",
     "options": [
-      "10",
-      "2",
       "6",
-      "1"
+      "2",
+      "7",
+      "3"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -336,10 +336,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "3",
     "options": [
-      "2",
-      "10",
       "3",
-      "6"
+      "4",
+      "1",
+      "10"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -351,10 +351,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "4",
     "options": [
+      "10",
       "4",
-      "9",
-      "3",
-      "6"
+      "7",
+      "8"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -366,10 +366,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "5",
     "options": [
+      "8",
+      "6",
       "5",
-      "10",
-      "3",
-      "4"
+      "9"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -381,10 +381,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "6",
     "options": [
-      "6",
-      "10",
-      "3",
-      "5"
+      "1",
+      "8",
+      "5",
+      "6"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -396,10 +396,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "7",
     "options": [
-      "9",
+      "10",
       "7",
-      "8",
-      "5"
+      "9",
+      "1"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -411,10 +411,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "8",
     "options": [
-      "9",
-      "5",
-      "8",
-      "6"
+      "6",
+      "10",
+      "3",
+      "8"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -426,10 +426,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "9",
     "options": [
-      "10",
-      "6",
       "9",
-      "8"
+      "2",
+      "8",
+      "7"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"
@@ -441,10 +441,10 @@
     "hindi": "वस्तुओं को गिनो",
     "answer": "10",
     "options": [
-      "5",
+      "6",
       "10",
-      "8",
-      "1"
+      "9",
+      "8"
     ],
     "voiceEnglish": "Count the items",
     "voiceHindi": "वस्तुओं को गिनो"

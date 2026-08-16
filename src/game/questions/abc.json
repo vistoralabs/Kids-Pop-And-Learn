@@ -6,10 +6,10 @@
     "hindi": "सेब ढूँढो",
     "answer": "A",
     "options": [
-      "U",
       "A",
-      "P",
-      "F"
+      "K",
+      "U",
+      "D"
     ],
     "voiceEnglish": "Find the Apple",
     "voiceHindi": "सेब ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "अक्षर A ढूँढो",
     "answer": "A",
     "options": [
-      "A",
+      "K",
       "U",
-      "F",
-      "P"
+      "A",
+      "D"
     ],
     "voiceEnglish": "Find the letter A",
     "voiceHindi": "अक्षर A ढूँढो"
@@ -36,9 +36,9 @@
     "hindi": "गेंद ढूँढो",
     "answer": "B",
     "options": [
-      "D",
-      "K",
-      "W",
+      "N",
+      "T",
+      "M",
       "B"
     ],
     "voiceEnglish": "Find the Ball",
@@ -51,10 +51,10 @@
     "hindi": "अक्षर B ढूँढो",
     "answer": "B",
     "options": [
-      "K",
       "B",
-      "D",
-      "W"
+      "N",
+      "M",
+      "T"
     ],
     "voiceEnglish": "Find the letter B",
     "voiceHindi": "अक्षर B ढूँढो"
@@ -66,8 +66,8 @@
     "hindi": "बिल्ली ढूँढो",
     "answer": "C",
     "options": [
-      "R",
-      "H",
+      "U",
+      "S",
       "B",
       "C"
     ],
@@ -81,10 +81,10 @@
     "hindi": "अक्षर C ढूँढो",
     "answer": "C",
     "options": [
+      "U",
+      "B",
       "C",
-      "R",
-      "H",
-      "B"
+      "S"
     ],
     "voiceEnglish": "Find the letter C",
     "voiceHindi": "अक्षर C ढूँढो"
@@ -96,10 +96,10 @@
     "hindi": "कुत्ता ढूँढो",
     "answer": "D",
     "options": [
-      "Z",
-      "O",
-      "A",
-      "D"
+      "N",
+      "P",
+      "D",
+      "Q"
     ],
     "voiceEnglish": "Find the Dog",
     "voiceHindi": "कुत्ता ढूँढो"
@@ -111,10 +111,10 @@
     "hindi": "अक्षर D ढूँढो",
     "answer": "D",
     "options": [
-      "A",
-      "Z",
-      "O",
-      "D"
+      "P",
+      "D",
+      "Q",
+      "N"
     ],
     "voiceEnglish": "Find the letter D",
     "voiceHindi": "अक्षर D ढूँढो"
@@ -126,10 +126,10 @@
     "hindi": "हाथी ढूँढो",
     "answer": "E",
     "options": [
+      "H",
       "E",
-      "M",
-      "U",
-      "S"
+      "S",
+      "W"
     ],
     "voiceEnglish": "Find the Elephant",
     "voiceHindi": "हाथी ढूँढो"
@@ -141,10 +141,10 @@
     "hindi": "अक्षर E ढूँढो",
     "answer": "E",
     "options": [
+      "H",
+      "E",
       "S",
-      "U",
-      "M",
-      "E"
+      "W"
     ],
     "voiceEnglish": "Find the letter E",
     "voiceHindi": "अक्षर E ढूँढो"
@@ -156,8 +156,8 @@
     "hindi": "मछली ढूँढो",
     "answer": "F",
     "options": [
-      "Q",
-      "I",
+      "N",
+      "E",
       "F",
       "B"
     ],
@@ -171,10 +171,10 @@
     "hindi": "अक्षर F ढूँढो",
     "answer": "F",
     "options": [
-      "Q",
-      "I",
       "B",
-      "F"
+      "N",
+      "F",
+      "E"
     ],
     "voiceEnglish": "Find the letter F",
     "voiceHindi": "अक्षर F ढूँढो"
@@ -186,10 +186,10 @@
     "hindi": "अंगूर ढूँढो",
     "answer": "G",
     "options": [
-      "I",
+      "A",
       "G",
-      "Y",
-      "Q"
+      "X",
+      "S"
     ],
     "voiceEnglish": "Find the Grapes",
     "voiceHindi": "अंगूर ढूँढो"
@@ -201,10 +201,10 @@
     "hindi": "अक्षर G ढूँढो",
     "answer": "G",
     "options": [
-      "Y",
       "G",
-      "Q",
-      "I"
+      "A",
+      "X",
+      "S"
     ],
     "voiceEnglish": "Find the letter G",
     "voiceHindi": "अक्षर G ढूँढो"
@@ -216,10 +216,10 @@
     "hindi": "टोपी ढूँढो",
     "answer": "H",
     "options": [
-      "E",
-      "T",
-      "K",
-      "H"
+      "U",
+      "H",
+      "C",
+      "Q"
     ],
     "voiceEnglish": "Find the Hat",
     "voiceHindi": "टोपी ढूँढो"
@@ -231,10 +231,10 @@
     "hindi": "अक्षर H ढूँढो",
     "answer": "H",
     "options": [
-      "E",
-      "K",
+      "U",
       "H",
-      "T"
+      "C",
+      "Q"
     ],
     "voiceEnglish": "Find the letter H",
     "voiceHindi": "अक्षर H ढूँढो"
@@ -247,9 +247,9 @@
     "answer": "I",
     "options": [
       "I",
-      "M",
-      "J",
-      "N"
+      "X",
+      "L",
+      "B"
     ],
     "voiceEnglish": "Find the Ice cream",
     "voiceHindi": "आइसक्रीम ढूँढो"
@@ -261,10 +261,10 @@
     "hindi": "अक्षर I ढूँढो",
     "answer": "I",
     "options": [
-      "N",
-      "M",
+      "B",
+      "X",
       "I",
-      "J"
+      "L"
     ],
     "voiceEnglish": "Find the letter I",
     "voiceHindi": "अक्षर I ढूँढो"
@@ -276,9 +276,9 @@
     "hindi": "जग ढूँढो",
     "answer": "J",
     "options": [
-      "X",
-      "V",
-      "C",
+      "O",
+      "A",
+      "H",
       "J"
     ],
     "voiceEnglish": "Find the Jug",
@@ -291,10 +291,10 @@
     "hindi": "अक्षर J ढूँढो",
     "answer": "J",
     "options": [
-      "V",
-      "C",
-      "X",
-      "J"
+      "J",
+      "A",
+      "O",
+      "H"
     ],
     "voiceEnglish": "Find the letter J",
     "voiceHindi": "अक्षर J ढूँढो"
@@ -306,10 +306,10 @@
     "hindi": "पतंग ढूँढो",
     "answer": "K",
     "options": [
-      "H",
       "K",
-      "Y",
-      "L"
+      "L",
+      "S",
+      "B"
     ],
     "voiceEnglish": "Find the Kite",
     "voiceHindi": "पतंग ढूँढो"
@@ -323,8 +323,8 @@
     "options": [
       "L",
       "K",
-      "H",
-      "Y"
+      "B",
+      "S"
     ],
     "voiceEnglish": "Find the letter K",
     "voiceHindi": "अक्षर K ढूँढो"
@@ -336,10 +336,10 @@
     "hindi": "शेर ढूँढो",
     "answer": "L",
     "options": [
-      "M",
       "L",
-      "X",
-      "I"
+      "S",
+      "N",
+      "V"
     ],
     "voiceEnglish": "Find the Lion",
     "voiceHindi": "शेर ढूँढो"
@@ -351,10 +351,10 @@
     "hindi": "अक्षर L ढूँढो",
     "answer": "L",
     "options": [
-      "L",
-      "I",
-      "M",
-      "X"
+      "N",
+      "V",
+      "S",
+      "L"
     ],
     "voiceEnglish": "Find the letter L",
     "voiceHindi": "अक्षर L ढूँढो"
@@ -366,10 +366,10 @@
     "hindi": "चाँद ढूँढो",
     "answer": "M",
     "options": [
-      "I",
-      "D",
-      "M",
-      "Y"
+      "G",
+      "O",
+      "L",
+      "M"
     ],
     "voiceEnglish": "Find the Moon",
     "voiceHindi": "चाँद ढूँढो"
@@ -382,9 +382,9 @@
     "answer": "M",
     "options": [
       "M",
-      "I",
-      "D",
-      "Y"
+      "L",
+      "O",
+      "G"
     ],
     "voiceEnglish": "Find the letter M",
     "voiceHindi": "अक्षर M ढूँढो"
@@ -396,10 +396,10 @@
     "hindi": "घोंसला ढूँढो",
     "answer": "N",
     "options": [
-      "G",
-      "R",
-      "E",
-      "N"
+      "J",
+      "U",
+      "N",
+      "B"
     ],
     "voiceEnglish": "Find the Nest",
     "voiceHindi": "घोंसला ढूँढो"
@@ -411,10 +411,10 @@
     "hindi": "अक्षर N ढूँढो",
     "answer": "N",
     "options": [
-      "N",
-      "E",
-      "R",
-      "G"
+      "U",
+      "J",
+      "B",
+      "N"
     ],
     "voiceEnglish": "Find the letter N",
     "voiceHindi": "अक्षर N ढूँढो"
@@ -426,10 +426,10 @@
     "hindi": "संतरा ढूँढो",
     "answer": "O",
     "options": [
-      "F",
-      "U",
-      "L",
-      "O"
+      "S",
+      "O",
+      "R",
+      "I"
     ],
     "voiceEnglish": "Find the Orange",
     "voiceHindi": "संतरा ढूँढो"
@@ -441,10 +441,10 @@
     "hindi": "अक्षर O ढूँढो",
     "answer": "O",
     "options": [
-      "U",
-      "F",
+      "R",
+      "S",
       "O",
-      "L"
+      "I"
     ],
     "voiceEnglish": "Find the letter O",
     "voiceHindi": "अक्षर O ढूँढो"
@@ -456,10 +456,10 @@
     "hindi": "पांडा ढूँढो",
     "answer": "P",
     "options": [
-      "L",
       "P",
-      "E",
-      "T"
+      "O",
+      "J",
+      "F"
     ],
     "voiceEnglish": "Find the Panda",
     "voiceHindi": "पांडा ढूँढो"
@@ -471,10 +471,10 @@
     "hindi": "अक्षर P ढूँढो",
     "answer": "P",
     "options": [
-      "L",
-      "T",
-      "P",
-      "E"
+      "O",
+      "F",
+      "J",
+      "P"
     ],
     "voiceEnglish": "Find the letter P",
     "voiceHindi": "अक्षर P ढूँढो"
@@ -486,10 +486,10 @@
     "hindi": "रानी ढूँढो",
     "answer": "Q",
     "options": [
-      "R",
-      "X",
-      "Y",
-      "Q"
+      "H",
+      "Q",
+      "J",
+      "K"
     ],
     "voiceEnglish": "Find the Queen",
     "voiceHindi": "रानी ढूँढो"
@@ -501,10 +501,10 @@
     "hindi": "अक्षर Q ढूँढो",
     "answer": "Q",
     "options": [
-      "Y",
-      "X",
+      "H",
+      "J",
       "Q",
-      "R"
+      "K"
     ],
     "voiceEnglish": "Find the letter Q",
     "voiceHindi": "अक्षर Q ढूँढो"
@@ -516,10 +516,10 @@
     "hindi": "खरगोश ढूँढो",
     "answer": "R",
     "options": [
-      "W",
-      "M",
-      "R",
-      "Q"
+      "T",
+      "O",
+      "C",
+      "R"
     ],
     "voiceEnglish": "Find the Rabbit",
     "voiceHindi": "खरगोश ढूँढो"
@@ -531,10 +531,10 @@
     "hindi": "अक्षर R ढूँढो",
     "answer": "R",
     "options": [
-      "W",
-      "Q",
+      "C",
       "R",
-      "M"
+      "O",
+      "T"
     ],
     "voiceEnglish": "Find the letter R",
     "voiceHindi": "अक्षर R ढूँढो"
@@ -546,10 +546,10 @@
     "hindi": "सूरज ढूँढो",
     "answer": "S",
     "options": [
-      "X",
-      "G",
-      "K",
-      "S"
+      "S",
+      "F",
+      "I",
+      "N"
     ],
     "voiceEnglish": "Find the Sun",
     "voiceHindi": "सूरज ढूँढो"
@@ -561,10 +561,10 @@
     "hindi": "अक्षर S ढूँढो",
     "answer": "S",
     "options": [
-      "G",
-      "X",
-      "K",
-      "S"
+      "S",
+      "I",
+      "F",
+      "N"
     ],
     "voiceEnglish": "Find the letter S",
     "voiceHindi": "अक्षर S ढूँढो"
@@ -576,10 +576,10 @@
     "hindi": "रेलगाड़ी ढूँढो",
     "answer": "T",
     "options": [
-      "T",
-      "F",
       "Q",
-      "A"
+      "M",
+      "T",
+      "O"
     ],
     "voiceEnglish": "Find the Train",
     "voiceHindi": "रेलगाड़ी ढूँढो"
@@ -591,10 +591,10 @@
     "hindi": "अक्षर T ढूँढो",
     "answer": "T",
     "options": [
-      "T",
-      "F",
-      "A",
-      "Q"
+      "M",
+      "O",
+      "Q",
+      "T"
     ],
     "voiceEnglish": "Find the letter T",
     "voiceHindi": "अक्षर T ढूँढो"
@@ -606,10 +606,10 @@
     "hindi": "छतरी ढूँढो",
     "answer": "U",
     "options": [
-      "A",
+      "U",
       "Q",
-      "G",
-      "U"
+      "J",
+      "Z"
     ],
     "voiceEnglish": "Find the Umbrella",
     "voiceHindi": "छतरी ढूँढो"
@@ -621,10 +621,10 @@
     "hindi": "अक्षर U ढूँढो",
     "answer": "U",
     "options": [
-      "A",
-      "Q",
+      "Z",
       "U",
-      "G"
+      "Q",
+      "J"
     ],
     "voiceEnglish": "Find the letter U",
     "voiceHindi": "अक्षर U ढूँढो"
@@ -636,10 +636,10 @@
     "hindi": "वैन ढूँढो",
     "answer": "V",
     "options": [
-      "O",
-      "N",
-      "V",
-      "T"
+      "R",
+      "I",
+      "T",
+      "V"
     ],
     "voiceEnglish": "Find the Van",
     "voiceHindi": "वैन ढूँढो"
@@ -651,9 +651,9 @@
     "hindi": "अक्षर V ढूँढो",
     "answer": "V",
     "options": [
-      "N",
-      "O",
       "T",
+      "R",
+      "I",
       "V"
     ],
     "voiceEnglish": "Find the letter V",
@@ -666,10 +666,10 @@
     "hindi": "तरबूज़ ढूँढो",
     "answer": "W",
     "options": [
-      "B",
+      "J",
+      "G",
       "W",
-      "S",
-      "P"
+      "H"
     ],
     "voiceEnglish": "Find the Watermelon",
     "voiceHindi": "तरबूज़ ढूँढो"
@@ -681,10 +681,10 @@
     "hindi": "अक्षर W ढूँढो",
     "answer": "W",
     "options": [
-      "P",
-      "B",
+      "H",
+      "G",
       "W",
-      "S"
+      "J"
     ],
     "voiceEnglish": "Find the letter W",
     "voiceHindi": "अक्षर W ढूँढो"
@@ -696,10 +696,10 @@
     "hindi": "बाजा ढूँढो",
     "answer": "X",
     "options": [
-      "T",
-      "J",
       "X",
-      "F"
+      "W",
+      "N",
+      "I"
     ],
     "voiceEnglish": "Find the Xylophone",
     "voiceHindi": "बाजा ढूँढो"
@@ -711,10 +711,10 @@
     "hindi": "अक्षर X ढूँढो",
     "answer": "X",
     "options": [
-      "F",
-      "T",
+      "I",
+      "W",
       "X",
-      "J"
+      "N"
     ],
     "voiceEnglish": "Find the letter X",
     "voiceHindi": "अक्षर X ढूँढो"
@@ -726,10 +726,10 @@
     "hindi": "यो-यो ढूँढो",
     "answer": "Y",
     "options": [
-      "I",
       "Y",
-      "Z",
-      "X"
+      "V",
+      "K",
+      "I"
     ],
     "voiceEnglish": "Find the Yo-yo",
     "voiceHindi": "यो-यो ढूँढो"
@@ -741,10 +741,10 @@
     "hindi": "अक्षर Y ढूँढो",
     "answer": "Y",
     "options": [
-      "Z",
-      "Y",
+      "V",
+      "K",
       "I",
-      "X"
+      "Y"
     ],
     "voiceEnglish": "Find the letter Y",
     "voiceHindi": "अक्षर Y ढूँढो"
@@ -756,10 +756,10 @@
     "hindi": "ज़ेबरा ढूँढो",
     "answer": "Z",
     "options": [
-      "V",
       "Z",
-      "M",
-      "B"
+      "N",
+      "G",
+      "Y"
     ],
     "voiceEnglish": "Find the Zebra",
     "voiceHindi": "ज़ेबरा ढूँढो"
@@ -771,10 +771,10 @@
     "hindi": "अक्षर Z ढूँढो",
     "answer": "Z",
     "options": [
-      "B",
-      "V",
+      "Y",
       "Z",
-      "M"
+      "G",
+      "N"
     ],
     "voiceEnglish": "Find the letter Z",
     "voiceHindi": "अक्षर Z ढूँढो"

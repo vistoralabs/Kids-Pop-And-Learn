@@ -6,10 +6,10 @@
     "hindi": "तोता ढूँढो",
     "answer": "Parrot",
     "options": [
-      "Duck",
-      "Swan",
       "Parrot",
-      "Hen"
+      "Peacock",
+      "Swan",
+      "Owl"
     ],
     "voiceEnglish": "Find the Parrot",
     "voiceHindi": "तोता ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "मोर ढूँढो",
     "answer": "Peacock",
     "options": [
-      "Dove",
       "Peacock",
-      "Owl",
-      "Penguin"
+      "Eagle",
+      "Parrot",
+      "Duck"
     ],
     "voiceEnglish": "Find the Peacock",
     "voiceHindi": "मोर ढूँढो"
@@ -36,10 +36,10 @@
     "hindi": "उल्लू ढूँढो",
     "answer": "Owl",
     "options": [
-      "Swan",
-      "Hen",
+      "Eagle",
       "Owl",
-      "Penguin"
+      "Swan",
+      "Duck"
     ],
     "voiceEnglish": "Find the Owl",
     "voiceHindi": "उल्लू ढूँढो"
@@ -52,9 +52,9 @@
     "answer": "Duck",
     "options": [
       "Duck",
-      "Owl",
       "Peacock",
-      "Chick"
+      "Hen",
+      "Penguin"
     ],
     "voiceEnglish": "Find the Duck",
     "voiceHindi": "बत्तख ढूँढो"
@@ -67,9 +67,9 @@
     "answer": "Hen",
     "options": [
       "Hen",
-      "Chick",
-      "Penguin",
-      "Swan"
+      "Eagle",
+      "Owl",
+      "Parrot"
     ],
     "voiceEnglish": "Find the Hen",
     "voiceHindi": "मुर्गी ढूँढो"
@@ -81,10 +81,10 @@
     "hindi": "ईगल ढूँढो",
     "answer": "Eagle",
     "options": [
-      "Eagle",
-      "Swan",
-      "Parrot",
-      "Hen"
+      "Penguin",
+      "Hen",
+      "Dove",
+      "Eagle"
     ],
     "voiceEnglish": "Find the Eagle",
     "voiceHindi": "ईगल ढूँढो"
@@ -96,9 +96,9 @@
     "hindi": "पेंगुइन ढूँढो",
     "answer": "Penguin",
     "options": [
-      "Dove",
+      "Peacock",
       "Penguin",
-      "Swan",
+      "Duck",
       "Chick"
     ],
     "voiceEnglish": "Find the Penguin",
@@ -112,9 +112,9 @@
     "answer": "Swan",
     "options": [
       "Eagle",
+      "Swan",
       "Parrot",
-      "Chick",
-      "Swan"
+      "Dove"
     ],
     "voiceEnglish": "Find the Swan",
     "voiceHindi": "हंस ढूँढो"
@@ -126,8 +126,8 @@
     "hindi": "कबूतर ढूँढो",
     "answer": "Dove",
     "options": [
-      "Owl",
-      "Penguin",
+      "Duck",
+      "Swan",
       "Dove",
       "Peacock"
     ],
@@ -141,10 +141,10 @@
     "hindi": "चूज़ा ढूँढो",
     "answer": "Chick",
     "options": [
+      "Eagle",
       "Owl",
-      "Swan",
-      "Parrot",
-      "Chick"
+      "Chick",
+      "Dove"
     ],
     "voiceEnglish": "Find the Chick",
     "voiceHindi": "चूज़ा ढूँढो"

@@ -17,7 +17,15 @@ if (-not $masterImg) {
 if (-not $masterImg) { Write-Error "No master icon found"; exit 1 }
 Write-Host "Using master icon: $($masterImg.FullName)"
 
-$src = [System.Drawing.Image]::FromFile($masterImg.FullName)
+$srcImage = [System.Drawing.Image]::FromFile($masterImg.FullName)
+$src = New-Object System.Drawing.Bitmap $srcImage
+$srcImage.Dispose()
+# Clear background colors to make the logo transparent
+$src.MakeTransparent([System.Drawing.Color]::White)
+$src.MakeTransparent($src.GetPixel(0, 0))
+$src.MakeTransparent($src.GetPixel($src.Width - 1, 0))
+$src.MakeTransparent($src.GetPixel(0, $src.Height - 1))
+$src.MakeTransparent($src.GetPixel($src.Width - 1, $src.Height - 1))
 
 function Resize($img, [int]$w, [int]$h, $bgColor, [float]$ratio) {
     $bmp = New-Object System.Drawing.Bitmap $w, $h

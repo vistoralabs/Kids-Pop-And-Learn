@@ -6,10 +6,10 @@
     "hindi": "कुत्ता ढूँढो",
     "answer": "Dog",
     "options": [
-      "Dog",
-      "Frog",
+      "Panda",
       "Horse",
-      "Pig"
+      "Giraffe",
+      "Dog"
     ],
     "voiceEnglish": "Find the Dog",
     "voiceHindi": "कुत्ता ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "बिल्ली ढूँढो",
     "answer": "Cat",
     "options": [
-      "Bear",
       "Dog",
-      "Tiger",
-      "Cat"
+      "Sheep",
+      "Cat",
+      "Frog"
     ],
     "voiceEnglish": "Find the Cat",
     "voiceHindi": "बिल्ली ढूँढो"
@@ -37,9 +37,9 @@
     "answer": "Lion",
     "options": [
       "Lion",
-      "Elephant",
-      "Frog",
-      "Dog"
+      "Sheep",
+      "Panda",
+      "Elephant"
     ],
     "voiceEnglish": "Find the Lion",
     "voiceHindi": "शेर ढूँढो"
@@ -51,10 +51,10 @@
     "hindi": "हाथी ढूँढो",
     "answer": "Elephant",
     "options": [
-      "Cat",
+      "Lion",
       "Elephant",
-      "Frog",
-      "Zebra"
+      "Bear",
+      "Horse"
     ],
     "voiceEnglish": "Find the Elephant",
     "voiceHindi": "हाथी ढूँढो"
@@ -67,7 +67,7 @@
     "answer": "Tiger",
     "options": [
       "Panda",
-      "Elephant",
+      "Camel",
       "Tiger",
       "Monkey"
     ],
@@ -81,10 +81,10 @@
     "hindi": "पांडा ढूँढो",
     "answer": "Panda",
     "options": [
-      "Zebra",
+      "Frog",
+      "Cat",
       "Panda",
-      "Monkey",
-      "Pig"
+      "Lion"
     ],
     "voiceEnglish": "Find the Panda",
     "voiceHindi": "पांडा ढूँढो"
@@ -96,10 +96,10 @@
     "hindi": "बंदर ढूँढो",
     "answer": "Monkey",
     "options": [
+      "Elephant",
+      "Pig",
       "Monkey",
-      "Panda",
-      "Zebra",
-      "Horse"
+      "Dog"
     ],
     "voiceEnglish": "Find the Monkey",
     "voiceHindi": "बंदर ढूँढो"
@@ -111,10 +111,10 @@
     "hindi": "खरगोश ढूँढो",
     "answer": "Rabbit",
     "options": [
-      "Cat",
       "Rabbit",
-      "Sheep",
-      "Frog"
+      "Horse",
+      "Giraffe",
+      "Zebra"
     ],
     "voiceEnglish": "Find the Rabbit",
     "voiceHindi": "खरगोश ढूँढो"
@@ -126,10 +126,10 @@
     "hindi": "मेंढक ढूँढो",
     "answer": "Frog",
     "options": [
-      "Dog",
-      "Rabbit",
+      "Monkey",
       "Frog",
-      "Elephant"
+      "Tiger",
+      "Panda"
     ],
     "voiceEnglish": "Find the Frog",
     "voiceHindi": "मेंढक ढूँढो"
@@ -141,10 +141,10 @@
     "hindi": "गाय ढूँढो",
     "answer": "Cow",
     "options": [
-      "Cow",
-      "Panda",
+      "Dog",
       "Fish",
-      "Camel"
+      "Rabbit",
+      "Cow"
     ],
     "voiceEnglish": "Find the Cow",
     "voiceHindi": "गाय ढूँढो"
@@ -156,10 +156,10 @@
     "hindi": "घोड़ा ढूँढो",
     "answer": "Horse",
     "options": [
-      "Rabbit",
-      "Fish",
-      "Cat",
-      "Horse"
+      "Frog",
+      "Horse",
+      "Elephant",
+      "Bear"
     ],
     "voiceEnglish": "Find the Horse",
     "voiceHindi": "घोड़ा ढूँढो"
@@ -171,10 +171,10 @@
     "hindi": "भालू ढूँढो",
     "answer": "Bear",
     "options": [
-      "Camel",
-      "Cat",
       "Bear",
-      "Cow"
+      "Pig",
+      "Cat",
+      "Zebra"
     ],
     "voiceEnglish": "Find the Bear",
     "voiceHindi": "भालू ढूँढो"
@@ -186,10 +186,10 @@
     "hindi": "सूअर ढूँढो",
     "answer": "Pig",
     "options": [
-      "Horse",
       "Panda",
+      "Frog",
       "Pig",
-      "Camel"
+      "Giraffe"
     ],
     "voiceEnglish": "Find the Pig",
     "voiceHindi": "सूअर ढूँढो"
@@ -201,10 +201,10 @@
     "hindi": "भेड़ ढूँढो",
     "answer": "Sheep",
     "options": [
-      "Monkey",
-      "Pig",
-      "Frog",
-      "Sheep"
+      "Zebra",
+      "Bear",
+      "Sheep",
+      "Panda"
     ],
     "voiceEnglish": "Find the Sheep",
     "voiceHindi": "भेड़ ढूँढो"
@@ -216,10 +216,10 @@
     "hindi": "जिराफ़ ढूँढो",
     "answer": "Giraffe",
     "options": [
-      "Rabbit",
-      "Elephant",
-      "Pig",
-      "Giraffe"
+      "Giraffe",
+      "Camel",
+      "Lion",
+      "Monkey"
     ],
     "voiceEnglish": "Find the Giraffe",
     "voiceHindi": "जिराफ़ ढूँढो"
@@ -231,10 +231,10 @@
     "hindi": "ज़ेबरा ढूँढो",
     "answer": "Zebra",
     "options": [
-      "Zebra",
-      "Camel",
+      "Dog",
       "Pig",
-      "Horse"
+      "Elephant",
+      "Zebra"
     ],
     "voiceEnglish": "Find the Zebra",
     "voiceHindi": "ज़ेबरा ढूँढो"
@@ -246,9 +246,9 @@
     "hindi": "ऊँट ढूँढो",
     "answer": "Camel",
     "options": [
-      "Panda",
-      "Frog",
-      "Rabbit",
+      "Cow",
+      "Dog",
+      "Giraffe",
       "Camel"
     ],
     "voiceEnglish": "Find the Camel",
@@ -261,10 +261,10 @@
     "hindi": "मछली ढूँढो",
     "answer": "Fish",
     "options": [
-      "Dog",
-      "Tiger",
       "Fish",
-      "Giraffe"
+      "Cat",
+      "Pig",
+      "Sheep"
     ],
     "voiceEnglish": "Find the Fish",
     "voiceHindi": "मछली ढूँढो"

@@ -6,10 +6,10 @@
     "hindi": "कार ढूँढो",
     "answer": "Car",
     "options": [
-      "Train",
-      "Rocket",
-      "Ambulance",
-      "Car"
+      "Fire Engine",
+      "Scooter",
+      "Car",
+      "Police Car"
     ],
     "voiceEnglish": "Find the Car",
     "voiceHindi": "कार ढूँढो"
@@ -22,9 +22,9 @@
     "answer": "Bus",
     "options": [
       "Ship",
-      "Bus",
-      "Auto Rickshaw",
-      "Rocket"
+      "Ambulance",
+      "Car",
+      "Bus"
     ],
     "voiceEnglish": "Find the Bus",
     "voiceHindi": "बस ढूँढो"
@@ -37,9 +37,9 @@
     "answer": "Ambulance",
     "options": [
       "Ambulance",
-      "Car",
-      "Bus",
-      "Scooter"
+      "Boat",
+      "Helicopter",
+      "Car"
     ],
     "voiceEnglish": "Find the Ambulance",
     "voiceHindi": "एम्बुलेंस ढूँढो"
@@ -53,8 +53,8 @@
     "options": [
       "Fire Engine",
       "Train",
-      "Scooter",
-      "Truck"
+      "Boat",
+      "Ship"
     ],
     "voiceEnglish": "Find the Fire Engine",
     "voiceHindi": "दमकल ढूँढो"
@@ -66,10 +66,10 @@
     "hindi": "पुलिस कार ढूँढो",
     "answer": "Police Car",
     "options": [
-      "Helicopter",
-      "Ambulance",
-      "Police Car",
-      "Auto Rickshaw"
+      "Bus",
+      "Rocket",
+      "Fire Engine",
+      "Police Car"
     ],
     "voiceEnglish": "Find the Police Car",
     "voiceHindi": "पुलिस कार ढूँढो"
@@ -83,8 +83,8 @@
     "options": [
       "Airplane",
       "Truck",
-      "Bus",
-      "Rocket"
+      "Rocket",
+      "Boat"
     ],
     "voiceEnglish": "Find the Airplane",
     "voiceHindi": "हवाई जहाज़ ढूँढो"
@@ -96,10 +96,10 @@
     "hindi": "हेलीकॉप्टर ढूँढो",
     "answer": "Helicopter",
     "options": [
-      "Bicycle",
-      "Police Car",
-      "Truck",
-      "Helicopter"
+      "Boat",
+      "Ambulance",
+      "Helicopter",
+      "Bicycle"
     ],
     "voiceEnglish": "Find the Helicopter",
     "voiceHindi": "हेलीकॉप्टर ढूँढो"
@@ -111,10 +111,10 @@
     "hindi": "रेलगाड़ी ढूँढो",
     "answer": "Train",
     "options": [
-      "Tractor",
+      "Boat",
       "Train",
-      "Truck",
-      "Scooter"
+      "Fire Engine",
+      "Bus"
     ],
     "voiceEnglish": "Find the Train",
     "voiceHindi": "रेलगाड़ी ढूँढो"
@@ -126,10 +126,10 @@
     "hindi": "जहाज़ ढूँढो",
     "answer": "Ship",
     "options": [
-      "Fire Engine",
-      "Bus",
-      "Truck",
-      "Ship"
+      "Ship",
+      "Rocket",
+      "Police Car",
+      "Train"
     ],
     "voiceEnglish": "Find the Ship",
     "voiceHindi": "जहाज़ ढूँढो"
@@ -141,10 +141,10 @@
     "hindi": "साइकिल ढूँढो",
     "answer": "Bicycle",
     "options": [
+      "Car",
+      "Train",
       "Airplane",
-      "Police Car",
-      "Bicycle",
-      "Rocket"
+      "Bicycle"
     ],
     "voiceEnglish": "Find the Bicycle",
     "voiceHindi": "साइकिल ढूँढो"
@@ -156,10 +156,10 @@
     "hindi": "ऑटो ढूँढो",
     "answer": "Auto Rickshaw",
     "options": [
-      "Rocket",
       "Auto Rickshaw",
-      "Police Car",
-      "Truck"
+      "Train",
+      "Fire Engine",
+      "Airplane"
     ],
     "voiceEnglish": "Find the Auto Rickshaw",
     "voiceHindi": "ऑटो ढूँढो"
@@ -171,10 +171,10 @@
     "hindi": "स्कूटर ढूँढो",
     "answer": "Scooter",
     "options": [
-      "Helicopter",
       "Scooter",
-      "Ship",
-      "Bicycle"
+      "Truck",
+      "Ambulance",
+      "Auto Rickshaw"
     ],
     "voiceEnglish": "Find the Scooter",
     "voiceHindi": "स्कूटर ढूँढो"
@@ -186,10 +186,10 @@
     "hindi": "ट्रैक्टर ढूँढो",
     "answer": "Tractor",
     "options": [
+      "Auto Rickshaw",
       "Tractor",
-      "Train",
-      "Car",
-      "Ship"
+      "Bicycle",
+      "Car"
     ],
     "voiceEnglish": "Find the Tractor",
     "voiceHindi": "ट्रैक्टर ढूँढो"
@@ -201,10 +201,10 @@
     "hindi": "ट्रक ढूँढो",
     "answer": "Truck",
     "options": [
-      "Airplane",
+      "Fire Engine",
       "Truck",
-      "Boat",
-      "Bicycle"
+      "Auto Rickshaw",
+      "Ambulance"
     ],
     "voiceEnglish": "Find the Truck",
     "voiceHindi": "ट्रक ढूँढो"
@@ -216,10 +216,10 @@
     "hindi": "रॉकेट ढूँढो",
     "answer": "Rocket",
     "options": [
+      "Car",
+      "Ship",
       "Rocket",
-      "Fire Engine",
-      "Police Car",
-      "Bicycle"
+      "Train"
     ],
     "voiceEnglish": "Find the Rocket",
     "voiceHindi": "रॉकेट ढूँढो"
@@ -231,10 +231,10 @@
     "hindi": "नाव ढूँढो",
     "answer": "Boat",
     "options": [
-      "Bus",
-      "Fire Engine",
       "Boat",
-      "Ship"
+      "Auto Rickshaw",
+      "Police Car",
+      "Airplane"
     ],
     "voiceEnglish": "Find the Boat",
     "voiceHindi": "नाव ढूँढो"

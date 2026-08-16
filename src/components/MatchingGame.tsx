@@ -107,9 +107,16 @@ export function MatchingGame({
 
         <div className="mx-4 mt-3 flex items-center gap-3 rounded-3xl bg-card px-4 py-3 shadow-[0_8px_0_0_rgba(0,0,0,0.12)]">
           <Mascot size={56} float={false} />
-          <p className="min-w-0 flex-1 font-display text-xl text-secondary-foreground">
-            Find the matching pairs!
-          </p>
+          <div className="min-w-0 flex-1 flex flex-col gap-0.5 font-display text-secondary-foreground">
+            {progress.settings.lang !== "hi" && (
+              <div className="text-xl font-bold">Find the matching pairs!</div>
+            )}
+            {progress.settings.lang !== "en" && (
+              <div className={progress.settings.lang === "both" ? "text-sm text-muted-foreground font-medium" : "text-xl font-bold"}>
+                समान जोड़ी ढूँढो!
+              </div>
+            )}
+          </div>
         </div>
 
         <div className={`mt-4 grid ${cols} gap-2.5 px-4 sm:gap-3`}>

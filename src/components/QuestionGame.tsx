@@ -180,9 +180,16 @@ export function QuestionGame({
 
         <div className="glass-card mx-4 mt-3 flex items-center gap-3 px-4 py-4">
           <Mascot size={64} float={false} />
-          <p className="min-w-0 flex-1 font-display text-2xl leading-snug text-secondary-foreground">
-            {lang === "hi" ? question.promptHi : question.prompt}
-          </p>
+          <div className="min-w-0 flex-1 flex flex-col gap-0.5 font-display text-secondary-foreground">
+            {lang !== "hi" && (
+              <div className="text-2xl font-bold leading-snug">{question.prompt}</div>
+            )}
+            {lang !== "en" && (
+              <div className={lang === "both" ? "text-lg text-muted-foreground font-medium leading-snug" : "text-2xl font-bold leading-snug"}>
+                {question.promptHi}
+              </div>
+            )}
+          </div>
           <div className="flex gap-2 shrink-0">
             <button
               type="button"

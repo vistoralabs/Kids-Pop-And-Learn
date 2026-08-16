@@ -63,6 +63,8 @@ class AdManager {
   private interstitialReady = false;
   private rewardedReady = false;
   private adsConfig = {
+    enabled: true,
+    testMode: true,
     interstitial: AD_CONFIG.INTERSTITIAL_ID,
     rewarded: AD_CONFIG.REWARDED_ID,
   };
@@ -75,10 +77,12 @@ class AdManager {
     try {
       const res = await fetch("https://kids.vistora.workers.dev/api/ads.json");
       const data = await res.json();
-      if (data && data.interstitial && data.rewarded) {
-        this.adsConfig.interstitial = data.interstitial;
-        this.adsConfig.rewarded = data.rewarded;
-        console.info("[AdManager] Remote ad unit IDs loaded");
+      if (data) {
+        if (typeof data.enabled === "boolean") this.adsConfig.enabled = data.enabled;
+        if (typeof data.testMode === "boolean") this.adsConfig.testMode = data.testMode;
+        if (data.interstitial) this.adsConfig.interstitial = data.interstitial;
+        if (data.rewarded) this.adsConfig.rewarded = data.rewarded;
+        console.info("[AdManager] Remote ad configuration loaded:", this.adsConfig);
       }
     } catch {
       /* fallback to local defaults */
@@ -92,7 +96,7 @@ class AdManager {
     }
     try {
       await this.admob.initialize({
-        initializeForTesting: true,
+        initializeForTesting: this.adsConfig.testMode,
         testingDevices: [],
       });
       this.initialized = true;
@@ -112,7 +116,7 @@ class AdManager {
     try {
       await this.admob.prepareInterstitial({
         adId: this.adsConfig.interstitial,
-        isTesting: true,
+        isTesting: this.adsConfig.testMode,
       });
       this.interstitialReady = true;
     } catch (err) {
@@ -126,7 +130,7 @@ class AdManager {
    * Returns true if the ad was shown, false otherwise.
    */
   async showInterstitial(): Promise<boolean> {
-    if (!this.admob || !this.interstitialReady) return false;
+    if (!this.admob || !this.interstitialReady || !this.adsConfig.enabled) return false;
     try {
       await this.admob.showInterstitial();
       this.interstitialReady = false;
@@ -147,7 +151,7 @@ class AdManager {
     try {
       await this.admob.prepareRewardVideoAd({
         adId: this.adsConfig.rewarded,
-        isTesting: true,
+        isTesting: this.adsConfig.testMode,
       });
       this.rewardedReady = true;
     } catch (err) {
@@ -161,7 +165,7 @@ class AdManager {
    * Returns true if user completed the ad, false if skipped/failed.
    */
   async showRewarded(): Promise<boolean> {
-    if (!this.admob || !this.rewardedReady) return false;
+    if (!this.admob || !this.rewardedReady || !this.adsConfig.enabled) return false;
     try {
       await this.admob.showRewardVideoAd();
       this.rewardedReady = false;
@@ -178,7 +182,7 @@ class AdManager {
 
   /** Whether ads are available on this platform */
   get enabled(): boolean {
-    return this.admob !== null;
+    return this.admob !== null && this.adsConfig.enabled;
   }
 }
 

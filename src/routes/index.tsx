@@ -33,6 +33,7 @@ export const Route = createFileRoute("/")({
 const LANGS: { value: Lang; label: string }[] = [
   { value: "en", label: "English" },
   { value: "hi", label: "हिंदी" },
+  { value: "both", label: "Both" },
 ];
 
 function Home() {
@@ -68,29 +69,41 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    // Custom popup appears dynamically based on cloud config (default 12 seconds)
-    const promoTimer = setTimeout(() => {
-      const shown = sessionStorage.getItem("custom_popup_shown");
-      if (!shown) {
-        setShowPromoPopup(true);
-        sessionStorage.setItem("custom_popup_shown", "true");
-      }
-    }, config.rewardPopupDelay);
+    // Determine reward popup delay & enablement from fetched popupTexts or config fallback
+    const rewardDelay = popupTexts?.rewardPopup?.delay ?? config.rewardPopupDelay;
+    const rewardEnabled = popupTexts?.rewardPopup?.enabled ?? true;
 
-    // Rating popup appears dynamically based on cloud config (default 30 seconds)
-    const rateTimer = setTimeout(() => {
-      const shown = sessionStorage.getItem("rating_popup_shown");
-      if (!shown) {
-        setShowRatePopup(true);
-        sessionStorage.setItem("rating_popup_shown", "true");
-      }
-    }, config.ratingPopupDelay);
+    // Determine rating popup delay & enablement from fetched popupTexts or config fallback
+    const ratingDelay = popupTexts?.ratingPopup?.delay ?? config.ratingPopupDelay;
+    const ratingEnabled = popupTexts?.ratingPopup?.enabled ?? true;
+
+    let promoTimer: ReturnType<typeof setTimeout> | null = null;
+    if (rewardEnabled) {
+      promoTimer = setTimeout(() => {
+        const shown = sessionStorage.getItem("custom_popup_shown");
+        if (!shown) {
+          setShowPromoPopup(true);
+          sessionStorage.setItem("custom_popup_shown", "true");
+        }
+      }, rewardDelay);
+    }
+
+    let rateTimer: ReturnType<typeof setTimeout> | null = null;
+    if (ratingEnabled) {
+      rateTimer = setTimeout(() => {
+        const shown = sessionStorage.getItem("rating_popup_shown");
+        if (!shown) {
+          setShowRatePopup(true);
+          sessionStorage.setItem("rating_popup_shown", "true");
+        }
+      }, ratingDelay);
+    }
 
     return () => {
-      clearTimeout(promoTimer);
-      clearTimeout(rateTimer);
+      if (promoTimer) clearTimeout(promoTimer);
+      if (rateTimer) clearTimeout(rateTimer);
     };
-  }, [config.rewardPopupDelay, config.ratingPopupDelay]);
+  }, [config.rewardPopupDelay, config.ratingPopupDelay, popupTexts]);
 
   useEffect(() => {
     setCanClaim(dailyRewardAvailable());
@@ -259,9 +272,25 @@ function Home() {
         <CustomPopup
           open={showPromoPopup}
           lang={lang === "hi" ? "hi" : "en"}
-          title={lang === "hi" ? popupTexts?.rewardTitleHi : popupTexts?.rewardTitle}
-          desc={lang === "hi" ? popupTexts?.rewardDescHi : popupTexts?.rewardDesc}
-          btnText={lang === "hi" ? popupTexts?.buttonTextHi : popupTexts?.buttonText}
+          title={
+            lang === "hi"
+              ? (popupTexts?.rewardPopup?.titleHi ?? "अद्भुत पुरस्कार! 🏆")
+              : lang === "en"
+                ? (popupTexts?.rewardPopup?.title ?? "Amazing Rewards!")
+                : `${popupTexts?.rewardPopup?.title ?? "Amazing Rewards!"} / ${popupTexts?.rewardPopup?.titleHi ?? "अद्भुत पुरस्कार! 🏆"}`
+          }
+          desc={
+            lang === "hi"
+              ? (popupTexts?.rewardPopup?.descHi ?? "सभी श्रेणियों को खेलें, सितारे जीतें और बैज अनलॉक करें!")
+              : lang === "en"
+                ? (popupTexts?.rewardPopup?.desc ?? "Play all categories, win stars, and unlock badges!")
+                : `${popupTexts?.rewardPopup?.desc ?? "Play all categories, win stars, and unlock badges!"}\n\n${popupTexts?.rewardPopup?.descHi ?? "सभी श्रेणियों को खेलें, सितारे जीतें और बैज अनलॉक करें!"}`
+          }
+          btnText={
+            lang === "hi"
+              ? (popupTexts?.rewardPopup?.btnTextHi ?? "खेल जारी रखें")
+              : (popupTexts?.rewardPopup?.btnText ?? "Keep Playing")
+          }
           onClose={() => setShowPromoPopup(false)}
         />
 

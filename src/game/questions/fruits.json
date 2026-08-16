@@ -6,10 +6,10 @@
     "hindi": "सेब ढूँढो",
     "answer": "Apple",
     "options": [
-      "Coconut",
+      "Apple",
       "Strawberry",
-      "Pineapple",
-      "Apple"
+      "Grapes",
+      "Kiwi"
     ],
     "voiceEnglish": "Find the Apple",
     "voiceHindi": "सेब ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "केला ढूँढो",
     "answer": "Banana",
     "options": [
-      "Pear",
+      "Strawberry",
       "Banana",
-      "Watermelon",
-      "Cherry"
+      "Pineapple",
+      "Orange"
     ],
     "voiceEnglish": "Find the Banana",
     "voiceHindi": "केला ढूँढो"
@@ -36,10 +36,10 @@
     "hindi": "संतरा ढूँढो",
     "answer": "Orange",
     "options": [
-      "Peach",
-      "Kiwi",
-      "Pear",
-      "Orange"
+      "Grapes",
+      "Banana",
+      "Orange",
+      "Pear"
     ],
     "voiceEnglish": "Find the Orange",
     "voiceHindi": "संतरा ढूँढो"
@@ -51,10 +51,10 @@
     "hindi": "अंगूर ढूँढो",
     "answer": "Grapes",
     "options": [
-      "Grapes",
-      "Pineapple",
       "Strawberry",
-      "Orange"
+      "Pear",
+      "Mango",
+      "Grapes"
     ],
     "voiceEnglish": "Find the Grapes",
     "voiceHindi": "अंगूर ढूँढो"
@@ -66,10 +66,10 @@
     "hindi": "तरबूज़ ढूँढो",
     "answer": "Watermelon",
     "options": [
-      "Strawberry",
-      "Apple",
       "Watermelon",
-      "Peach"
+      "Lemon",
+      "Peach",
+      "Coconut"
     ],
     "voiceEnglish": "Find the Watermelon",
     "voiceHindi": "तरबूज़ ढूँढो"
@@ -81,10 +81,10 @@
     "hindi": "स्ट्रॉबेरी ढूँढो",
     "answer": "Strawberry",
     "options": [
+      "Lemon",
       "Strawberry",
       "Apple",
-      "Mango",
-      "Orange"
+      "Banana"
     ],
     "voiceEnglish": "Find the Strawberry",
     "voiceHindi": "स्ट्रॉबेरी ढूँढो"
@@ -96,10 +96,10 @@
     "hindi": "आम ढूँढो",
     "answer": "Mango",
     "options": [
-      "Pineapple",
       "Lemon",
+      "Kiwi",
       "Mango",
-      "Watermelon"
+      "Banana"
     ],
     "voiceEnglish": "Find the Mango",
     "voiceHindi": "आम ढूँढो"
@@ -111,10 +111,10 @@
     "hindi": "अनानास ढूँढो",
     "answer": "Pineapple",
     "options": [
-      "Lemon",
-      "Pineapple",
       "Strawberry",
-      "Grapes"
+      "Peach",
+      "Mango",
+      "Pineapple"
     ],
     "voiceEnglish": "Find the Pineapple",
     "voiceHindi": "अनानास ढूँढो"
@@ -128,8 +128,8 @@
     "options": [
       "Cherry",
       "Orange",
-      "Watermelon",
-      "Mango"
+      "Peach",
+      "Strawberry"
     ],
     "voiceEnglish": "Find the Cherry",
     "voiceHindi": "चेरी ढूँढो"
@@ -141,9 +141,9 @@
     "hindi": "नाशपाती ढूँढो",
     "answer": "Pear",
     "options": [
-      "Apple",
-      "Pineapple",
+      "Grapes",
       "Pear",
+      "Watermelon",
       "Lemon"
     ],
     "voiceEnglish": "Find the Pear",
@@ -157,9 +157,9 @@
     "answer": "Peach",
     "options": [
       "Peach",
-      "Cherry",
-      "Grapes",
-      "Apple"
+      "Mango",
+      "Watermelon",
+      "Banana"
     ],
     "voiceEnglish": "Find the Peach",
     "voiceHindi": "आड़ू ढूँढो"
@@ -171,10 +171,10 @@
     "hindi": "nariyal ढूँढो",
     "answer": "Coconut",
     "options": [
-      "Banana",
+      "Watermelon",
       "Strawberry",
       "Coconut",
-      "Grapes"
+      "Banana"
     ],
     "voiceEnglish": "Find the Coconut",
     "voiceHindi": "nariyal ढूँढो"
@@ -186,10 +186,10 @@
     "hindi": "नींबू ढूँढो",
     "answer": "Lemon",
     "options": [
-      "Orange",
-      "Pineapple",
-      "Lemon",
-      "Grapes"
+      "Grapes",
+      "Banana",
+      "Strawberry",
+      "Lemon"
     ],
     "voiceEnglish": "Find the Lemon",
     "voiceHindi": "नींबू ढूँढो"
@@ -201,10 +201,10 @@
     "hindi": "कीवी ढूँढो",
     "answer": "Kiwi",
     "options": [
-      "Apple",
-      "Coconut",
+      "Mango",
+      "Pineapple",
       "Kiwi",
-      "Strawberry"
+      "Pear"
     ],
     "voiceEnglish": "Find the Kiwi",
     "voiceHindi": "कीवी ढूँढो"

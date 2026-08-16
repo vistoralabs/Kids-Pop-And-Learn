@@ -6,10 +6,10 @@
     "hindi": "लाल रंग ढूँढो",
     "answer": "Red",
     "options": [
-      "Brown",
-      "White",
-      "Black",
-      "Red"
+      "Red",
+      "Orange",
+      "Yellow",
+      "Black"
     ],
     "voiceEnglish": "Find the Red color",
     "voiceHindi": "लाल रंग ढूँढो"
@@ -21,10 +21,10 @@
     "hindi": "गुलाबी रंग ढूँढो",
     "answer": "Pink",
     "options": [
-      "Green",
-      "Blue",
       "Yellow",
-      "Pink"
+      "Pink",
+      "Blue",
+      "Purple"
     ],
     "voiceEnglish": "Find the Pink color",
     "voiceHindi": "गुलाबी रंग ढूँढो"
@@ -36,10 +36,10 @@
     "hindi": "संतरा रंग ढूँढो",
     "answer": "Orange",
     "options": [
-      "Blue",
+      "Brown",
       "Orange",
-      "White",
-      "Green"
+      "Blue",
+      "Black"
     ],
     "voiceEnglish": "Find the Orange color",
     "voiceHindi": "संतरा रंग ढूँढो"
@@ -51,9 +51,9 @@
     "hindi": "पीला रंग ढूँढो",
     "answer": "Yellow",
     "options": [
-      "Orange",
       "White",
       "Purple",
+      "Black",
       "Yellow"
     ],
     "voiceEnglish": "Find the Yellow color",
@@ -66,10 +66,10 @@
     "hindi": "हरा रंग ढूँढो",
     "answer": "Green",
     "options": [
-      "Blue",
-      "Green",
       "Yellow",
-      "Red"
+      "Green",
+      "Red",
+      "White"
     ],
     "voiceEnglish": "Find the Green color",
     "voiceHindi": "हरा रंग ढूँढो"
@@ -81,10 +81,10 @@
     "hindi": "नीला रंग ढूँढो",
     "answer": "Blue",
     "options": [
-      "Orange",
-      "Yellow",
+      "Red",
       "Blue",
-      "White"
+      "Black",
+      "Pink"
     ],
     "voiceEnglish": "Find the Blue color",
     "voiceHindi": "नीला रंग ढूँढो"
@@ -96,9 +96,9 @@
     "hindi": "बैंगनी रंग ढूँढो",
     "answer": "Purple",
     "options": [
+      "White",
       "Brown",
-      "Yellow",
-      "Green",
+      "Orange",
       "Purple"
     ],
     "voiceEnglish": "Find the Purple color",
@@ -111,10 +111,10 @@
     "hindi": "भूरा रंग ढूँढो",
     "answer": "Brown",
     "options": [
-      "Orange",
-      "Pink",
       "Brown",
-      "Yellow"
+      "Black",
+      "White",
+      "Pink"
     ],
     "voiceEnglish": "Find the Brown color",
     "voiceHindi": "भूरा रंग ढूँढो"
@@ -126,10 +126,10 @@
     "hindi": "काला रंग ढूँढो",
     "answer": "Black",
     "options": [
-      "Blue",
-      "Pink",
+      "Brown",
+      "Black",
       "Purple",
-      "Black"
+      "Yellow"
     ],
     "voiceEnglish": "Find the Black color",
     "voiceHindi": "काला रंग ढूँढो"
@@ -141,10 +141,10 @@
     "hindi": "सफ़ेद रंग ढूँढो",
     "answer": "White",
     "options": [
-      "Purple",
+      "Green",
+      "Pink",
       "White",
-      "Brown",
-      "Green"
+      "Red"
     ],
     "voiceEnglish": "Find the White color",
     "voiceHindi": "सफ़ेद रंग ढूँढो"

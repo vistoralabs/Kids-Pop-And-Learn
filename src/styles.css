@@ -142,8 +142,8 @@
     radial-gradient(80% 40% at 92% 8%, color-mix(in oklab, var(--sun) 45%, transparent), transparent 65%),
     linear-gradient(180deg, color-mix(in oklab, var(--sky) 45%, white), color-mix(in oklab, var(--grass) 18%, white));
   min-height: 100dvh;
-  padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: max(16px, env(safe-area-inset-top));
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
 }
 
 /* Frosted panel used across the modern layout. */
@@ -316,12 +316,12 @@
 
   body {
     max-width: 430px;
-    margin: 0 auto;
-    min-height: 100dvh;
+    margin: 24px auto;
+    min-height: calc(100dvh - 48px);
     box-shadow:
       0 0 0 1px rgba(0, 0, 0, 0.06),
       0 20px 60px -12px rgba(0, 0, 0, 0.18);
-    border-radius: 0;
+    border-radius: 2rem;
     overflow-x: hidden;
     position: relative;
   }

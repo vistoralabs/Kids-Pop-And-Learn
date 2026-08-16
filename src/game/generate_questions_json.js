@@ -313,20 +313,30 @@ fs.writeFileSync(path.join(apiDir, "config.json"), JSON.stringify(configData, nu
 
 // 3. Write /api/popup.json
 const popupData = {
-  rewardTitle: "Daily Surprise Gift! 🎁",
-  rewardTitleHi: "दैनिक सरप्राइज गिफ्ट! 🎁",
-  rewardDesc: "Tap to open your daily gift and earn extra stars!",
-  rewardDescHi: "अपने दैनिक उपहार को खोलने और अतिरिक्त सितारे कमाने के लिए दबाएं!",
-  buttonText: "Open Gift",
-  buttonTextHi: "उपहार खोलें",
+  rewardPopup: {
+    enabled: true,
+    delay: 12000,
+    title: "Amazing Rewards!",
+    titleHi: "अद्भुत पुरस्कार! 🏆",
+    desc: "Play all categories, win stars, and unlock badges!",
+    descHi: "सभी श्रेणियों को खेलें, सितारे जीतें और बैज अनलॉक करें!",
+    btnText: "Keep Playing",
+    btnTextHi: "खेल जारी रखें"
+  },
+  ratingPopup: {
+    enabled: true,
+    delay: 30000
+  }
 };
 fs.writeFileSync(path.join(apiDir, "popup.json"), JSON.stringify(popupData, null, 2));
 
 // 4. Write /api/ads.json (Google AdMob test IDs)
 const adsData = {
-  banner: "ca-app-pub-3940256099942544/6300978111",
+  enabled: true,
+  testMode: true,
   interstitial: "ca-app-pub-3940256099942544/1033173712",
   rewarded: "ca-app-pub-3940256099942544/5224354917",
+  banner: "ca-app-pub-3940256099942544/6300978111"
 };
 fs.writeFileSync(path.join(apiDir, "ads.json"), JSON.stringify(adsData, null, 2));
 

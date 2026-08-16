@@ -1,8 +1,16 @@
 {
-  "rewardTitle": "Daily Surprise Gift! 🎁",
-  "rewardTitleHi": "दैनिक सरप्राइज गिफ्ट! 🎁",
-  "rewardDesc": "Tap to open your daily gift and earn extra stars!",
-  "rewardDescHi": "अपने दैनिक उपहार को खोलने और अतिरिक्त सितारे कमाने के लिए दबाएं!",
-  "buttonText": "Open Gift",
-  "buttonTextHi": "उपहार खोलें"
+  "rewardPopup": {
+    "enabled": true,
+    "delay": 12000,
+    "title": "Amazing Rewards!",
+    "titleHi": "अद्भुत पुरस्कार! 🏆",
+    "desc": "Play all categories, win stars, and unlock badges!",
+    "descHi": "सभी श्रेणियों को खेलें, सितारे जीतें और बैज अनलॉक करें!",
+    "btnText": "Keep Playing",
+    "btnTextHi": "खेल जारी रखें"
+  },
+  "ratingPopup": {
+    "enabled": true,
+    "delay": 30000
+  }
 }

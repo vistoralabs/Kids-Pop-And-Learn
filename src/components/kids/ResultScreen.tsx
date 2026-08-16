@@ -20,7 +20,8 @@ export function ResultScreen({
   onNextLevel?: () => void;
 }) {
   const progress = useProgress();
-  const hi = progress.settings.lang === "hi";
+  const lang = progress.settings.lang;
+  const hi = lang === "hi";
 
   const nextLevel = levelIndex + 1;
   const hasNext = nextLevel < category.levels.length;
@@ -41,22 +42,39 @@ export function ResultScreen({
   return (
     <main className="page-sky grid place-items-center px-5 pb-10">
       <Confetti burstKey={1} />
-      <div className="animate-bounce-in w-full max-w-md text-center">
+      <div className="animate-bounce-in w-full max-w-md text-center flex flex-col items-center">
         <Mascot size={160} />
         
-        <h1 className="mt-2 font-display text-4xl text-secondary-foreground">
-          {!hasNext
-            ? hi
-              ? "🏆 शानदार! चैम्पियन!"
-              : "🏆 Grand Champion!"
-            : hi
-              ? "स्तर पूरा!"
-              : "Level complete!"}
-        </h1>
+        <div className="mt-2 flex flex-col gap-0.5 font-display text-secondary-foreground w-full">
+          {!hasNext ? (
+            <>
+              {lang !== "hi" && <div className="text-4xl font-bold">🏆 Grand Champion!</div>}
+              {lang !== "en" && (
+                <div className={lang === "both" ? "text-2xl text-muted-foreground font-medium" : "text-4xl font-bold"}>
+                  🏆 शानदार! चैम्पियन!
+                </div>
+              )}
+            </>
+          ) : (
+            <>
+              {lang !== "hi" && <div className="text-4xl font-bold">Level complete!</div>}
+              {lang !== "en" && (
+                <div className={lang === "both" ? "text-2xl text-muted-foreground font-medium" : "text-4xl font-bold"}>
+                  स्तर पूरा!
+                </div>
+              )}
+            </>
+          )}
+        </div>
         
-        <p className="mt-1 font-display text-2xl">
-          {hi ? `तुमने ${starsEarned} ⭐ जीते` : `You earned ${starsEarned} ⭐`}
-        </p>
+        <div className="mt-2 flex flex-col gap-0.5 font-display text-secondary-foreground w-full">
+          {lang !== "hi" && <div className="text-2xl font-semibold">You earned {starsEarned} ⭐</div>}
+          {lang !== "en" && (
+            <div className={lang === "both" ? "text-lg text-muted-foreground font-medium" : "text-2xl font-semibold"}>
+              तुमने {starsEarned} ⭐ जीते
+            </div>
+          )}
+        </div>
 
         <div className="mt-5 grid gap-3">
           {hasNext ? (

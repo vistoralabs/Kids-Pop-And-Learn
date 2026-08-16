@@ -1,0 +1,328 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Kids Pop & Learn design system.
+ * Bright, rounded, cartoon-like. All colors in oklch.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 6px);
+  --radius-md: calc(var(--radius) - 3px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 6px);
+  --radius-2xl: calc(var(--radius) + 12px);
+  --radius-3xl: calc(var(--radius) + 20px);
+  --radius-4xl: calc(var(--radius) + 28px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sky: var(--sky);
+  --color-sun: var(--sun);
+  --color-grass: var(--grass);
+  --color-berry: var(--berry);
+  --color-fun-1: var(--fun-1);
+  --color-fun-2: var(--fun-2);
+  --color-fun-3: var(--fun-3);
+  --color-fun-4: var(--fun-4);
+  --color-fun-5: var(--fun-5);
+  --color-fun-6: var(--fun-6);
+  --color-fun-7: var(--fun-7);
+  --color-fun-8: var(--fun-8);
+  --color-fun-9: var(--fun-9);
+  --color-fun-10: var(--fun-10);
+  --font-display: "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
+  --font-sans: "Nunito", system-ui, sans-serif;
+}
+
+:root {
+  --radius: 1.5rem;
+
+  --background: oklch(0.97 0.03 220);
+  --foreground: oklch(0.32 0.06 275);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.32 0.06 275);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.32 0.06 275);
+
+  --primary: oklch(0.68 0.19 25);
+  --primary-foreground: oklch(0.99 0.01 90);
+  --secondary: oklch(0.93 0.06 220);
+  --secondary-foreground: oklch(0.35 0.07 275);
+  --muted: oklch(0.95 0.02 250);
+  --muted-foreground: oklch(0.52 0.05 270);
+  --accent: oklch(0.88 0.13 95);
+  --accent-foreground: oklch(0.32 0.06 275);
+  --destructive: oklch(0.66 0.19 25);
+  --destructive-foreground: oklch(0.99 0.01 90);
+  --border: oklch(0.9 0.04 250);
+  --input: oklch(0.9 0.04 250);
+  --ring: oklch(0.72 0.15 220);
+
+  --sky: oklch(0.86 0.09 225);
+  --sun: oklch(0.87 0.16 90);
+  --grass: oklch(0.78 0.17 145);
+  --berry: oklch(0.7 0.19 350);
+
+  --fun-1: oklch(0.71 0.2 25);
+  --fun-2: oklch(0.72 0.16 250);
+  --fun-3: oklch(0.83 0.17 90);
+  --fun-4: oklch(0.76 0.17 150);
+  --fun-5: oklch(0.7 0.18 300);
+  --fun-6: oklch(0.75 0.18 350);
+  --fun-7: oklch(0.76 0.17 55);
+  --fun-8: oklch(0.75 0.13 195);
+  --fun-9: oklch(0.72 0.17 130);
+  --fun-10: oklch(0.72 0.16 320);
+
+  --shadow-toy: 0 10px 0 0 color-mix(in oklab, var(--foreground) 14%, transparent);
+  --shadow-soft: 0 12px 30px -12px color-mix(in oklab, var(--foreground) 35%, transparent);
+  --shadow-glow: 0 18px 40px -18px color-mix(in oklab, var(--fun-5) 60%, transparent);
+  --gradient-hero: linear-gradient(135deg, var(--fun-5), var(--fun-2) 55%, var(--fun-8));
+  --gradient-warm: linear-gradient(135deg, var(--fun-1), var(--fun-7) 60%, var(--fun-3));
+}
+
+.dark {
+  --background: oklch(0.97 0.03 220);
+  --foreground: oklch(0.32 0.06 275);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+  }
+
+  button {
+    touch-action: manipulation;
+  }
+}
+
+@utility page-sky {
+  background:
+    radial-gradient(90% 45% at 12% 0%, color-mix(in oklab, var(--fun-5) 32%, transparent), transparent 65%),
+    radial-gradient(80% 40% at 92% 8%, color-mix(in oklab, var(--sun) 45%, transparent), transparent 65%),
+    linear-gradient(180deg, color-mix(in oklab, var(--sky) 45%, white), color-mix(in oklab, var(--grass) 18%, white));
+  min-height: 100dvh;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Frosted panel used across the modern layout. */
+@utility glass-card {
+  background: color-mix(in oklab, var(--color-card) 78%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid color-mix(in oklab, white 55%, transparent);
+  border-radius: var(--radius-3xl);
+  box-shadow: var(--shadow-soft);
+}
+
+@utility hero-gradient {
+  background: var(--gradient-hero);
+  box-shadow: var(--shadow-glow);
+}
+
+@utility tile-sheen {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -40% -10% auto -10%;
+    height: 70%;
+    background: linear-gradient(180deg, color-mix(in oklab, white 40%, transparent), transparent);
+    border-radius: 999px;
+    pointer-events: none;
+  }
+}
+
+@utility toy-card {
+  background: var(--color-card);
+  border-radius: var(--radius-3xl);
+  box-shadow: var(--shadow-toy);
+}
+
+@utility tap-scale {
+  transition: transform 140ms ease-out;
+  &:active {
+    transform: scale(0.94);
+  }
+}
+
+@keyframes kid-pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes kid-shake {
+  0%,
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-8px) rotate(-3deg);
+  }
+  45% {
+    transform: translateX(8px) rotate(3deg);
+  }
+  70% {
+    transform: translateX(-5px) rotate(-2deg);
+  }
+}
+
+@keyframes kid-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes kid-bounce-in {
+  0% {
+    transform: translateY(24px) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes kid-confetti {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(var(--dx), var(--dy), 0) rotate(320deg);
+    opacity: 0;
+  }
+}
+
+@keyframes kid-star-up {
+  0% {
+    transform: translateY(0) scale(0.6);
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-90px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+@utility animate-pop {
+  animation: kid-pop 260ms ease-out both;
+}
+
+@utility animate-shake {
+  animation: kid-shake 420ms ease-in-out both;
+}
+
+@utility animate-float {
+  animation: kid-float 3.2s ease-in-out infinite;
+}
+
+@utility animate-bounce-in {
+  animation: kid-bounce-in 380ms cubic-bezier(0.34, 1.4, 0.5, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes kid-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@utility animate-shimmer {
+  background-size: 200% 200%;
+  animation: kid-shimmer 6s linear infinite;
+}
+
+/* --------------------------------------------------- */
+/* Mobile-first preview: on wide screens, simulate a   */
+/* phone-sized container so the web preview matches    */
+/* the actual Android APK experience.                  */
+/* --------------------------------------------------- */
+@media (min-width: 481px) {
+  html {
+    background: linear-gradient(135deg, #e8e0f0 0%, #d4e8f0 50%, #e0e8d8 100%);
+  }
+
+  body {
+    max-width: 430px;
+    margin: 0 auto;
+    min-height: 100dvh;
+    box-shadow:
+      0 0 0 1px rgba(0, 0, 0, 0.06),
+      0 20px 60px -12px rgba(0, 0, 0, 0.18);
+    border-radius: 0;
+    overflow-x: hidden;
+    position: relative;
+  }
+}

@@ -1,0 +1,560 @@
+[
+  {
+    "id": "animals-1",
+    "category": "animals",
+    "english": "Find the Dog 🐶",
+    "hindi": "कुत्ता 🐶 ढूँढो",
+    "voiceEnglish": "Find the Dog",
+    "voiceHindi": "कुत्ता ढूँढो",
+    "answer": "Dog",
+    "options": [
+      {
+        "key": "Frog",
+        "correct": false,
+        "emoji": "🐸"
+      },
+      {
+        "key": "Giraffe",
+        "correct": false,
+        "emoji": "🦒"
+      },
+      {
+        "key": "Panda",
+        "correct": false,
+        "emoji": "🐼"
+      },
+      {
+        "key": "Dog",
+        "correct": true,
+        "emoji": "🐶"
+      }
+    ]
+  },
+  {
+    "id": "animals-2",
+    "category": "animals",
+    "english": "Find the Cat 🐱",
+    "hindi": "बिल्ली 🐱 ढूँढो",
+    "voiceEnglish": "Find the Cat",
+    "voiceHindi": "बिल्ली ढूँढो",
+    "answer": "Cat",
+    "options": [
+      {
+        "key": "Cat",
+        "correct": true,
+        "emoji": "🐱"
+      },
+      {
+        "key": "Tiger",
+        "correct": false,
+        "emoji": "🐯"
+      },
+      {
+        "key": "Camel",
+        "correct": false,
+        "emoji": "🐫"
+      },
+      {
+        "key": "Rabbit",
+        "correct": false,
+        "emoji": "🐰"
+      }
+    ]
+  },
+  {
+    "id": "animals-3",
+    "category": "animals",
+    "english": "Find the Lion 🦁",
+    "hindi": "शेर 🦁 ढूँढो",
+    "voiceEnglish": "Find the Lion",
+    "voiceHindi": "शेर ढूँढो",
+    "answer": "Lion",
+    "options": [
+      {
+        "key": "Panda",
+        "correct": false,
+        "emoji": "🐼"
+      },
+      {
+        "key": "Camel",
+        "correct": false,
+        "emoji": "🐫"
+      },
+      {
+        "key": "Elephant",
+        "correct": false,
+        "emoji": "🐘"
+      },
+      {
+        "key": "Lion",
+        "correct": true,
+        "emoji": "🦁"
+      }
+    ]
+  },
+  {
+    "id": "animals-4",
+    "category": "animals",
+    "english": "Find the Elephant 🐘",
+    "hindi": "हाथी 🐘 ढूँढो",
+    "voiceEnglish": "Find the Elephant",
+    "voiceHindi": "हाथी ढूँढो",
+    "answer": "Elephant",
+    "options": [
+      {
+        "key": "Zebra",
+        "correct": false,
+        "emoji": "🦓"
+      },
+      {
+        "key": "Elephant",
+        "correct": true,
+        "emoji": "🐘"
+      },
+      {
+        "key": "Bear",
+        "correct": false,
+        "emoji": "🐻"
+      },
+      {
+        "key": "Cat",
+        "correct": false,
+        "emoji": "🐱"
+      }
+    ]
+  },
+  {
+    "id": "animals-5",
+    "category": "animals",
+    "english": "Find the Tiger 🐯",
+    "hindi": "बाघ 🐯 ढूँढो",
+    "voiceEnglish": "Find the Tiger",
+    "voiceHindi": "बाघ ढूँढो",
+    "answer": "Tiger",
+    "options": [
+      {
+        "key": "Tiger",
+        "correct": true,
+        "emoji": "🐯"
+      },
+      {
+        "key": "Horse",
+        "correct": false,
+        "emoji": "🐴"
+      },
+      {
+        "key": "Sheep",
+        "correct": false,
+        "emoji": "🐑"
+      },
+      {
+        "key": "Fish",
+        "correct": false,
+        "emoji": "🐟"
+      }
+    ]
+  },
+  {
+    "id": "animals-6",
+    "category": "animals",
+    "english": "Find the Panda 🐼",
+    "hindi": "पांडा 🐼 ढूँढो",
+    "voiceEnglish": "Find the Panda",
+    "voiceHindi": "पांडा ढूँढो",
+    "answer": "Panda",
+    "options": [
+      {
+        "key": "Panda",
+        "correct": true,
+        "emoji": "🐼"
+      },
+      {
+        "key": "Monkey",
+        "correct": false,
+        "emoji": "🐵"
+      },
+      {
+        "key": "Frog",
+        "correct": false,
+        "emoji": "🐸"
+      },
+      {
+        "key": "Fish",
+        "correct": false,
+        "emoji": "🐟"
+      }
+    ]
+  },
+  {
+    "id": "animals-7",
+    "category": "animals",
+    "english": "Find the Monkey 🐵",
+    "hindi": "बंदर 🐵 ढूँढो",
+    "voiceEnglish": "Find the Monkey",
+    "voiceHindi": "बंदर ढूँढो",
+    "answer": "Monkey",
+    "options": [
+      {
+        "key": "Dog",
+        "correct": false,
+        "emoji": "🐶"
+      },
+      {
+        "key": "Monkey",
+        "correct": true,
+        "emoji": "🐵"
+      },
+      {
+        "key": "Camel",
+        "correct": false,
+        "emoji": "🐫"
+      },
+      {
+        "key": "Pig",
+        "correct": false,
+        "emoji": "🐷"
+      }
+    ]
+  },
+  {
+    "id": "animals-8",
+    "category": "animals",
+    "english": "Find the Rabbit 🐰",
+    "hindi": "खरगोश 🐰 ढूँढो",
+    "voiceEnglish": "Find the Rabbit",
+    "voiceHindi": "खरगोश ढूँढो",
+    "answer": "Rabbit",
+    "options": [
+      {
+        "key": "Rabbit",
+        "correct": true,
+        "emoji": "🐰"
+      },
+      {
+        "key": "Cow",
+        "correct": false,
+        "emoji": "🐮"
+      },
+      {
+        "key": "Giraffe",
+        "correct": false,
+        "emoji": "🦒"
+      },
+      {
+        "key": "Bear",
+        "correct": false,
+        "emoji": "🐻"
+      }
+    ]
+  },
+  {
+    "id": "animals-9",
+    "category": "animals",
+    "english": "Find the Frog 🐸",
+    "hindi": "मेंढक 🐸 ढूँढो",
+    "voiceEnglish": "Find the Frog",
+    "voiceHindi": "मेंढक ढूँढो",
+    "answer": "Frog",
+    "options": [
+      {
+        "key": "Frog",
+        "correct": true,
+        "emoji": "🐸"
+      },
+      {
+        "key": "Horse",
+        "correct": false,
+        "emoji": "🐴"
+      },
+      {
+        "key": "Elephant",
+        "correct": false,
+        "emoji": "🐘"
+      },
+      {
+        "key": "Giraffe",
+        "correct": false,
+        "emoji": "🦒"
+      }
+    ]
+  },
+  {
+    "id": "animals-10",
+    "category": "animals",
+    "english": "Find the Cow 🐮",
+    "hindi": "गाय 🐮 ढूँढो",
+    "voiceEnglish": "Find the Cow",
+    "voiceHindi": "गाय ढूँढो",
+    "answer": "Cow",
+    "options": [
+      {
+        "key": "Bear",
+        "correct": false,
+        "emoji": "🐻"
+      },
+      {
+        "key": "Fish",
+        "correct": false,
+        "emoji": "🐟"
+      },
+      {
+        "key": "Camel",
+        "correct": false,
+        "emoji": "🐫"
+      },
+      {
+        "key": "Cow",
+        "correct": true,
+        "emoji": "🐮"
+      }
+    ]
+  },
+  {
+    "id": "animals-11",
+    "category": "animals",
+    "english": "Find the Horse 🐴",
+    "hindi": "घोड़ा 🐴 ढूँढो",
+    "voiceEnglish": "Find the Horse",
+    "voiceHindi": "घोड़ा ढूँढो",
+    "answer": "Horse",
+    "options": [
+      {
+        "key": "Bear",
+        "correct": false,
+        "emoji": "🐻"
+      },
+      {
+        "key": "Horse",
+        "correct": true,
+        "emoji": "🐴"
+      },
+      {
+        "key": "Tiger",
+        "correct": false,
+        "emoji": "🐯"
+      },
+      {
+        "key": "Pig",
+        "correct": false,
+        "emoji": "🐷"
+      }
+    ]
+  },
+  {
+    "id": "animals-12",
+    "category": "animals",
+    "english": "Find the Bear 🐻",
+    "hindi": "भालू 🐻 ढूँढो",
+    "voiceEnglish": "Find the Bear",
+    "voiceHindi": "भालू ढूँढो",
+    "answer": "Bear",
+    "options": [
+      {
+        "key": "Lion",
+        "correct": false,
+        "emoji": "🦁"
+      },
+      {
+        "key": "Zebra",
+        "correct": false,
+        "emoji": "🦓"
+      },
+      {
+        "key": "Bear",
+        "correct": true,
+        "emoji": "🐻"
+      },
+      {
+        "key": "Cat",
+        "correct": false,
+        "emoji": "🐱"
+      }
+    ]
+  },
+  {
+    "id": "animals-13",
+    "category": "animals",
+    "english": "Find the Pig 🐷",
+    "hindi": "सूअर 🐷 ढूँढो",
+    "voiceEnglish": "Find the Pig",
+    "voiceHindi": "सूअर ढूँढो",
+    "answer": "Pig",
+    "options": [
+      {
+        "key": "Giraffe",
+        "correct": false,
+        "emoji": "🦒"
+      },
+      {
+        "key": "Sheep",
+        "correct": false,
+        "emoji": "🐑"
+      },
+      {
+        "key": "Cat",
+        "correct": false,
+        "emoji": "🐱"
+      },
+      {
+        "key": "Pig",
+        "correct": true,
+        "emoji": "🐷"
+      }
+    ]
+  },
+  {
+    "id": "animals-14",
+    "category": "animals",
+    "english": "Find the Sheep 🐑",
+    "hindi": "भेड़ 🐑 ढूँढो",
+    "voiceEnglish": "Find the Sheep",
+    "voiceHindi": "भेड़ ढूँढो",
+    "answer": "Sheep",
+    "options": [
+      {
+        "key": "Pig",
+        "correct": false,
+        "emoji": "🐷"
+      },
+      {
+        "key": "Sheep",
+        "correct": true,
+        "emoji": "🐑"
+      },
+      {
+        "key": "Rabbit",
+        "correct": false,
+        "emoji": "🐰"
+      },
+      {
+        "key": "Tiger",
+        "correct": false,
+        "emoji": "🐯"
+      }
+    ]
+  },
+  {
+    "id": "animals-15",
+    "category": "animals",
+    "english": "Find the Giraffe 🦒",
+    "hindi": "जिराफ़ 🦒 ढूँढो",
+    "voiceEnglish": "Find the Giraffe",
+    "voiceHindi": "जिराफ़ ढूँढो",
+    "answer": "Giraffe",
+    "options": [
+      {
+        "key": "Giraffe",
+        "correct": true,
+        "emoji": "🦒"
+      },
+      {
+        "key": "Zebra",
+        "correct": false,
+        "emoji": "🦓"
+      },
+      {
+        "key": "Horse",
+        "correct": false,
+        "emoji": "🐴"
+      },
+      {
+        "key": "Lion",
+        "correct": false,
+        "emoji": "🦁"
+      }
+    ]
+  },
+  {
+    "id": "animals-16",
+    "category": "animals",
+    "english": "Find the Zebra 🦓",
+    "hindi": "ज़ेबरा 🦓 ढूँढो",
+    "voiceEnglish": "Find the Zebra",
+    "voiceHindi": "ज़ेबरा ढूँढो",
+    "answer": "Zebra",
+    "options": [
+      {
+        "key": "Bear",
+        "correct": false,
+        "emoji": "🐻"
+      },
+      {
+        "key": "Giraffe",
+        "correct": false,
+        "emoji": "🦒"
+      },
+      {
+        "key": "Zebra",
+        "correct": true,
+        "emoji": "🦓"
+      },
+      {
+        "key": "Frog",
+        "correct": false,
+        "emoji": "🐸"
+      }
+    ]
+  },
+  {
+    "id": "animals-17",
+    "category": "animals",
+    "english": "Find the Camel 🐫",
+    "hindi": "ऊँट 🐫 ढूँढो",
+    "voiceEnglish": "Find the Camel",
+    "voiceHindi": "ऊँट ढूँढो",
+    "answer": "Camel",
+    "options": [
+      {
+        "key": "Camel",
+        "correct": true,
+        "emoji": "🐫"
+      },
+      {
+        "key": "Horse",
+        "correct": false,
+        "emoji": "🐴"
+      },
+      {
+        "key": "Pig",
+        "correct": false,
+        "emoji": "🐷"
+      },
+      {
+        "key": "Tiger",
+        "correct": false,
+        "emoji": "🐯"
+      }
+    ]
+  },
+  {
+    "id": "animals-18",
+    "category": "animals",
+    "english": "Find the Fish 🐟",
+    "hindi": "मछली 🐟 ढूँढो",
+    "voiceEnglish": "Find the Fish",
+    "voiceHindi": "मछली ढूँढो",
+    "answer": "Fish",
+    "options": [
+      {
+        "key": "Giraffe",
+        "correct": false,
+        "emoji": "🦒"
+      },
+      {
+        "key": "Fish",
+        "correct": true,
+        "emoji": "🐟"
+      },
+      {
+        "key": "Bear",
+        "correct": false,
+        "emoji": "🐻"
+      },
+      {
+        "key": "Pig",
+        "correct": false,
+        "emoji": "🐷"
+      }
+    ]
+  }
+]

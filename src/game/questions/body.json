@@ -1,0 +1,312 @@
+[
+  {
+    "id": "body-1",
+    "category": "body",
+    "english": "Find the Eye 👁️",
+    "hindi": "आँख 👁️ ढूँढो",
+    "voiceEnglish": "Find the Eye",
+    "voiceHindi": "आँख ढूँढो",
+    "answer": "Eye",
+    "options": [
+      {
+        "key": "Arm",
+        "correct": false,
+        "emoji": "💪"
+      },
+      {
+        "key": "Brain",
+        "correct": false,
+        "emoji": "🧠"
+      },
+      {
+        "key": "Foot",
+        "correct": false,
+        "emoji": "🦶"
+      },
+      {
+        "key": "Eye",
+        "correct": true,
+        "emoji": "👁️"
+      }
+    ]
+  },
+  {
+    "id": "body-2",
+    "category": "body",
+    "english": "Find the Ear 👂",
+    "hindi": "कान 👂 ढूँढो",
+    "voiceEnglish": "Find the Ear",
+    "voiceHindi": "कान ढूँढो",
+    "answer": "Ear",
+    "options": [
+      {
+        "key": "Hand",
+        "correct": false,
+        "emoji": "✋"
+      },
+      {
+        "key": "Ear",
+        "correct": true,
+        "emoji": "👂"
+      },
+      {
+        "key": "Brain",
+        "correct": false,
+        "emoji": "🧠"
+      },
+      {
+        "key": "Tooth",
+        "correct": false,
+        "emoji": "🦷"
+      }
+    ]
+  },
+  {
+    "id": "body-3",
+    "category": "body",
+    "english": "Find the Nose 👃",
+    "hindi": "नाक 👃 ढूँढो",
+    "voiceEnglish": "Find the Nose",
+    "voiceHindi": "नाक ढूँढो",
+    "answer": "Nose",
+    "options": [
+      {
+        "key": "Hand",
+        "correct": false,
+        "emoji": "✋"
+      },
+      {
+        "key": "Arm",
+        "correct": false,
+        "emoji": "💪"
+      },
+      {
+        "key": "Nose",
+        "correct": true,
+        "emoji": "👃"
+      },
+      {
+        "key": "Foot",
+        "correct": false,
+        "emoji": "🦶"
+      }
+    ]
+  },
+  {
+    "id": "body-4",
+    "category": "body",
+    "english": "Find the Mouth 👄",
+    "hindi": "मुँह 👄 ढूँढो",
+    "voiceEnglish": "Find the Mouth",
+    "voiceHindi": "मुँह ढूँढो",
+    "answer": "Mouth",
+    "options": [
+      {
+        "key": "Mouth",
+        "correct": true,
+        "emoji": "👄"
+      },
+      {
+        "key": "Tooth",
+        "correct": false,
+        "emoji": "🦷"
+      },
+      {
+        "key": "Hand",
+        "correct": false,
+        "emoji": "✋"
+      },
+      {
+        "key": "Ear",
+        "correct": false,
+        "emoji": "👂"
+      }
+    ]
+  },
+  {
+    "id": "body-5",
+    "category": "body",
+    "english": "Find the Hand ✋",
+    "hindi": "हाथ ✋ ढूँढो",
+    "voiceEnglish": "Find the Hand",
+    "voiceHindi": "हाथ ढूँढो",
+    "answer": "Hand",
+    "options": [
+      {
+        "key": "Ear",
+        "correct": false,
+        "emoji": "👂"
+      },
+      {
+        "key": "Foot",
+        "correct": false,
+        "emoji": "🦶"
+      },
+      {
+        "key": "Hand",
+        "correct": true,
+        "emoji": "✋"
+      },
+      {
+        "key": "Arm",
+        "correct": false,
+        "emoji": "💪"
+      }
+    ]
+  },
+  {
+    "id": "body-6",
+    "category": "body",
+    "english": "Find the Foot 🦶",
+    "hindi": "पैर 🦶 ढूँढो",
+    "voiceEnglish": "Find the Foot",
+    "voiceHindi": "पैर ढूँढो",
+    "answer": "Foot",
+    "options": [
+      {
+        "key": "Foot",
+        "correct": true,
+        "emoji": "🦶"
+      },
+      {
+        "key": "Ear",
+        "correct": false,
+        "emoji": "👂"
+      },
+      {
+        "key": "Nose",
+        "correct": false,
+        "emoji": "👃"
+      },
+      {
+        "key": "Mouth",
+        "correct": false,
+        "emoji": "👄"
+      }
+    ]
+  },
+  {
+    "id": "body-7",
+    "category": "body",
+    "english": "Find the Tooth 🦷",
+    "hindi": "दाँत 🦷 ढूँढो",
+    "voiceEnglish": "Find the Tooth",
+    "voiceHindi": "दाँत ढूँढो",
+    "answer": "Tooth",
+    "options": [
+      {
+        "key": "Tooth",
+        "correct": true,
+        "emoji": "🦷"
+      },
+      {
+        "key": "Nose",
+        "correct": false,
+        "emoji": "👃"
+      },
+      {
+        "key": "Arm",
+        "correct": false,
+        "emoji": "💪"
+      },
+      {
+        "key": "Mouth",
+        "correct": false,
+        "emoji": "👄"
+      }
+    ]
+  },
+  {
+    "id": "body-8",
+    "category": "body",
+    "english": "Find the Tongue 👅",
+    "hindi": "जीभ 👅 ढूँढो",
+    "voiceEnglish": "Find the Tongue",
+    "voiceHindi": "जीभ ढूँढो",
+    "answer": "Tongue",
+    "options": [
+      {
+        "key": "Tongue",
+        "correct": true,
+        "emoji": "👅"
+      },
+      {
+        "key": "Eye",
+        "correct": false,
+        "emoji": "👁️"
+      },
+      {
+        "key": "Arm",
+        "correct": false,
+        "emoji": "💪"
+      },
+      {
+        "key": "Mouth",
+        "correct": false,
+        "emoji": "👄"
+      }
+    ]
+  },
+  {
+    "id": "body-9",
+    "category": "body",
+    "english": "Find the Brain 🧠",
+    "hindi": "दिमाग़ 🧠 ढूँढो",
+    "voiceEnglish": "Find the Brain",
+    "voiceHindi": "दिमाग़ ढूँढो",
+    "answer": "Brain",
+    "options": [
+      {
+        "key": "Brain",
+        "correct": true,
+        "emoji": "🧠"
+      },
+      {
+        "key": "Ear",
+        "correct": false,
+        "emoji": "👂"
+      },
+      {
+        "key": "Tongue",
+        "correct": false,
+        "emoji": "👅"
+      },
+      {
+        "key": "Tooth",
+        "correct": false,
+        "emoji": "🦷"
+      }
+    ]
+  },
+  {
+    "id": "body-10",
+    "category": "body",
+    "english": "Find the Arm 💪",
+    "hindi": "बाँह 💪 ढूँढो",
+    "voiceEnglish": "Find the Arm",
+    "voiceHindi": "बाँह ढूँढो",
+    "answer": "Arm",
+    "options": [
+      {
+        "key": "Arm",
+        "correct": true,
+        "emoji": "💪"
+      },
+      {
+        "key": "Tongue",
+        "correct": false,
+        "emoji": "👅"
+      },
+      {
+        "key": "Eye",
+        "correct": false,
+        "emoji": "👁️"
+      },
+      {
+        "key": "Mouth",
+        "correct": false,
+        "emoji": "👄"
+      }
+    ]
+  }
+]

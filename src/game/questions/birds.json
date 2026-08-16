@@ -1,0 +1,312 @@
+[
+  {
+    "id": "birds-1",
+    "category": "birds",
+    "english": "Find the Parrot 🦜",
+    "hindi": "तोता 🦜 ढूँढो",
+    "voiceEnglish": "Find the Parrot",
+    "voiceHindi": "तोता ढूँढो",
+    "answer": "Parrot",
+    "options": [
+      {
+        "key": "Peacock",
+        "correct": false,
+        "emoji": "🦚"
+      },
+      {
+        "key": "Duck",
+        "correct": false,
+        "emoji": "🦆"
+      },
+      {
+        "key": "Penguin",
+        "correct": false,
+        "emoji": "🐧"
+      },
+      {
+        "key": "Parrot",
+        "correct": true,
+        "emoji": "🦜"
+      }
+    ]
+  },
+  {
+    "id": "birds-2",
+    "category": "birds",
+    "english": "Find the Peacock 🦚",
+    "hindi": "मोर 🦚 ढूँढो",
+    "voiceEnglish": "Find the Peacock",
+    "voiceHindi": "मोर ढूँढो",
+    "answer": "Peacock",
+    "options": [
+      {
+        "key": "Dove",
+        "correct": false,
+        "emoji": "🕊️"
+      },
+      {
+        "key": "Peacock",
+        "correct": true,
+        "emoji": "🦚"
+      },
+      {
+        "key": "Eagle",
+        "correct": false,
+        "emoji": "🦅"
+      },
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      }
+    ]
+  },
+  {
+    "id": "birds-3",
+    "category": "birds",
+    "english": "Find the Owl 🦉",
+    "hindi": "उल्लू 🦉 ढूँढो",
+    "voiceEnglish": "Find the Owl",
+    "voiceHindi": "उल्लू ढूँढो",
+    "answer": "Owl",
+    "options": [
+      {
+        "key": "Dove",
+        "correct": false,
+        "emoji": "🕊️"
+      },
+      {
+        "key": "Parrot",
+        "correct": false,
+        "emoji": "🦜"
+      },
+      {
+        "key": "Chick",
+        "correct": false,
+        "emoji": "🐤"
+      },
+      {
+        "key": "Owl",
+        "correct": true,
+        "emoji": "🦉"
+      }
+    ]
+  },
+  {
+    "id": "birds-4",
+    "category": "birds",
+    "english": "Find the Duck 🦆",
+    "hindi": "बत्तख 🦆 ढूँढो",
+    "voiceEnglish": "Find the Duck",
+    "voiceHindi": "बत्तख ढूँढो",
+    "answer": "Duck",
+    "options": [
+      {
+        "key": "Peacock",
+        "correct": false,
+        "emoji": "🦚"
+      },
+      {
+        "key": "Parrot",
+        "correct": false,
+        "emoji": "🦜"
+      },
+      {
+        "key": "Duck",
+        "correct": true,
+        "emoji": "🦆"
+      },
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      }
+    ]
+  },
+  {
+    "id": "birds-5",
+    "category": "birds",
+    "english": "Find the Hen 🐔",
+    "hindi": "मुर्गी 🐔 ढूँढो",
+    "voiceEnglish": "Find the Hen",
+    "voiceHindi": "मुर्गी ढूँढो",
+    "answer": "Hen",
+    "options": [
+      {
+        "key": "Eagle",
+        "correct": false,
+        "emoji": "🦅"
+      },
+      {
+        "key": "Swan",
+        "correct": false,
+        "emoji": "🦢"
+      },
+      {
+        "key": "Peacock",
+        "correct": false,
+        "emoji": "🦚"
+      },
+      {
+        "key": "Hen",
+        "correct": true,
+        "emoji": "🐔"
+      }
+    ]
+  },
+  {
+    "id": "birds-6",
+    "category": "birds",
+    "english": "Find the Eagle 🦅",
+    "hindi": "चील 🦅 ढूँढो",
+    "voiceEnglish": "Find the Eagle",
+    "voiceHindi": "चील ढूँढो",
+    "answer": "Eagle",
+    "options": [
+      {
+        "key": "Duck",
+        "correct": false,
+        "emoji": "🦆"
+      },
+      {
+        "key": "Hen",
+        "correct": false,
+        "emoji": "🐔"
+      },
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      },
+      {
+        "key": "Eagle",
+        "correct": true,
+        "emoji": "🦅"
+      }
+    ]
+  },
+  {
+    "id": "birds-7",
+    "category": "birds",
+    "english": "Find the Penguin 🐧",
+    "hindi": "पेंगुइन 🐧 ढूँढो",
+    "voiceEnglish": "Find the Penguin",
+    "voiceHindi": "पेंगुइन ढूँढो",
+    "answer": "Penguin",
+    "options": [
+      {
+        "key": "Penguin",
+        "correct": true,
+        "emoji": "🐧"
+      },
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      },
+      {
+        "key": "Swan",
+        "correct": false,
+        "emoji": "🦢"
+      },
+      {
+        "key": "Hen",
+        "correct": false,
+        "emoji": "🐔"
+      }
+    ]
+  },
+  {
+    "id": "birds-8",
+    "category": "birds",
+    "english": "Find the Swan 🦢",
+    "hindi": "हंस 🦢 ढूँढो",
+    "voiceEnglish": "Find the Swan",
+    "voiceHindi": "हंस ढूँढो",
+    "answer": "Swan",
+    "options": [
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      },
+      {
+        "key": "Swan",
+        "correct": true,
+        "emoji": "🦢"
+      },
+      {
+        "key": "Eagle",
+        "correct": false,
+        "emoji": "🦅"
+      },
+      {
+        "key": "Duck",
+        "correct": false,
+        "emoji": "🦆"
+      }
+    ]
+  },
+  {
+    "id": "birds-9",
+    "category": "birds",
+    "english": "Find the Dove 🕊️",
+    "hindi": "कबूतर 🕊️ ढूँढो",
+    "voiceEnglish": "Find the Dove",
+    "voiceHindi": "कबूतर ढूँढो",
+    "answer": "Dove",
+    "options": [
+      {
+        "key": "Parrot",
+        "correct": false,
+        "emoji": "🦜"
+      },
+      {
+        "key": "Eagle",
+        "correct": false,
+        "emoji": "🦅"
+      },
+      {
+        "key": "Dove",
+        "correct": true,
+        "emoji": "🕊️"
+      },
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      }
+    ]
+  },
+  {
+    "id": "birds-10",
+    "category": "birds",
+    "english": "Find the Chick 🐤",
+    "hindi": "चूज़ा 🐤 ढूँढो",
+    "voiceEnglish": "Find the Chick",
+    "voiceHindi": "चूज़ा ढूँढो",
+    "answer": "Chick",
+    "options": [
+      {
+        "key": "Chick",
+        "correct": true,
+        "emoji": "🐤"
+      },
+      {
+        "key": "Parrot",
+        "correct": false,
+        "emoji": "🦜"
+      },
+      {
+        "key": "Peacock",
+        "correct": false,
+        "emoji": "🦚"
+      },
+      {
+        "key": "Owl",
+        "correct": false,
+        "emoji": "🦉"
+      }
+    ]
+  }
+]

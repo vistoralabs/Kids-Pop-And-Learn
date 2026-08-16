@@ -1,4 +1,13 @@
 import type { CategoryDef, GameOption, LevelConfig, Question, ShapeName } from "./types";
+import colorsData from "./questions/colors.json";
+import abcData from "./questions/abc.json";
+import numbersData from "./questions/numbers.json";
+import animalsData from "./questions/animals.json";
+import fruitsData from "./questions/fruits.json";
+import vehiclesData from "./questions/vehicles.json";
+import birdsData from "./questions/birds.json";
+import bodyData from "./questions/body.json";
+import shapesData from "./questions/shapes.json";
 
 /* ------------------------------------------------------------------ */
 /* helpers                                                             */
@@ -352,252 +361,63 @@ export function getCategory(id: string | undefined): CategoryDef | undefined {
 /* question generators with progressive difficulty                     */
 /* ------------------------------------------------------------------ */
 
-let questionSeq = 0;
-const nextId = () => `q${++questionSeq}`;
-
-const HI_VERB: Record<string, string> = { Find: "ढूँढो", Tap: "दबाओ", Touch: "छुओ" };
-
-function emojiQuestion(
-  pool: readonly { name: string; hi: string; emoji: string }[],
-  objects: number,
-  levelIndex: number,
-  verb: string,
-): Question {
-  // In early levels (0-4), pick from first subset of familiar items (at least 6 items)
-  const activePool = levelIndex < 5 ? pool.slice(0, Math.max(6, Math.floor(pool.length * 0.6))) : pool;
-  const target = randomOf(activePool);
-  const others = pickOthers(activePool, target, 3);
-  const options: GameOption[] = shuffle([
-    { key: target.name, correct: true, emoji: target.emoji },
-    ...others.map((o) => ({ key: o.name, correct: false, emoji: o.emoji })),
-  ]);
-  const hiVerb = HI_VERB[verb] ?? "ढूँढो";
-  return {
-    id: nextId(),
-    prompt: `${verb} the ${target.name}`,
-    speak: `${verb} the ${target.name}`,
-    hint: levelIndex < 10 ? `${target.name} looks like this: ${target.emoji}` : `Look for the ${target.name}`,
-    promptHi: `${target.hi} ${hiVerb}`,
-    speakHi: `${target.hi} ${hiVerb}`,
-    hintHi: levelIndex < 10 ? `${target.hi} ऐसा दिखता है: ${target.emoji}` : `${target.hi} ढूँढो`,
-    options,
-  };
+interface JSONQuestion {
+  id: string;
+  category: string;
+  english: string;
+  hindi: string;
+  voiceEnglish: string;
+  voiceHindi: string;
+  answer: string;
+  options: GameOption[];
 }
-
-function colorQuestion(objects: number, levelIndex: number): Question {
-  const verb = randomOf(VERBS);
-  const target = randomOf(COLORS);
-  // In champion/master/challenge levels (levelIndex >= 10), pick distractors from same color family
-  const family = COLORS.filter((c) => c.family === target.family && c !== target);
-  const base = levelIndex >= 10 && family.length >= 3 ? family : COLORS;
-  const others = pickOthers(base, target, 3);
-  const options: GameOption[] = shuffle([
-    { key: target.name, correct: true, color: target.hex },
-    ...others.map((o) => ({ key: o.name, correct: false, color: o.hex })),
-  ]);
-  const HI_VERB_MAP: Record<string, string> = { Find: "ढूँढो", Tap: "दबाओ", Touch: "छुओ" };
-  const hiVerb = HI_VERB_MAP[verb] ?? "ढूँढो";
-  return {
-    id: nextId(),
-    prompt: `${verb} the ${target.name} color`,
-    speak: `${verb} the ${target.name} color`,
-    hint: levelIndex < 10 ? `Look for the ${target.name.toLowerCase()} color!` : `Find ${target.name}`,
-    promptHi: `${target.hi} रंग ${hiVerb}`,
-    speakHi: `${target.hi} रंग ${hiVerb}`,
-    hintHi: levelIndex < 10 ? `${target.hi} रंग वाला ढूँढो!` : `${target.hi} रंग चुनो`,
-    options,
-  };
-}
-
-function abcQuestion(objects: number, levelIndex: number, questionIndex: number): Question {
-  // In warmup (0-4), prioritize letters A to H
-  const pool = levelIndex < 5 ? ALPHABET.slice(0, 8) : levelIndex < 10 ? ALPHABET.slice(0, 16) : ALPHABET;
-  const target = randomOf(pool);
-  const others = pickOthers(pool, target, 3);
-  const verb = randomOf(VERBS);
-  
-  const useEmoji = (levelIndex + questionIndex) % 2 === 1;
-  if (useEmoji) {
-    const options: GameOption[] = shuffle([
-      { key: target.letter, correct: true, emoji: target.emoji },
-      ...others.map((o) => ({ key: o.letter, correct: false, emoji: o.emoji })),
-    ]);
-    return {
-      id: nextId(),
-      prompt: `${verb} the ${target.word} ${target.emoji}`,
-      speak: `${verb} the ${target.word}. ${target.letter} for ${target.word}`,
-      hint: `${target.letter} is for ${target.word}`,
-      promptHi: `${target.hi} ${target.emoji} ढूँढो`,
-      speakHi: `${target.hi} ढूँढो। ${target.letter} से ${target.hi}`,
-      hintHi: `${target.letter} से ${target.hi}`,
-      options,
-    };
-  }
-
-  const options: GameOption[] = shuffle([
-    { key: target.letter, correct: true, text: target.letter },
-    ...others.map((o) => ({ key: o.letter, correct: false, text: o.letter })),
-  ]);
-  return {
-    id: nextId(),
-    prompt: `${verb} the letter ${target.letter}`,
-    speak: `${verb} the letter ${target.letter}. ${target.letter} for ${target.word}`,
-    hint: `${target.letter} is for ${target.word} ${target.emoji}`,
-    promptHi: `अक्षर ${target.letter} ढूँढो`,
-    speakHi: `अक्षर ${target.letter} ढूँढो। ${target.letter} से ${target.hi}`,
-    hintHi: `${target.letter} से ${target.hi} ${target.emoji}`,
-    options,
-  };
-}
-
-function numberQuestion(objects: number, levelIndex: number): Question {
-  const max = Math.max(5, levelIndex < 5 ? 5 : levelIndex < 10 ? 10 : levelIndex < 16 ? 15 : 20);
-  const kindPool = levelIndex < 4 ? (["find", "count"] as const) : (["find", "count", "more", "fewer"] as const);
-  const kind = randomOf(kindPool);
-
-  if (kind === "find") {
-    const target = 1 + Math.floor(Math.random() * max);
-    const pool = Array.from({ length: max }, (_, i) => i + 1);
-    const others = pickOthers(pool, target, 3);
-    return {
-      id: nextId(),
-      prompt: `Find the number ${target}`,
-      speak: `Find the number ${target}`,
-      hint: `${target} looks like this: ${target}`,
-      promptHi: `संख्या ${target} ढूँढो`,
-      speakHi: `संख्या ${target} ढूँढो`,
-      hintHi: `${target} ऐसा दिखता है: ${target}`,
-      options: shuffle([
-        { key: `n${target}`, correct: true, text: String(target) },
-        ...others.map((o) => ({ key: `n${o}`, correct: false, text: String(o) })),
-      ]),
-    };
-  }
-
-  const emoji = randomOf(COUNT_EMOJI);
-  const maxCount = Math.max(5, levelIndex < 5 ? 5 : levelIndex < 10 ? 7 : 10);
-  const counts = shuffle(Array.from({ length: maxCount }, (_, i) => i + 1)).slice(0, 4);
-
-  if (kind === "count") {
-    const target = randomOf(counts);
-    return {
-      id: nextId(),
-      prompt: `Tap ${target} ${emoji}`,
-      speak: `Tap the group with ${target}`,
-      hint: `Count them one by one: 1, 2, 3...`,
-      promptHi: `${target} ${emoji} दबाओ`,
-      speakHi: `जिसमें ${target} हैं उसे दबाओ`,
-      hintHi: `एक-एक करके गिनो: एक, दो, तीन...`,
-      options: shuffle(
-        counts.map((c) => ({
-          key: `c${c}`,
-          correct: c === target,
-          groupEmoji: emoji,
-          groupCount: c,
-        })),
-      ),
-    };
-  }
-
-  const more = kind === "more";
-  const best = more ? Math.max(...counts) : Math.min(...counts);
-  return {
-    id: nextId(),
-    prompt: more ? "Which has MORE?" : "Which has FEWER?",
-    speak: more ? "Which group has more?" : "Which group has fewer?",
-    hint: more ? "The biggest group wins!" : "Look for the smallest group",
-    promptHi: more ? "किसमें ज़्यादा हैं?" : "किसमें कम हैं?",
-    speakHi: more ? "किस समूह में ज़्यादा हैं?" : "किस समूह में कम हैं?",
-    hintHi: more ? "सबसे बड़ा समूह चुनो!" : "सबसे छोटा समूह ढूँढो",
-    options: shuffle(
-      counts.map((c) => ({
-        key: `c${c}`,
-        correct: c === best,
-        groupEmoji: emoji,
-        groupCount: c,
-      })),
-    ),
-  };
-}
-
-function shapeQuestion(objects: number, levelIndex: number): Question {
-  // In early levels (0-4), start with Circle, Square, Triangle, Rectangle (4 shapes)
-  const activeShapes = levelIndex < 5 ? SHAPES.slice(0, 4) : levelIndex < 10 ? SHAPES.slice(0, 6) : SHAPES;
-  const target = randomOf(activeShapes);
-  const others = pickOthers(activeShapes, target, 3);
-  const colors = shuffle(SHAPE_COLORS);
-  const options: GameOption[] = shuffle(
-    [target, ...others].map((s, i) => ({
-      key: s.name,
-      correct: s === target,
-      shape: s.shape,
-      shapeColor: colors[i % colors.length] ?? "#3b82f6",
-    })),
-  );
-  return {
-    id: nextId(),
-    prompt: `Find the ${target.name.toUpperCase()}`,
-    speak: `Find the ${target.name}`,
-    hint: levelIndex < 10 ? `Look for the ${target.name.toLowerCase()} shape` : `Find ${target.name}`,
-    promptHi: `${target.hi} ढूँढो`,
-    speakHi: `${target.hi} आकार ढूँढो`,
-    hintHi: levelIndex < 10 ? `${target.hi} आकार वाला ढूँढो` : `${target.hi} ढूँढो`,
-    options,
-  };
-}
-
-const VERBS = ["Find", "Tap", "Touch"];
 
 export function buildRound(categoryId: string, levelIndex: number): Question[] {
   const category = getCategory(categoryId);
   if (!category) return [];
   const level = category.levels[Math.min(levelIndex, category.levels.length - 1)]!;
-  const questions: Question[] = [];
-  const usedPrompts = new Set<string>();
-  let attempts = 0;
-  const maxAttempts = level.questions * 5; // safety limit
-
-  while (questions.length < level.questions && attempts < maxAttempts) {
-    attempts++;
-    let q: Question;
-    switch (categoryId) {
-      case "colors":
-        q = colorQuestion(level.objects, levelIndex);
-        break;
-      case "abc":
-        q = abcQuestion(level.objects, levelIndex, questions.length);
-        break;
-      case "numbers":
-        q = numberQuestion(level.objects, levelIndex);
-        break;
-      case "animals":
-        q = emojiQuestion(ANIMALS, level.objects, levelIndex, randomOf(VERBS));
-        break;
-      case "fruits":
-        q = emojiQuestion(FRUITS, level.objects, levelIndex, randomOf(VERBS));
-        break;
-      case "vehicles":
-        q = emojiQuestion(VEHICLES, level.objects, levelIndex, randomOf(VERBS));
-        break;
-      case "birds":
-        q = emojiQuestion(BIRDS, level.objects, levelIndex, randomOf(VERBS));
-        break;
-      case "body":
-        q = emojiQuestion(BODY, level.objects, levelIndex, randomOf(VERBS));
-        break;
-      case "shapes":
-        q = shapeQuestion(level.objects, levelIndex);
-        break;
-      default:
-        return questions;
-    }
-    // Prevent duplicate questions within same round
-    if (usedPrompts.has(q.prompt)) continue;
-    usedPrompts.add(q.prompt);
-    questions.push(q);
+  
+  let pool: JSONQuestion[] = [];
+  switch (categoryId) {
+    case "colors": pool = colorsData as unknown as JSONQuestion[]; break;
+    case "abc": pool = abcData as unknown as JSONQuestion[]; break;
+    case "numbers": pool = numbersData as unknown as JSONQuestion[]; break;
+    case "animals": pool = animalsData as unknown as JSONQuestion[]; break;
+    case "fruits": pool = fruitsData as unknown as JSONQuestion[]; break;
+    case "vehicles": pool = vehiclesData as unknown as JSONQuestion[]; break;
+    case "birds": pool = birdsData as unknown as JSONQuestion[]; break;
+    case "body": pool = bodyData as unknown as JSONQuestion[]; break;
+    case "shapes": pool = shapesData as unknown as JSONQuestion[]; break;
   }
-  // Final shuffle for randomized order every time
-  return shuffle(questions);
+
+  // Apply progression constraints for early levels
+  if (levelIndex < 5) {
+    if (categoryId === "abc") {
+      pool = pool.filter(q => q.answer.match(/^[A-H]$/));
+    } else if (categoryId === "numbers") {
+      pool = pool.filter(q => {
+        const num = Number(q.answer);
+        return isNaN(num) ? q.options[0].groupCount! <= 5 : num <= 5;
+      });
+    } else if (categoryId === "colors") {
+      const earlyColors = ["Red", "Pink", "Orange", "Yellow", "Green", "Blue"];
+      pool = pool.filter(q => earlyColors.includes(q.answer));
+    }
+  }
+
+  // Shuffle and take level.questions
+  const selected = shuffle(pool).slice(0, level.questions);
+
+  return selected.map(q => ({
+    id: q.id,
+    prompt: q.english,
+    speak: q.voiceEnglish,
+    hint: `Look for the ${q.answer}!`,
+    promptHi: q.hindi,
+    speakHi: q.voiceHindi,
+    hintHi: `${q.answer} ढूँढो!`,
+    options: q.options,
+  }));
 }
 
 /** Emoji deck used by the matching game. */

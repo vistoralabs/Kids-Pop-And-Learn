@@ -1,0 +1,312 @@
+[
+  {
+    "id": "colors-1",
+    "category": "colors",
+    "english": "Find the Red color",
+    "hindi": "लाल रंग ढूँढो",
+    "voiceEnglish": "Find the Red color",
+    "voiceHindi": "लाल रंग ढूँढो",
+    "answer": "Red",
+    "options": [
+      {
+        "key": "White",
+        "correct": false,
+        "color": "#ffffff"
+      },
+      {
+        "key": "Red",
+        "correct": true,
+        "color": "#ef4444"
+      },
+      {
+        "key": "Black",
+        "correct": false,
+        "color": "#1f2937"
+      },
+      {
+        "key": "Orange",
+        "correct": false,
+        "color": "#f97316"
+      }
+    ]
+  },
+  {
+    "id": "colors-2",
+    "category": "colors",
+    "english": "Find the Pink color",
+    "hindi": "गुलाबी रंग ढूँढो",
+    "voiceEnglish": "Find the Pink color",
+    "voiceHindi": "गुलाबी रंग ढूँढो",
+    "answer": "Pink",
+    "options": [
+      {
+        "key": "Orange",
+        "correct": false,
+        "color": "#f97316"
+      },
+      {
+        "key": "Yellow",
+        "correct": false,
+        "color": "#facc15"
+      },
+      {
+        "key": "Green",
+        "correct": false,
+        "color": "#22c55e"
+      },
+      {
+        "key": "Pink",
+        "correct": true,
+        "color": "#ec4899"
+      }
+    ]
+  },
+  {
+    "id": "colors-3",
+    "category": "colors",
+    "english": "Find the Orange color",
+    "hindi": "नारंगी रंग ढूँढो",
+    "voiceEnglish": "Find the Orange color",
+    "voiceHindi": "नारंगी रंग ढूँढो",
+    "answer": "Orange",
+    "options": [
+      {
+        "key": "Orange",
+        "correct": true,
+        "color": "#f97316"
+      },
+      {
+        "key": "Purple",
+        "correct": false,
+        "color": "#a855f7"
+      },
+      {
+        "key": "Brown",
+        "correct": false,
+        "color": "#92400e"
+      },
+      {
+        "key": "Pink",
+        "correct": false,
+        "color": "#ec4899"
+      }
+    ]
+  },
+  {
+    "id": "colors-4",
+    "category": "colors",
+    "english": "Find the Yellow color",
+    "hindi": "पीला रंग ढूँढो",
+    "voiceEnglish": "Find the Yellow color",
+    "voiceHindi": "पीला रंग ढूँढो",
+    "answer": "Yellow",
+    "options": [
+      {
+        "key": "Black",
+        "correct": false,
+        "color": "#1f2937"
+      },
+      {
+        "key": "Purple",
+        "correct": false,
+        "color": "#a855f7"
+      },
+      {
+        "key": "Pink",
+        "correct": false,
+        "color": "#ec4899"
+      },
+      {
+        "key": "Yellow",
+        "correct": true,
+        "color": "#facc15"
+      }
+    ]
+  },
+  {
+    "id": "colors-5",
+    "category": "colors",
+    "english": "Find the Green color",
+    "hindi": "हरा रंग ढूँढो",
+    "voiceEnglish": "Find the Green color",
+    "voiceHindi": "हरा रंग ढूँढो",
+    "answer": "Green",
+    "options": [
+      {
+        "key": "Brown",
+        "correct": false,
+        "color": "#92400e"
+      },
+      {
+        "key": "Red",
+        "correct": false,
+        "color": "#ef4444"
+      },
+      {
+        "key": "Green",
+        "correct": true,
+        "color": "#22c55e"
+      },
+      {
+        "key": "Orange",
+        "correct": false,
+        "color": "#f97316"
+      }
+    ]
+  },
+  {
+    "id": "colors-6",
+    "category": "colors",
+    "english": "Find the Blue color",
+    "hindi": "नीला रंग ढूँढो",
+    "voiceEnglish": "Find the Blue color",
+    "voiceHindi": "नीला रंग ढूँढो",
+    "answer": "Blue",
+    "options": [
+      {
+        "key": "Purple",
+        "correct": false,
+        "color": "#a855f7"
+      },
+      {
+        "key": "Blue",
+        "correct": true,
+        "color": "#3b82f6"
+      },
+      {
+        "key": "Black",
+        "correct": false,
+        "color": "#1f2937"
+      },
+      {
+        "key": "Green",
+        "correct": false,
+        "color": "#22c55e"
+      }
+    ]
+  },
+  {
+    "id": "colors-7",
+    "category": "colors",
+    "english": "Find the Purple color",
+    "hindi": "बैंगनी रंग ढूँढो",
+    "voiceEnglish": "Find the Purple color",
+    "voiceHindi": "बैंगनी रंग ढूँढो",
+    "answer": "Purple",
+    "options": [
+      {
+        "key": "Green",
+        "correct": false,
+        "color": "#22c55e"
+      },
+      {
+        "key": "Purple",
+        "correct": true,
+        "color": "#a855f7"
+      },
+      {
+        "key": "Brown",
+        "correct": false,
+        "color": "#92400e"
+      },
+      {
+        "key": "Pink",
+        "correct": false,
+        "color": "#ec4899"
+      }
+    ]
+  },
+  {
+    "id": "colors-8",
+    "category": "colors",
+    "english": "Find the Brown color",
+    "hindi": "भूरा रंग ढूँढो",
+    "voiceEnglish": "Find the Brown color",
+    "voiceHindi": "भूरा रंग ढूँढो",
+    "answer": "Brown",
+    "options": [
+      {
+        "key": "Red",
+        "correct": false,
+        "color": "#ef4444"
+      },
+      {
+        "key": "Orange",
+        "correct": false,
+        "color": "#f97316"
+      },
+      {
+        "key": "Green",
+        "correct": false,
+        "color": "#22c55e"
+      },
+      {
+        "key": "Brown",
+        "correct": true,
+        "color": "#92400e"
+      }
+    ]
+  },
+  {
+    "id": "colors-9",
+    "category": "colors",
+    "english": "Find the Black color",
+    "hindi": "काला रंग ढूँढो",
+    "voiceEnglish": "Find the Black color",
+    "voiceHindi": "काला रंग ढूँढो",
+    "answer": "Black",
+    "options": [
+      {
+        "key": "Red",
+        "correct": false,
+        "color": "#ef4444"
+      },
+      {
+        "key": "White",
+        "correct": false,
+        "color": "#ffffff"
+      },
+      {
+        "key": "Black",
+        "correct": true,
+        "color": "#1f2937"
+      },
+      {
+        "key": "Pink",
+        "correct": false,
+        "color": "#ec4899"
+      }
+    ]
+  },
+  {
+    "id": "colors-10",
+    "category": "colors",
+    "english": "Find the White color",
+    "hindi": "सफ़ेद रंग ढूँढो",
+    "voiceEnglish": "Find the White color",
+    "voiceHindi": "सफ़ेद रंग ढूँढो",
+    "answer": "White",
+    "options": [
+      {
+        "key": "Pink",
+        "correct": false,
+        "color": "#ec4899"
+      },
+      {
+        "key": "Blue",
+        "correct": false,
+        "color": "#3b82f6"
+      },
+      {
+        "key": "Yellow",
+        "correct": false,
+        "color": "#facc15"
+      },
+      {
+        "key": "White",
+        "correct": true,
+        "color": "#ffffff"
+      }
+    ]
+  }
+]

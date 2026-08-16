@@ -3,8 +3,8 @@ import { CATEGORIES } from "../game/content";
 
 const KEY = "kids-pop-learn:v1";
 
-/** Learning language: English, Hindi, or both (English then Hindi). */
-export type Lang = "en" | "hi" | "both";
+/** Learning language: English or Hindi. */
+export type Lang = "en" | "hi";
 
 export interface Progress {
   stars: number;
@@ -26,7 +26,7 @@ export const defaultProgress: Progress = {
   achievements: [],
   correct: 0,
   correctByCategory: {},
-  settings: { sound: true, music: false, lang: "both" },
+  settings: { sound: true, music: false, lang: "en" },
   lastDailyReward: null,
   streak: 0,
   lastPlayedDay: null,
@@ -42,13 +42,24 @@ function read(): Progress {
     const raw = window.localStorage.getItem(KEY);
     if (!raw) return defaultProgress;
     const parsed = JSON.parse(raw) as Partial<Progress>;
+    
+    // Migrate legacy 'both' lang setting to 'en'
+    let langSetting: Lang = "en";
+    if (parsed.settings?.lang === "hi") {
+      langSetting = "hi";
+    }
+
     return {
       ...defaultProgress,
       ...parsed,
       completed: { ...parsed.completed },
       correctByCategory: { ...parsed.correctByCategory },
       achievements: parsed.achievements ?? [],
-      settings: { ...defaultProgress.settings, ...parsed.settings },
+      settings: { 
+        sound: parsed.settings?.sound ?? defaultProgress.settings.sound, 
+        music: parsed.settings?.music ?? defaultProgress.settings.music, 
+        lang: langSetting 
+      },
     };
   } catch {
     return defaultProgress;

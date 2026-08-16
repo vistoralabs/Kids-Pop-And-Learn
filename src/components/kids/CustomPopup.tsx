@@ -9,10 +9,16 @@ export function CustomPopup({
   open,
   onClose,
   lang,
+  title,
+  desc,
+  btnText,
 }: {
   open: boolean;
   onClose: () => void;
   lang: string;
+  title?: string;
+  desc?: string;
+  btnText?: string;
 }) {
   if (!open) return null;
 
@@ -33,13 +39,13 @@ export function CustomPopup({
         </div>
         
         <h2 className="font-display text-2xl text-secondary-foreground">
-          {hi ? "अद्भुत पुरस्कार! 🏆" : "Amazing Rewards! 🏆"}
+          {title || (hi ? "अद्भुत पुरस्कार! 🏆" : "Amazing Rewards! 🏆")}
         </h2>
         
         <p className="mt-2 font-display text-base text-muted-foreground leading-relaxed">
-          {hi
+          {desc || (hi
             ? "सभी श्रेणियों को खेलें, अधिक से अधिक सितारे जीतें और सभी बैज अनलॉक करें!"
-            : "Play all categories, win lots of stars, and unlock all the cool badges!"}
+            : "Play all categories, win lots of stars, and unlock all the cool badges!")}
         </p>
         
         <div className="mt-5">
@@ -51,7 +57,7 @@ export function CustomPopup({
             }}
             className="tap-scale min-h-14 w-full rounded-2xl bg-grass px-5 py-3 font-display text-xl text-card shadow-[0_6px_0_0_rgba(0,0,0,0.12)]"
           >
-            🚀 {hi ? "खेल जारी रखें" : "Keep Playing"}
+            🚀 {btnText || (hi ? "खेल जारी रखें" : "Keep Playing")}
           </button>
         </div>
       </div>

@@ -1,972 +1,452 @@
 [
   {
-    "id": "numbers-find-1",
+    "id": "numbers_find_001",
     "category": "numbers",
     "english": "Find the number 1",
     "hindi": "संख्या 1 ढूँढो",
-    "voiceEnglish": "Find the number 1",
-    "voiceHindi": "संख्या 1 ढूँढो",
     "answer": "1",
     "options": [
-      {
-        "key": "7",
-        "correct": false,
-        "text": "7"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      },
-      {
-        "key": "12",
-        "correct": false,
-        "text": "12"
-      },
-      {
-        "key": "1",
-        "correct": true,
-        "text": "1"
-      }
-    ]
+      "11",
+      "1",
+      "16",
+      "10"
+    ],
+    "voiceEnglish": "Find the number 1",
+    "voiceHindi": "संख्या 1 ढूँढो"
   },
   {
-    "id": "numbers-find-2",
+    "id": "numbers_find_002",
     "category": "numbers",
     "english": "Find the number 2",
     "hindi": "संख्या 2 ढूँढो",
-    "voiceEnglish": "Find the number 2",
-    "voiceHindi": "संख्या 2 ढूँढो",
     "answer": "2",
     "options": [
-      {
-        "key": "9",
-        "correct": false,
-        "text": "9"
-      },
-      {
-        "key": "20",
-        "correct": false,
-        "text": "20"
-      },
-      {
-        "key": "2",
-        "correct": true,
-        "text": "2"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      }
-    ]
+      "2",
+      "10",
+      "12",
+      "1"
+    ],
+    "voiceEnglish": "Find the number 2",
+    "voiceHindi": "संख्या 2 ढूँढो"
   },
   {
-    "id": "numbers-find-3",
+    "id": "numbers_find_003",
     "category": "numbers",
     "english": "Find the number 3",
     "hindi": "संख्या 3 ढूँढो",
-    "voiceEnglish": "Find the number 3",
-    "voiceHindi": "संख्या 3 ढूँढो",
     "answer": "3",
     "options": [
-      {
-        "key": "2",
-        "correct": false,
-        "text": "2"
-      },
-      {
-        "key": "3",
-        "correct": true,
-        "text": "3"
-      },
-      {
-        "key": "5",
-        "correct": false,
-        "text": "5"
-      },
-      {
-        "key": "9",
-        "correct": false,
-        "text": "9"
-      }
-    ]
+      "10",
+      "14",
+      "3",
+      "7"
+    ],
+    "voiceEnglish": "Find the number 3",
+    "voiceHindi": "संख्या 3 ढूँढो"
   },
   {
-    "id": "numbers-find-4",
+    "id": "numbers_find_004",
     "category": "numbers",
     "english": "Find the number 4",
     "hindi": "संख्या 4 ढूँढो",
-    "voiceEnglish": "Find the number 4",
-    "voiceHindi": "संख्या 4 ढूँढो",
     "answer": "4",
     "options": [
-      {
-        "key": "8",
-        "correct": false,
-        "text": "8"
-      },
-      {
-        "key": "17",
-        "correct": false,
-        "text": "17"
-      },
-      {
-        "key": "4",
-        "correct": true,
-        "text": "4"
-      },
-      {
-        "key": "7",
-        "correct": false,
-        "text": "7"
-      }
-    ]
+      "19",
+      "13",
+      "4",
+      "10"
+    ],
+    "voiceEnglish": "Find the number 4",
+    "voiceHindi": "संख्या 4 ढूँढो"
   },
   {
-    "id": "numbers-find-5",
+    "id": "numbers_find_005",
     "category": "numbers",
     "english": "Find the number 5",
     "hindi": "संख्या 5 ढूँढो",
-    "voiceEnglish": "Find the number 5",
-    "voiceHindi": "संख्या 5 ढूँढो",
     "answer": "5",
     "options": [
-      {
-        "key": "20",
-        "correct": false,
-        "text": "20"
-      },
-      {
-        "key": "6",
-        "correct": false,
-        "text": "6"
-      },
-      {
-        "key": "5",
-        "correct": true,
-        "text": "5"
-      },
-      {
-        "key": "11",
-        "correct": false,
-        "text": "11"
-      }
-    ]
+      "12",
+      "20",
+      "5",
+      "8"
+    ],
+    "voiceEnglish": "Find the number 5",
+    "voiceHindi": "संख्या 5 ढूँढो"
   },
   {
-    "id": "numbers-find-6",
+    "id": "numbers_find_006",
     "category": "numbers",
     "english": "Find the number 6",
     "hindi": "संख्या 6 ढूँढो",
-    "voiceEnglish": "Find the number 6",
-    "voiceHindi": "संख्या 6 ढूँढो",
     "answer": "6",
     "options": [
-      {
-        "key": "4",
-        "correct": false,
-        "text": "4"
-      },
-      {
-        "key": "6",
-        "correct": true,
-        "text": "6"
-      },
-      {
-        "key": "9",
-        "correct": false,
-        "text": "9"
-      },
-      {
-        "key": "17",
-        "correct": false,
-        "text": "17"
-      }
-    ]
+      "14",
+      "12",
+      "9",
+      "6"
+    ],
+    "voiceEnglish": "Find the number 6",
+    "voiceHindi": "संख्या 6 ढूँढो"
   },
   {
-    "id": "numbers-find-7",
+    "id": "numbers_find_007",
     "category": "numbers",
     "english": "Find the number 7",
     "hindi": "संख्या 7 ढूँढो",
-    "voiceEnglish": "Find the number 7",
-    "voiceHindi": "संख्या 7 ढूँढो",
     "answer": "7",
     "options": [
-      {
-        "key": "18",
-        "correct": false,
-        "text": "18"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      },
-      {
-        "key": "4",
-        "correct": false,
-        "text": "4"
-      },
-      {
-        "key": "7",
-        "correct": true,
-        "text": "7"
-      }
-    ]
+      "20",
+      "17",
+      "15",
+      "7"
+    ],
+    "voiceEnglish": "Find the number 7",
+    "voiceHindi": "संख्या 7 ढूँढो"
   },
   {
-    "id": "numbers-find-8",
+    "id": "numbers_find_008",
     "category": "numbers",
     "english": "Find the number 8",
     "hindi": "संख्या 8 ढूँढो",
-    "voiceEnglish": "Find the number 8",
-    "voiceHindi": "संख्या 8 ढूँढो",
     "answer": "8",
     "options": [
-      {
-        "key": "7",
-        "correct": false,
-        "text": "7"
-      },
-      {
-        "key": "8",
-        "correct": true,
-        "text": "8"
-      },
-      {
-        "key": "4",
-        "correct": false,
-        "text": "4"
-      },
-      {
-        "key": "12",
-        "correct": false,
-        "text": "12"
-      }
-    ]
+      "5",
+      "15",
+      "8",
+      "3"
+    ],
+    "voiceEnglish": "Find the number 8",
+    "voiceHindi": "संख्या 8 ढूँढो"
   },
   {
-    "id": "numbers-find-9",
+    "id": "numbers_find_009",
     "category": "numbers",
     "english": "Find the number 9",
     "hindi": "संख्या 9 ढूँढो",
-    "voiceEnglish": "Find the number 9",
-    "voiceHindi": "संख्या 9 ढूँढो",
     "answer": "9",
     "options": [
-      {
-        "key": "11",
-        "correct": false,
-        "text": "11"
-      },
-      {
-        "key": "18",
-        "correct": false,
-        "text": "18"
-      },
-      {
-        "key": "9",
-        "correct": true,
-        "text": "9"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      }
-    ]
+      "5",
+      "12",
+      "9",
+      "19"
+    ],
+    "voiceEnglish": "Find the number 9",
+    "voiceHindi": "संख्या 9 ढूँढो"
   },
   {
-    "id": "numbers-find-10",
+    "id": "numbers_find_010",
     "category": "numbers",
     "english": "Find the number 10",
     "hindi": "संख्या 10 ढूँढो",
-    "voiceEnglish": "Find the number 10",
-    "voiceHindi": "संख्या 10 ढूँढो",
     "answer": "10",
     "options": [
-      {
-        "key": "17",
-        "correct": false,
-        "text": "17"
-      },
-      {
-        "key": "10",
-        "correct": true,
-        "text": "10"
-      },
-      {
-        "key": "18",
-        "correct": false,
-        "text": "18"
-      },
-      {
-        "key": "4",
-        "correct": false,
-        "text": "4"
-      }
-    ]
+      "10",
+      "1",
+      "15",
+      "6"
+    ],
+    "voiceEnglish": "Find the number 10",
+    "voiceHindi": "संख्या 10 ढूँढो"
   },
   {
-    "id": "numbers-find-11",
+    "id": "numbers_find_011",
     "category": "numbers",
     "english": "Find the number 11",
     "hindi": "संख्या 11 ढूँढो",
-    "voiceEnglish": "Find the number 11",
-    "voiceHindi": "संख्या 11 ढूँढो",
     "answer": "11",
     "options": [
-      {
-        "key": "11",
-        "correct": true,
-        "text": "11"
-      },
-      {
-        "key": "8",
-        "correct": false,
-        "text": "8"
-      },
-      {
-        "key": "7",
-        "correct": false,
-        "text": "7"
-      },
-      {
-        "key": "13",
-        "correct": false,
-        "text": "13"
-      }
-    ]
+      "12",
+      "11",
+      "18",
+      "6"
+    ],
+    "voiceEnglish": "Find the number 11",
+    "voiceHindi": "संख्या 11 ढूँढो"
   },
   {
-    "id": "numbers-find-12",
+    "id": "numbers_find_012",
     "category": "numbers",
     "english": "Find the number 12",
     "hindi": "संख्या 12 ढूँढो",
-    "voiceEnglish": "Find the number 12",
-    "voiceHindi": "संख्या 12 ढूँढो",
     "answer": "12",
     "options": [
-      {
-        "key": "15",
-        "correct": false,
-        "text": "15"
-      },
-      {
-        "key": "12",
-        "correct": true,
-        "text": "12"
-      },
-      {
-        "key": "7",
-        "correct": false,
-        "text": "7"
-      },
-      {
-        "key": "17",
-        "correct": false,
-        "text": "17"
-      }
-    ]
+      "12",
+      "5",
+      "11",
+      "3"
+    ],
+    "voiceEnglish": "Find the number 12",
+    "voiceHindi": "संख्या 12 ढूँढो"
   },
   {
-    "id": "numbers-find-13",
+    "id": "numbers_find_013",
     "category": "numbers",
     "english": "Find the number 13",
     "hindi": "संख्या 13 ढूँढो",
-    "voiceEnglish": "Find the number 13",
-    "voiceHindi": "संख्या 13 ढूँढो",
     "answer": "13",
     "options": [
-      {
-        "key": "13",
-        "correct": true,
-        "text": "13"
-      },
-      {
-        "key": "19",
-        "correct": false,
-        "text": "19"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      },
-      {
-        "key": "20",
-        "correct": false,
-        "text": "20"
-      }
-    ]
+      "7",
+      "20",
+      "19",
+      "13"
+    ],
+    "voiceEnglish": "Find the number 13",
+    "voiceHindi": "संख्या 13 ढूँढो"
   },
   {
-    "id": "numbers-find-14",
+    "id": "numbers_find_014",
     "category": "numbers",
     "english": "Find the number 14",
     "hindi": "संख्या 14 ढूँढो",
-    "voiceEnglish": "Find the number 14",
-    "voiceHindi": "संख्या 14 ढूँढो",
     "answer": "14",
     "options": [
-      {
-        "key": "13",
-        "correct": false,
-        "text": "13"
-      },
-      {
-        "key": "20",
-        "correct": false,
-        "text": "20"
-      },
-      {
-        "key": "14",
-        "correct": true,
-        "text": "14"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      }
-    ]
+      "16",
+      "1",
+      "14",
+      "13"
+    ],
+    "voiceEnglish": "Find the number 14",
+    "voiceHindi": "संख्या 14 ढूँढो"
   },
   {
-    "id": "numbers-find-15",
+    "id": "numbers_find_015",
     "category": "numbers",
     "english": "Find the number 15",
     "hindi": "संख्या 15 ढूँढो",
-    "voiceEnglish": "Find the number 15",
-    "voiceHindi": "संख्या 15 ढूँढो",
     "answer": "15",
     "options": [
-      {
-        "key": "5",
-        "correct": false,
-        "text": "5"
-      },
-      {
-        "key": "15",
-        "correct": true,
-        "text": "15"
-      },
-      {
-        "key": "10",
-        "correct": false,
-        "text": "10"
-      },
-      {
-        "key": "14",
-        "correct": false,
-        "text": "14"
-      }
-    ]
+      "5",
+      "15",
+      "7",
+      "2"
+    ],
+    "voiceEnglish": "Find the number 15",
+    "voiceHindi": "संख्या 15 ढूँढो"
   },
   {
-    "id": "numbers-find-16",
+    "id": "numbers_find_016",
     "category": "numbers",
     "english": "Find the number 16",
     "hindi": "संख्या 16 ढूँढो",
-    "voiceEnglish": "Find the number 16",
-    "voiceHindi": "संख्या 16 ढूँढो",
     "answer": "16",
     "options": [
-      {
-        "key": "6",
-        "correct": false,
-        "text": "6"
-      },
-      {
-        "key": "2",
-        "correct": false,
-        "text": "2"
-      },
-      {
-        "key": "16",
-        "correct": true,
-        "text": "16"
-      },
-      {
-        "key": "4",
-        "correct": false,
-        "text": "4"
-      }
-    ]
+      "9",
+      "16",
+      "11",
+      "2"
+    ],
+    "voiceEnglish": "Find the number 16",
+    "voiceHindi": "संख्या 16 ढूँढो"
   },
   {
-    "id": "numbers-find-17",
+    "id": "numbers_find_017",
     "category": "numbers",
     "english": "Find the number 17",
     "hindi": "संख्या 17 ढूँढो",
-    "voiceEnglish": "Find the number 17",
-    "voiceHindi": "संख्या 17 ढूँढो",
     "answer": "17",
     "options": [
-      {
-        "key": "1",
-        "correct": false,
-        "text": "1"
-      },
-      {
-        "key": "5",
-        "correct": false,
-        "text": "5"
-      },
-      {
-        "key": "17",
-        "correct": true,
-        "text": "17"
-      },
-      {
-        "key": "12",
-        "correct": false,
-        "text": "12"
-      }
-    ]
+      "3",
+      "6",
+      "1",
+      "17"
+    ],
+    "voiceEnglish": "Find the number 17",
+    "voiceHindi": "संख्या 17 ढूँढो"
   },
   {
-    "id": "numbers-find-18",
+    "id": "numbers_find_018",
     "category": "numbers",
     "english": "Find the number 18",
     "hindi": "संख्या 18 ढूँढो",
-    "voiceEnglish": "Find the number 18",
-    "voiceHindi": "संख्या 18 ढूँढो",
     "answer": "18",
     "options": [
-      {
-        "key": "13",
-        "correct": false,
-        "text": "13"
-      },
-      {
-        "key": "18",
-        "correct": true,
-        "text": "18"
-      },
-      {
-        "key": "10",
-        "correct": false,
-        "text": "10"
-      },
-      {
-        "key": "2",
-        "correct": false,
-        "text": "2"
-      }
-    ]
+      "12",
+      "7",
+      "18",
+      "1"
+    ],
+    "voiceEnglish": "Find the number 18",
+    "voiceHindi": "संख्या 18 ढूँढो"
   },
   {
-    "id": "numbers-find-19",
+    "id": "numbers_find_019",
     "category": "numbers",
     "english": "Find the number 19",
     "hindi": "संख्या 19 ढूँढो",
-    "voiceEnglish": "Find the number 19",
-    "voiceHindi": "संख्या 19 ढूँढो",
     "answer": "19",
     "options": [
-      {
-        "key": "13",
-        "correct": false,
-        "text": "13"
-      },
-      {
-        "key": "6",
-        "correct": false,
-        "text": "6"
-      },
-      {
-        "key": "18",
-        "correct": false,
-        "text": "18"
-      },
-      {
-        "key": "19",
-        "correct": true,
-        "text": "19"
-      }
-    ]
+      "11",
+      "7",
+      "19",
+      "15"
+    ],
+    "voiceEnglish": "Find the number 19",
+    "voiceHindi": "संख्या 19 ढूँढो"
   },
   {
-    "id": "numbers-find-20",
+    "id": "numbers_find_020",
     "category": "numbers",
     "english": "Find the number 20",
     "hindi": "संख्या 20 ढूँढो",
-    "voiceEnglish": "Find the number 20",
-    "voiceHindi": "संख्या 20 ढूँढो",
     "answer": "20",
     "options": [
-      {
-        "key": "8",
-        "correct": false,
-        "text": "8"
-      },
-      {
-        "key": "1",
-        "correct": false,
-        "text": "1"
-      },
-      {
-        "key": "16",
-        "correct": false,
-        "text": "16"
-      },
-      {
-        "key": "20",
-        "correct": true,
-        "text": "20"
-      }
-    ]
+      "20",
+      "5",
+      "7",
+      "12"
+    ],
+    "voiceEnglish": "Find the number 20",
+    "voiceHindi": "संख्या 20 ढूँढो"
   },
   {
-    "id": "numbers-count-1",
+    "id": "numbers_count_001",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "1",
     "options": [
-      {
-        "key": "10",
-        "correct": false,
-        "groupEmoji": "⭐",
-        "groupCount": 10
-      },
-      {
-        "key": "6",
-        "correct": false,
-        "groupEmoji": "⭐",
-        "groupCount": 6
-      },
-      {
-        "key": "3",
-        "correct": false,
-        "groupEmoji": "⭐",
-        "groupCount": 3
-      },
-      {
-        "key": "1",
-        "correct": true,
-        "groupEmoji": "⭐",
-        "groupCount": 1
-      }
-    ]
+      "7",
+      "10",
+      "1",
+      "9"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-2",
+    "id": "numbers_count_002",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "2",
     "options": [
-      {
-        "key": "8",
-        "correct": false,
-        "groupEmoji": "🐟",
-        "groupCount": 8
-      },
-      {
-        "key": "4",
-        "correct": false,
-        "groupEmoji": "🐟",
-        "groupCount": 4
-      },
-      {
-        "key": "10",
-        "correct": false,
-        "groupEmoji": "🐟",
-        "groupCount": 10
-      },
-      {
-        "key": "2",
-        "correct": true,
-        "groupEmoji": "🐟",
-        "groupCount": 2
-      }
-    ]
+      "10",
+      "2",
+      "6",
+      "1"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-3",
+    "id": "numbers_count_003",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "3",
     "options": [
-      {
-        "key": "3",
-        "correct": true,
-        "groupEmoji": "🎈",
-        "groupCount": 3
-      },
-      {
-        "key": "10",
-        "correct": false,
-        "groupEmoji": "🎈",
-        "groupCount": 10
-      },
-      {
-        "key": "2",
-        "correct": false,
-        "groupEmoji": "🎈",
-        "groupCount": 2
-      },
-      {
-        "key": "8",
-        "correct": false,
-        "groupEmoji": "🎈",
-        "groupCount": 8
-      }
-    ]
+      "2",
+      "10",
+      "3",
+      "6"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-4",
+    "id": "numbers_count_004",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "4",
     "options": [
-      {
-        "key": "10",
-        "correct": false,
-        "groupEmoji": "🍓",
-        "groupCount": 10
-      },
-      {
-        "key": "8",
-        "correct": false,
-        "groupEmoji": "🍓",
-        "groupCount": 8
-      },
-      {
-        "key": "1",
-        "correct": false,
-        "groupEmoji": "🍓",
-        "groupCount": 1
-      },
-      {
-        "key": "4",
-        "correct": true,
-        "groupEmoji": "🍓",
-        "groupCount": 4
-      }
-    ]
+      "4",
+      "9",
+      "3",
+      "6"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-5",
+    "id": "numbers_count_005",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "5",
     "options": [
-      {
-        "key": "2",
-        "correct": false,
-        "groupEmoji": "🌸",
-        "groupCount": 2
-      },
-      {
-        "key": "5",
-        "correct": true,
-        "groupEmoji": "🌸",
-        "groupCount": 5
-      },
-      {
-        "key": "10",
-        "correct": false,
-        "groupEmoji": "🌸",
-        "groupCount": 10
-      },
-      {
-        "key": "7",
-        "correct": false,
-        "groupEmoji": "🌸",
-        "groupCount": 7
-      }
-    ]
+      "5",
+      "10",
+      "3",
+      "4"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-6",
+    "id": "numbers_count_006",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "6",
     "options": [
-      {
-        "key": "4",
-        "correct": false,
-        "groupEmoji": "🍎",
-        "groupCount": 4
-      },
-      {
-        "key": "6",
-        "correct": true,
-        "groupEmoji": "🍎",
-        "groupCount": 6
-      },
-      {
-        "key": "7",
-        "correct": false,
-        "groupEmoji": "🍎",
-        "groupCount": 7
-      },
-      {
-        "key": "5",
-        "correct": false,
-        "groupEmoji": "🍎",
-        "groupCount": 5
-      }
-    ]
+      "6",
+      "10",
+      "3",
+      "5"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-7",
+    "id": "numbers_count_007",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "7",
     "options": [
-      {
-        "key": "6",
-        "correct": false,
-        "groupEmoji": "⭐",
-        "groupCount": 6
-      },
-      {
-        "key": "7",
-        "correct": true,
-        "groupEmoji": "⭐",
-        "groupCount": 7
-      },
-      {
-        "key": "5",
-        "correct": false,
-        "groupEmoji": "⭐",
-        "groupCount": 5
-      },
-      {
-        "key": "3",
-        "correct": false,
-        "groupEmoji": "⭐",
-        "groupCount": 3
-      }
-    ]
+      "9",
+      "7",
+      "8",
+      "5"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-8",
+    "id": "numbers_count_008",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "8",
     "options": [
-      {
-        "key": "5",
-        "correct": false,
-        "groupEmoji": "🐟",
-        "groupCount": 5
-      },
-      {
-        "key": "1",
-        "correct": false,
-        "groupEmoji": "🐟",
-        "groupCount": 1
-      },
-      {
-        "key": "3",
-        "correct": false,
-        "groupEmoji": "🐟",
-        "groupCount": 3
-      },
-      {
-        "key": "8",
-        "correct": true,
-        "groupEmoji": "🐟",
-        "groupCount": 8
-      }
-    ]
+      "9",
+      "5",
+      "8",
+      "6"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-9",
+    "id": "numbers_count_009",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "9",
     "options": [
-      {
-        "key": "6",
-        "correct": false,
-        "groupEmoji": "🎈",
-        "groupCount": 6
-      },
-      {
-        "key": "9",
-        "correct": true,
-        "groupEmoji": "🎈",
-        "groupCount": 9
-      },
-      {
-        "key": "2",
-        "correct": false,
-        "groupEmoji": "🎈",
-        "groupCount": 2
-      },
-      {
-        "key": "7",
-        "correct": false,
-        "groupEmoji": "🎈",
-        "groupCount": 7
-      }
-    ]
+      "10",
+      "6",
+      "9",
+      "8"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   },
   {
-    "id": "numbers-count-10",
+    "id": "numbers_count_010",
     "category": "numbers",
     "english": "Count the items",
     "hindi": "वस्तुओं को गिनो",
-    "voiceEnglish": "Count the items",
-    "voiceHindi": "वस्तुओं को गिनो",
     "answer": "10",
     "options": [
-      {
-        "key": "5",
-        "correct": false,
-        "groupEmoji": "🍓",
-        "groupCount": 5
-      },
-      {
-        "key": "10",
-        "correct": true,
-        "groupEmoji": "🍓",
-        "groupCount": 10
-      },
-      {
-        "key": "8",
-        "correct": false,
-        "groupEmoji": "🍓",
-        "groupCount": 8
-      },
-      {
-        "key": "3",
-        "correct": false,
-        "groupEmoji": "🍓",
-        "groupCount": 3
-      }
-    ]
+      "5",
+      "10",
+      "8",
+      "1"
+    ],
+    "voiceEnglish": "Count the items",
+    "voiceHindi": "वस्तुओं को गिनो"
   }
 ]

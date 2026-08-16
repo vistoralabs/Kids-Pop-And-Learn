@@ -1,1614 +1,782 @@
 [
   {
-    "id": "abc-word-1",
+    "id": "abc_word_a_001",
     "category": "abc",
-    "english": "Find the Apple 🍎",
-    "hindi": "सेब 🍎 ढूँढो",
-    "voiceEnglish": "Find the Apple. A for Apple",
-    "voiceHindi": "सेब ढूँढो। A से सेब",
+    "english": "Find the Apple",
+    "hindi": "सेब ढूँढो",
     "answer": "A",
     "options": [
-      {
-        "key": "K",
-        "correct": false,
-        "emoji": "🪁"
-      },
-      {
-        "key": "A",
-        "correct": true,
-        "emoji": "🍎"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "emoji": "🐰"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      }
-    ]
+      "U",
+      "A",
+      "P",
+      "F"
+    ],
+    "voiceEnglish": "Find the Apple",
+    "voiceHindi": "सेब ढूँढो"
   },
   {
-    "id": "abc-letter-1",
+    "id": "abc_letter_a_001",
     "category": "abc",
     "english": "Find the letter A",
     "hindi": "अक्षर A ढूँढो",
-    "voiceEnglish": "Find the letter A. A for Apple",
-    "voiceHindi": "अक्षर A ढूँढो। A से सेब",
     "answer": "A",
     "options": [
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "text": "R"
-      },
-      {
-        "key": "K",
-        "correct": false,
-        "text": "K"
-      },
-      {
-        "key": "A",
-        "correct": true,
-        "text": "A"
-      }
-    ]
+      "A",
+      "U",
+      "F",
+      "P"
+    ],
+    "voiceEnglish": "Find the letter A",
+    "voiceHindi": "अक्षर A ढूँढो"
   },
   {
-    "id": "abc-word-2",
+    "id": "abc_word_b_002",
     "category": "abc",
-    "english": "Find the Ball ⚽",
-    "hindi": "गेंद ⚽ ढूँढो",
-    "voiceEnglish": "Find the Ball. B for Ball",
-    "voiceHindi": "गेंद ढूँढो। B से गेंद",
+    "english": "Find the Ball",
+    "hindi": "गेंद ढूँढो",
     "answer": "B",
     "options": [
-      {
-        "key": "R",
-        "correct": false,
-        "emoji": "🐰"
-      },
-      {
-        "key": "B",
-        "correct": true,
-        "emoji": "⚽"
-      },
-      {
-        "key": "S",
-        "correct": false,
-        "emoji": "☀️"
-      },
-      {
-        "key": "Y",
-        "correct": false,
-        "emoji": "🪀"
-      }
-    ]
+      "D",
+      "K",
+      "W",
+      "B"
+    ],
+    "voiceEnglish": "Find the Ball",
+    "voiceHindi": "गेंद ढूँढो"
   },
   {
-    "id": "abc-letter-2",
+    "id": "abc_letter_b_002",
     "category": "abc",
     "english": "Find the letter B",
     "hindi": "अक्षर B ढूँढो",
-    "voiceEnglish": "Find the letter B. B for Ball",
-    "voiceHindi": "अक्षर B ढूँढो। B से गेंद",
     "answer": "B",
     "options": [
-      {
-        "key": "S",
-        "correct": false,
-        "text": "S"
-      },
-      {
-        "key": "B",
-        "correct": true,
-        "text": "B"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "text": "R"
-      },
-      {
-        "key": "Y",
-        "correct": false,
-        "text": "Y"
-      }
-    ]
+      "K",
+      "B",
+      "D",
+      "W"
+    ],
+    "voiceEnglish": "Find the letter B",
+    "voiceHindi": "अक्षर B ढूँढो"
   },
   {
-    "id": "abc-word-3",
+    "id": "abc_word_c_003",
     "category": "abc",
-    "english": "Find the Cat 🐱",
-    "hindi": "बिल्ली 🐱 ढूँढो",
-    "voiceEnglish": "Find the Cat. C for Cat",
-    "voiceHindi": "बिल्ली ढूँढो। C से बिल्ली",
+    "english": "Find the Cat",
+    "hindi": "बिल्ली ढूँढो",
     "answer": "C",
     "options": [
-      {
-        "key": "K",
-        "correct": false,
-        "emoji": "🪁"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "emoji": "🌙"
-      },
-      {
-        "key": "C",
-        "correct": true,
-        "emoji": "🐱"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      }
-    ]
+      "R",
+      "H",
+      "B",
+      "C"
+    ],
+    "voiceEnglish": "Find the Cat",
+    "voiceHindi": "बिल्ली ढूँढो"
   },
   {
-    "id": "abc-letter-3",
+    "id": "abc_letter_c_003",
     "category": "abc",
     "english": "Find the letter C",
     "hindi": "अक्षर C ढूँढो",
-    "voiceEnglish": "Find the letter C. C for Cat",
-    "voiceHindi": "अक्षर C ढूँढो। C से बिल्ली",
     "answer": "C",
     "options": [
-      {
-        "key": "C",
-        "correct": true,
-        "text": "C"
-      },
-      {
-        "key": "K",
-        "correct": false,
-        "text": "K"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "text": "M"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      }
-    ]
+      "C",
+      "R",
+      "H",
+      "B"
+    ],
+    "voiceEnglish": "Find the letter C",
+    "voiceHindi": "अक्षर C ढूँढो"
   },
   {
-    "id": "abc-word-4",
+    "id": "abc_word_d_004",
     "category": "abc",
-    "english": "Find the Dog 🐶",
-    "hindi": "कुत्ता 🐶 ढूँढो",
-    "voiceEnglish": "Find the Dog. D for Dog",
-    "voiceHindi": "कुत्ता ढूँढो। D से कुत्ता",
+    "english": "Find the Dog",
+    "hindi": "कुत्ता ढूँढो",
     "answer": "D",
     "options": [
-      {
-        "key": "E",
-        "correct": false,
-        "emoji": "🐘"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "emoji": "🌙"
-      },
-      {
-        "key": "D",
-        "correct": true,
-        "emoji": "🐶"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      }
-    ]
+      "Z",
+      "O",
+      "A",
+      "D"
+    ],
+    "voiceEnglish": "Find the Dog",
+    "voiceHindi": "कुत्ता ढूँढो"
   },
   {
-    "id": "abc-letter-4",
+    "id": "abc_letter_d_004",
     "category": "abc",
     "english": "Find the letter D",
     "hindi": "अक्षर D ढूँढो",
-    "voiceEnglish": "Find the letter D. D for Dog",
-    "voiceHindi": "अक्षर D ढूँढो। D से कुत्ता",
     "answer": "D",
     "options": [
-      {
-        "key": "E",
-        "correct": false,
-        "text": "E"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      },
-      {
-        "key": "D",
-        "correct": true,
-        "text": "D"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "text": "M"
-      }
-    ]
+      "A",
+      "Z",
+      "O",
+      "D"
+    ],
+    "voiceEnglish": "Find the letter D",
+    "voiceHindi": "अक्षर D ढूँढो"
   },
   {
-    "id": "abc-word-5",
+    "id": "abc_word_e_005",
     "category": "abc",
-    "english": "Find the Elephant 🐘",
-    "hindi": "हाथी 🐘 ढूँढो",
-    "voiceEnglish": "Find the Elephant. E for Elephant",
-    "voiceHindi": "हाथी ढूँढो। E से हाथी",
+    "english": "Find the Elephant",
+    "hindi": "हाथी ढूँढो",
     "answer": "E",
     "options": [
-      {
-        "key": "I",
-        "correct": false,
-        "emoji": "🍦"
-      },
-      {
-        "key": "J",
-        "correct": false,
-        "emoji": "🫗"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "emoji": "🐰"
-      },
-      {
-        "key": "E",
-        "correct": true,
-        "emoji": "🐘"
-      }
-    ]
+      "E",
+      "M",
+      "U",
+      "S"
+    ],
+    "voiceEnglish": "Find the Elephant",
+    "voiceHindi": "हाथी ढूँढो"
   },
   {
-    "id": "abc-letter-5",
+    "id": "abc_letter_e_005",
     "category": "abc",
     "english": "Find the letter E",
     "hindi": "अक्षर E ढूँढो",
-    "voiceEnglish": "Find the letter E. E for Elephant",
-    "voiceHindi": "अक्षर E ढूँढो। E से हाथी",
     "answer": "E",
     "options": [
-      {
-        "key": "I",
-        "correct": false,
-        "text": "I"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "text": "R"
-      },
-      {
-        "key": "J",
-        "correct": false,
-        "text": "J"
-      },
-      {
-        "key": "E",
-        "correct": true,
-        "text": "E"
-      }
-    ]
+      "S",
+      "U",
+      "M",
+      "E"
+    ],
+    "voiceEnglish": "Find the letter E",
+    "voiceHindi": "अक्षर E ढूँढो"
   },
   {
-    "id": "abc-word-6",
+    "id": "abc_word_f_006",
     "category": "abc",
-    "english": "Find the Fish 🐟",
-    "hindi": "मछली 🐟 ढूँढो",
-    "voiceEnglish": "Find the Fish. F for Fish",
-    "voiceHindi": "मछली ढूँढो। F से मछली",
+    "english": "Find the Fish",
+    "hindi": "मछली ढूँढो",
     "answer": "F",
     "options": [
-      {
-        "key": "F",
-        "correct": true,
-        "emoji": "🐟"
-      },
-      {
-        "key": "C",
-        "correct": false,
-        "emoji": "🐱"
-      },
-      {
-        "key": "K",
-        "correct": false,
-        "emoji": "🪁"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      }
-    ]
+      "Q",
+      "I",
+      "F",
+      "B"
+    ],
+    "voiceEnglish": "Find the Fish",
+    "voiceHindi": "मछली ढूँढो"
   },
   {
-    "id": "abc-letter-6",
+    "id": "abc_letter_f_006",
     "category": "abc",
     "english": "Find the letter F",
     "hindi": "अक्षर F ढूँढो",
-    "voiceEnglish": "Find the letter F. F for Fish",
-    "voiceHindi": "अक्षर F ढूँढो। F से मछली",
     "answer": "F",
     "options": [
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      },
-      {
-        "key": "C",
-        "correct": false,
-        "text": "C"
-      },
-      {
-        "key": "F",
-        "correct": true,
-        "text": "F"
-      },
-      {
-        "key": "K",
-        "correct": false,
-        "text": "K"
-      }
-    ]
+      "Q",
+      "I",
+      "B",
+      "F"
+    ],
+    "voiceEnglish": "Find the letter F",
+    "voiceHindi": "अक्षर F ढूँढो"
   },
   {
-    "id": "abc-word-7",
+    "id": "abc_word_g_007",
     "category": "abc",
-    "english": "Find the Grapes 🍇",
-    "hindi": "अंगूर 🍇 ढूँढो",
-    "voiceEnglish": "Find the Grapes. G for Grapes",
-    "voiceHindi": "अंगूर ढूँढो। G से अंगूर",
+    "english": "Find the Grapes",
+    "hindi": "अंगूर ढूँढो",
     "answer": "G",
     "options": [
-      {
-        "key": "E",
-        "correct": false,
-        "emoji": "🐘"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      },
-      {
-        "key": "S",
-        "correct": false,
-        "emoji": "☀️"
-      },
-      {
-        "key": "G",
-        "correct": true,
-        "emoji": "🍇"
-      }
-    ]
+      "I",
+      "G",
+      "Y",
+      "Q"
+    ],
+    "voiceEnglish": "Find the Grapes",
+    "voiceHindi": "अंगूर ढूँढो"
   },
   {
-    "id": "abc-letter-7",
+    "id": "abc_letter_g_007",
     "category": "abc",
     "english": "Find the letter G",
     "hindi": "अक्षर G ढूँढो",
-    "voiceEnglish": "Find the letter G. G for Grapes",
-    "voiceHindi": "अक्षर G ढूँढो। G से अंगूर",
     "answer": "G",
     "options": [
-      {
-        "key": "E",
-        "correct": false,
-        "text": "E"
-      },
-      {
-        "key": "G",
-        "correct": true,
-        "text": "G"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      },
-      {
-        "key": "S",
-        "correct": false,
-        "text": "S"
-      }
-    ]
+      "Y",
+      "G",
+      "Q",
+      "I"
+    ],
+    "voiceEnglish": "Find the letter G",
+    "voiceHindi": "अक्षर G ढूँढो"
   },
   {
-    "id": "abc-word-8",
+    "id": "abc_word_h_008",
     "category": "abc",
-    "english": "Find the Hat 👒",
-    "hindi": "टोपी 👒 ढूँढो",
-    "voiceEnglish": "Find the Hat. H for Hat",
-    "voiceHindi": "टोपी ढूँढो। H से टोपी",
+    "english": "Find the Hat",
+    "hindi": "टोपी ढूँढो",
     "answer": "H",
     "options": [
-      {
-        "key": "M",
-        "correct": false,
-        "emoji": "🌙"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "D",
-        "correct": false,
-        "emoji": "🐶"
-      },
-      {
-        "key": "H",
-        "correct": true,
-        "emoji": "👒"
-      }
-    ]
+      "E",
+      "T",
+      "K",
+      "H"
+    ],
+    "voiceEnglish": "Find the Hat",
+    "voiceHindi": "टोपी ढूँढो"
   },
   {
-    "id": "abc-letter-8",
+    "id": "abc_letter_h_008",
     "category": "abc",
     "english": "Find the letter H",
     "hindi": "अक्षर H ढूँढो",
-    "voiceEnglish": "Find the letter H. H for Hat",
-    "voiceHindi": "अक्षर H ढूँढो। H से टोपी",
     "answer": "H",
     "options": [
-      {
-        "key": "D",
-        "correct": false,
-        "text": "D"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "text": "M"
-      },
-      {
-        "key": "H",
-        "correct": true,
-        "text": "H"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      }
-    ]
+      "E",
+      "K",
+      "H",
+      "T"
+    ],
+    "voiceEnglish": "Find the letter H",
+    "voiceHindi": "अक्षर H ढूँढो"
   },
   {
-    "id": "abc-word-9",
+    "id": "abc_word_i_009",
     "category": "abc",
-    "english": "Find the Ice cream 🍦",
-    "hindi": "आइसक्रीम 🍦 ढूँढो",
-    "voiceEnglish": "Find the Ice cream. I for Ice cream",
-    "voiceHindi": "आइसक्रीम ढूँढो। I से आइसक्रीम",
+    "english": "Find the Ice cream",
+    "hindi": "आइसक्रीम ढूँढो",
     "answer": "I",
     "options": [
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      },
-      {
-        "key": "Y",
-        "correct": false,
-        "emoji": "🪀"
-      },
-      {
-        "key": "I",
-        "correct": true,
-        "emoji": "🍦"
-      }
-    ]
+      "I",
+      "M",
+      "J",
+      "N"
+    ],
+    "voiceEnglish": "Find the Ice cream",
+    "voiceHindi": "आइसक्रीम ढूँढो"
   },
   {
-    "id": "abc-letter-9",
+    "id": "abc_letter_i_009",
     "category": "abc",
     "english": "Find the letter I",
     "hindi": "अक्षर I ढूँढो",
-    "voiceEnglish": "Find the letter I. I for Ice cream",
-    "voiceHindi": "अक्षर I ढूँढो। I से आइसक्रीम",
     "answer": "I",
     "options": [
-      {
-        "key": "I",
-        "correct": true,
-        "text": "I"
-      },
-      {
-        "key": "Y",
-        "correct": false,
-        "text": "Y"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      }
-    ]
+      "N",
+      "M",
+      "I",
+      "J"
+    ],
+    "voiceEnglish": "Find the letter I",
+    "voiceHindi": "अक्षर I ढूँढो"
   },
   {
-    "id": "abc-word-10",
+    "id": "abc_word_j_010",
     "category": "abc",
-    "english": "Find the Jug 🫗",
-    "hindi": "जग 🫗 ढूँढो",
-    "voiceEnglish": "Find the Jug. J for Jug",
-    "voiceHindi": "जग ढूँढो। J से जग",
+    "english": "Find the Jug",
+    "hindi": "जग ढूँढो",
     "answer": "J",
     "options": [
-      {
-        "key": "Q",
-        "correct": false,
-        "emoji": "👑"
-      },
-      {
-        "key": "N",
-        "correct": false,
-        "emoji": "🪺"
-      },
-      {
-        "key": "J",
-        "correct": true,
-        "emoji": "🫗"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      }
-    ]
+      "X",
+      "V",
+      "C",
+      "J"
+    ],
+    "voiceEnglish": "Find the Jug",
+    "voiceHindi": "जग ढूँढो"
   },
   {
-    "id": "abc-letter-10",
+    "id": "abc_letter_j_010",
     "category": "abc",
     "english": "Find the letter J",
     "hindi": "अक्षर J ढूँढो",
-    "voiceEnglish": "Find the letter J. J for Jug",
-    "voiceHindi": "अक्षर J ढूँढो। J से जग",
     "answer": "J",
     "options": [
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      },
-      {
-        "key": "J",
-        "correct": true,
-        "text": "J"
-      },
-      {
-        "key": "Q",
-        "correct": false,
-        "text": "Q"
-      },
-      {
-        "key": "N",
-        "correct": false,
-        "text": "N"
-      }
-    ]
+      "V",
+      "C",
+      "X",
+      "J"
+    ],
+    "voiceEnglish": "Find the letter J",
+    "voiceHindi": "अक्षर J ढूँढो"
   },
   {
-    "id": "abc-word-11",
+    "id": "abc_word_k_011",
     "category": "abc",
-    "english": "Find the Kite 🪁",
-    "hindi": "पतंग 🪁 ढूँढो",
-    "voiceEnglish": "Find the Kite. K for Kite",
-    "voiceHindi": "पतंग ढूँढो। K से पतंग",
+    "english": "Find the Kite",
+    "hindi": "पतंग ढूँढो",
     "answer": "K",
     "options": [
-      {
-        "key": "W",
-        "correct": false,
-        "emoji": "🍉"
-      },
-      {
-        "key": "X",
-        "correct": false,
-        "emoji": "🎹"
-      },
-      {
-        "key": "K",
-        "correct": true,
-        "emoji": "🪁"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      }
-    ]
+      "H",
+      "K",
+      "Y",
+      "L"
+    ],
+    "voiceEnglish": "Find the Kite",
+    "voiceHindi": "पतंग ढूँढो"
   },
   {
-    "id": "abc-letter-11",
+    "id": "abc_letter_k_011",
     "category": "abc",
     "english": "Find the letter K",
     "hindi": "अक्षर K ढूँढो",
-    "voiceEnglish": "Find the letter K. K for Kite",
-    "voiceHindi": "अक्षर K ढूँढो। K से पतंग",
     "answer": "K",
     "options": [
-      {
-        "key": "K",
-        "correct": true,
-        "text": "K"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      },
-      {
-        "key": "W",
-        "correct": false,
-        "text": "W"
-      },
-      {
-        "key": "X",
-        "correct": false,
-        "text": "X"
-      }
-    ]
+      "L",
+      "K",
+      "H",
+      "Y"
+    ],
+    "voiceEnglish": "Find the letter K",
+    "voiceHindi": "अक्षर K ढूँढो"
   },
   {
-    "id": "abc-word-12",
+    "id": "abc_word_l_012",
     "category": "abc",
-    "english": "Find the Lion 🦁",
-    "hindi": "शेर 🦁 ढूँढो",
-    "voiceEnglish": "Find the Lion. L for Lion",
-    "voiceHindi": "शेर ढूँढो। L से शेर",
+    "english": "Find the Lion",
+    "hindi": "शेर ढूँढो",
     "answer": "L",
     "options": [
-      {
-        "key": "Q",
-        "correct": false,
-        "emoji": "👑"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      },
-      {
-        "key": "L",
-        "correct": true,
-        "emoji": "🦁"
-      },
-      {
-        "key": "H",
-        "correct": false,
-        "emoji": "👒"
-      }
-    ]
+      "M",
+      "L",
+      "X",
+      "I"
+    ],
+    "voiceEnglish": "Find the Lion",
+    "voiceHindi": "शेर ढूँढो"
   },
   {
-    "id": "abc-letter-12",
+    "id": "abc_letter_l_012",
     "category": "abc",
     "english": "Find the letter L",
     "hindi": "अक्षर L ढूँढो",
-    "voiceEnglish": "Find the letter L. L for Lion",
-    "voiceHindi": "अक्षर L ढूँढो। L से शेर",
     "answer": "L",
     "options": [
-      {
-        "key": "Q",
-        "correct": false,
-        "text": "Q"
-      },
-      {
-        "key": "H",
-        "correct": false,
-        "text": "H"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      },
-      {
-        "key": "L",
-        "correct": true,
-        "text": "L"
-      }
-    ]
+      "L",
+      "I",
+      "M",
+      "X"
+    ],
+    "voiceEnglish": "Find the letter L",
+    "voiceHindi": "अक्षर L ढूँढो"
   },
   {
-    "id": "abc-word-13",
+    "id": "abc_word_m_013",
     "category": "abc",
-    "english": "Find the Moon 🌙",
-    "hindi": "चाँद 🌙 ढूँढो",
-    "voiceEnglish": "Find the Moon. M for Moon",
-    "voiceHindi": "चाँद ढूँढो। M से चाँद",
+    "english": "Find the Moon",
+    "hindi": "चाँद ढूँढो",
     "answer": "M",
     "options": [
-      {
-        "key": "C",
-        "correct": false,
-        "emoji": "🐱"
-      },
-      {
-        "key": "M",
-        "correct": true,
-        "emoji": "🌙"
-      },
-      {
-        "key": "J",
-        "correct": false,
-        "emoji": "🫗"
-      },
-      {
-        "key": "L",
-        "correct": false,
-        "emoji": "🦁"
-      }
-    ]
+      "I",
+      "D",
+      "M",
+      "Y"
+    ],
+    "voiceEnglish": "Find the Moon",
+    "voiceHindi": "चाँद ढूँढो"
   },
   {
-    "id": "abc-letter-13",
+    "id": "abc_letter_m_013",
     "category": "abc",
     "english": "Find the letter M",
     "hindi": "अक्षर M ढूँढो",
-    "voiceEnglish": "Find the letter M. M for Moon",
-    "voiceHindi": "अक्षर M ढूँढो। M से चाँद",
     "answer": "M",
     "options": [
-      {
-        "key": "C",
-        "correct": false,
-        "text": "C"
-      },
-      {
-        "key": "J",
-        "correct": false,
-        "text": "J"
-      },
-      {
-        "key": "M",
-        "correct": true,
-        "text": "M"
-      },
-      {
-        "key": "L",
-        "correct": false,
-        "text": "L"
-      }
-    ]
+      "M",
+      "I",
+      "D",
+      "Y"
+    ],
+    "voiceEnglish": "Find the letter M",
+    "voiceHindi": "अक्षर M ढूँढो"
   },
   {
-    "id": "abc-word-14",
+    "id": "abc_word_n_014",
     "category": "abc",
-    "english": "Find the Nest 🪺",
-    "hindi": "घोंसला 🪺 ढूँढो",
-    "voiceEnglish": "Find the Nest. N for Nest",
-    "voiceHindi": "घोंसला ढूँढो। N से घोंसला",
+    "english": "Find the Nest",
+    "hindi": "घोंसला ढूँढो",
     "answer": "N",
     "options": [
-      {
-        "key": "N",
-        "correct": true,
-        "emoji": "🪺"
-      },
-      {
-        "key": "S",
-        "correct": false,
-        "emoji": "☀️"
-      },
-      {
-        "key": "B",
-        "correct": false,
-        "emoji": "⚽"
-      },
-      {
-        "key": "I",
-        "correct": false,
-        "emoji": "🍦"
-      }
-    ]
+      "G",
+      "R",
+      "E",
+      "N"
+    ],
+    "voiceEnglish": "Find the Nest",
+    "voiceHindi": "घोंसला ढूँढो"
   },
   {
-    "id": "abc-letter-14",
+    "id": "abc_letter_n_014",
     "category": "abc",
     "english": "Find the letter N",
     "hindi": "अक्षर N ढूँढो",
-    "voiceEnglish": "Find the letter N. N for Nest",
-    "voiceHindi": "अक्षर N ढूँढो। N से घोंसला",
     "answer": "N",
     "options": [
-      {
-        "key": "I",
-        "correct": false,
-        "text": "I"
-      },
-      {
-        "key": "B",
-        "correct": false,
-        "text": "B"
-      },
-      {
-        "key": "S",
-        "correct": false,
-        "text": "S"
-      },
-      {
-        "key": "N",
-        "correct": true,
-        "text": "N"
-      }
-    ]
+      "N",
+      "E",
+      "R",
+      "G"
+    ],
+    "voiceEnglish": "Find the letter N",
+    "voiceHindi": "अक्षर N ढूँढो"
   },
   {
-    "id": "abc-word-15",
+    "id": "abc_word_o_015",
     "category": "abc",
-    "english": "Find the Orange 🍊",
-    "hindi": "संतरा 🍊 ढूँढो",
-    "voiceEnglish": "Find the Orange. O for Orange",
-    "voiceHindi": "संतरा ढूँढो। O से संतरा",
+    "english": "Find the Orange",
+    "hindi": "संतरा ढूँढो",
     "answer": "O",
     "options": [
-      {
-        "key": "Q",
-        "correct": false,
-        "emoji": "👑"
-      },
-      {
-        "key": "O",
-        "correct": true,
-        "emoji": "🍊"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      },
-      {
-        "key": "H",
-        "correct": false,
-        "emoji": "👒"
-      }
-    ]
+      "F",
+      "U",
+      "L",
+      "O"
+    ],
+    "voiceEnglish": "Find the Orange",
+    "voiceHindi": "संतरा ढूँढो"
   },
   {
-    "id": "abc-letter-15",
+    "id": "abc_letter_o_015",
     "category": "abc",
     "english": "Find the letter O",
     "hindi": "अक्षर O ढूँढो",
-    "voiceEnglish": "Find the letter O. O for Orange",
-    "voiceHindi": "अक्षर O ढूँढो। O से संतरा",
     "answer": "O",
     "options": [
-      {
-        "key": "Q",
-        "correct": false,
-        "text": "Q"
-      },
-      {
-        "key": "O",
-        "correct": true,
-        "text": "O"
-      },
-      {
-        "key": "H",
-        "correct": false,
-        "text": "H"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      }
-    ]
+      "U",
+      "F",
+      "O",
+      "L"
+    ],
+    "voiceEnglish": "Find the letter O",
+    "voiceHindi": "अक्षर O ढूँढो"
   },
   {
-    "id": "abc-word-16",
+    "id": "abc_word_p_016",
     "category": "abc",
-    "english": "Find the Panda 🐼",
-    "hindi": "पांडा 🐼 ढूँढो",
-    "voiceEnglish": "Find the Panda. P for Panda",
-    "voiceHindi": "पांडा ढूँढो। P से पांडा",
+    "english": "Find the Panda",
+    "hindi": "पांडा ढूँढो",
     "answer": "P",
     "options": [
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "D",
-        "correct": false,
-        "emoji": "🐶"
-      },
-      {
-        "key": "P",
-        "correct": true,
-        "emoji": "🐼"
-      },
-      {
-        "key": "V",
-        "correct": false,
-        "emoji": "🚐"
-      }
-    ]
+      "L",
+      "P",
+      "E",
+      "T"
+    ],
+    "voiceEnglish": "Find the Panda",
+    "voiceHindi": "पांडा ढूँढो"
   },
   {
-    "id": "abc-letter-16",
+    "id": "abc_letter_p_016",
     "category": "abc",
     "english": "Find the letter P",
     "hindi": "अक्षर P ढूँढो",
-    "voiceEnglish": "Find the letter P. P for Panda",
-    "voiceHindi": "अक्षर P ढूँढो। P से पांडा",
     "answer": "P",
     "options": [
-      {
-        "key": "P",
-        "correct": true,
-        "text": "P"
-      },
-      {
-        "key": "V",
-        "correct": false,
-        "text": "V"
-      },
-      {
-        "key": "D",
-        "correct": false,
-        "text": "D"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      }
-    ]
+      "L",
+      "T",
+      "P",
+      "E"
+    ],
+    "voiceEnglish": "Find the letter P",
+    "voiceHindi": "अक्षर P ढूँढो"
   },
   {
-    "id": "abc-word-17",
+    "id": "abc_word_q_017",
     "category": "abc",
-    "english": "Find the Queen 👑",
-    "hindi": "रानी 👑 ढूँढो",
-    "voiceEnglish": "Find the Queen. Q for Queen",
-    "voiceHindi": "रानी ढूँढो। Q से रानी",
+    "english": "Find the Queen",
+    "hindi": "रानी ढूँढो",
     "answer": "Q",
     "options": [
-      {
-        "key": "A",
-        "correct": false,
-        "emoji": "🍎"
-      },
-      {
-        "key": "E",
-        "correct": false,
-        "emoji": "🐘"
-      },
-      {
-        "key": "Q",
-        "correct": true,
-        "emoji": "👑"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      }
-    ]
+      "R",
+      "X",
+      "Y",
+      "Q"
+    ],
+    "voiceEnglish": "Find the Queen",
+    "voiceHindi": "रानी ढूँढो"
   },
   {
-    "id": "abc-letter-17",
+    "id": "abc_letter_q_017",
     "category": "abc",
     "english": "Find the letter Q",
     "hindi": "अक्षर Q ढूँढो",
-    "voiceEnglish": "Find the letter Q. Q for Queen",
-    "voiceHindi": "अक्षर Q ढूँढो। Q से रानी",
     "answer": "Q",
     "options": [
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      },
-      {
-        "key": "E",
-        "correct": false,
-        "text": "E"
-      },
-      {
-        "key": "Q",
-        "correct": true,
-        "text": "Q"
-      },
-      {
-        "key": "A",
-        "correct": false,
-        "text": "A"
-      }
-    ]
+      "Y",
+      "X",
+      "Q",
+      "R"
+    ],
+    "voiceEnglish": "Find the letter Q",
+    "voiceHindi": "अक्षर Q ढूँढो"
   },
   {
-    "id": "abc-word-18",
+    "id": "abc_word_r_018",
     "category": "abc",
-    "english": "Find the Rabbit 🐰",
-    "hindi": "खरगोश 🐰 ढूँढो",
-    "voiceEnglish": "Find the Rabbit. R for Rabbit",
-    "voiceHindi": "खरगोश ढूँढो। R से खरगोश",
+    "english": "Find the Rabbit",
+    "hindi": "खरगोश ढूँढो",
     "answer": "R",
     "options": [
-      {
-        "key": "S",
-        "correct": false,
-        "emoji": "☀️"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "R",
-        "correct": true,
-        "emoji": "🐰"
-      },
-      {
-        "key": "I",
-        "correct": false,
-        "emoji": "🍦"
-      }
-    ]
+      "W",
+      "M",
+      "R",
+      "Q"
+    ],
+    "voiceEnglish": "Find the Rabbit",
+    "voiceHindi": "खरगोश ढूँढो"
   },
   {
-    "id": "abc-letter-18",
+    "id": "abc_letter_r_018",
     "category": "abc",
     "english": "Find the letter R",
     "hindi": "अक्षर R ढूँढो",
-    "voiceEnglish": "Find the letter R. R for Rabbit",
-    "voiceHindi": "अक्षर R ढूँढो। R से खरगोश",
     "answer": "R",
     "options": [
-      {
-        "key": "S",
-        "correct": false,
-        "text": "S"
-      },
-      {
-        "key": "I",
-        "correct": false,
-        "text": "I"
-      },
-      {
-        "key": "R",
-        "correct": true,
-        "text": "R"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      }
-    ]
+      "W",
+      "Q",
+      "R",
+      "M"
+    ],
+    "voiceEnglish": "Find the letter R",
+    "voiceHindi": "अक्षर R ढूँढो"
   },
   {
-    "id": "abc-word-19",
+    "id": "abc_word_s_019",
     "category": "abc",
-    "english": "Find the Sun ☀️",
-    "hindi": "सूरज ☀️ ढूँढो",
-    "voiceEnglish": "Find the Sun. S for Sun",
-    "voiceHindi": "सूरज ढूँढो। S से सूरज",
+    "english": "Find the Sun",
+    "hindi": "सूरज ढूँढो",
     "answer": "S",
     "options": [
-      {
-        "key": "H",
-        "correct": false,
-        "emoji": "👒"
-      },
-      {
-        "key": "S",
-        "correct": true,
-        "emoji": "☀️"
-      },
-      {
-        "key": "W",
-        "correct": false,
-        "emoji": "🍉"
-      },
-      {
-        "key": "Z",
-        "correct": false,
-        "emoji": "🦓"
-      }
-    ]
+      "X",
+      "G",
+      "K",
+      "S"
+    ],
+    "voiceEnglish": "Find the Sun",
+    "voiceHindi": "सूरज ढूँढो"
   },
   {
-    "id": "abc-letter-19",
+    "id": "abc_letter_s_019",
     "category": "abc",
     "english": "Find the letter S",
     "hindi": "अक्षर S ढूँढो",
-    "voiceEnglish": "Find the letter S. S for Sun",
-    "voiceHindi": "अक्षर S ढूँढो। S से सूरज",
     "answer": "S",
     "options": [
-      {
-        "key": "H",
-        "correct": false,
-        "text": "H"
-      },
-      {
-        "key": "W",
-        "correct": false,
-        "text": "W"
-      },
-      {
-        "key": "Z",
-        "correct": false,
-        "text": "Z"
-      },
-      {
-        "key": "S",
-        "correct": true,
-        "text": "S"
-      }
-    ]
+      "G",
+      "X",
+      "K",
+      "S"
+    ],
+    "voiceEnglish": "Find the letter S",
+    "voiceHindi": "अक्षर S ढूँढो"
   },
   {
-    "id": "abc-word-20",
+    "id": "abc_word_t_020",
     "category": "abc",
-    "english": "Find the Train 🚂",
-    "hindi": "रेलगाड़ी 🚂 ढूँढो",
-    "voiceEnglish": "Find the Train. T for Train",
-    "voiceHindi": "रेलगाड़ी ढूँढो। T से रेलगाड़ी",
+    "english": "Find the Train",
+    "hindi": "रेलगाड़ी ढूँढो",
     "answer": "T",
     "options": [
-      {
-        "key": "D",
-        "correct": false,
-        "emoji": "🐶"
-      },
-      {
-        "key": "A",
-        "correct": false,
-        "emoji": "🍎"
-      },
-      {
-        "key": "T",
-        "correct": true,
-        "emoji": "🚂"
-      },
-      {
-        "key": "E",
-        "correct": false,
-        "emoji": "🐘"
-      }
-    ]
+      "T",
+      "F",
+      "Q",
+      "A"
+    ],
+    "voiceEnglish": "Find the Train",
+    "voiceHindi": "रेलगाड़ी ढूँढो"
   },
   {
-    "id": "abc-letter-20",
+    "id": "abc_letter_t_020",
     "category": "abc",
     "english": "Find the letter T",
     "hindi": "अक्षर T ढूँढो",
-    "voiceEnglish": "Find the letter T. T for Train",
-    "voiceHindi": "अक्षर T ढूँढो। T से रेलगाड़ी",
     "answer": "T",
     "options": [
-      {
-        "key": "T",
-        "correct": true,
-        "text": "T"
-      },
-      {
-        "key": "A",
-        "correct": false,
-        "text": "A"
-      },
-      {
-        "key": "E",
-        "correct": false,
-        "text": "E"
-      },
-      {
-        "key": "D",
-        "correct": false,
-        "text": "D"
-      }
-    ]
+      "T",
+      "F",
+      "A",
+      "Q"
+    ],
+    "voiceEnglish": "Find the letter T",
+    "voiceHindi": "अक्षर T ढूँढो"
   },
   {
-    "id": "abc-word-21",
+    "id": "abc_word_u_021",
     "category": "abc",
-    "english": "Find the Umbrella ☂️",
-    "hindi": "छतरी ☂️ ढूँढो",
-    "voiceEnglish": "Find the Umbrella. U for Umbrella",
-    "voiceHindi": "छतरी ढूँढो। U से छतरी",
+    "english": "Find the Umbrella",
+    "hindi": "छतरी ढूँढो",
     "answer": "U",
     "options": [
-      {
-        "key": "U",
-        "correct": true,
-        "emoji": "☂️"
-      },
-      {
-        "key": "V",
-        "correct": false,
-        "emoji": "🚐"
-      },
-      {
-        "key": "D",
-        "correct": false,
-        "emoji": "🐶"
-      },
-      {
-        "key": "E",
-        "correct": false,
-        "emoji": "🐘"
-      }
-    ]
+      "A",
+      "Q",
+      "G",
+      "U"
+    ],
+    "voiceEnglish": "Find the Umbrella",
+    "voiceHindi": "छतरी ढूँढो"
   },
   {
-    "id": "abc-letter-21",
+    "id": "abc_letter_u_021",
     "category": "abc",
     "english": "Find the letter U",
     "hindi": "अक्षर U ढूँढो",
-    "voiceEnglish": "Find the letter U. U for Umbrella",
-    "voiceHindi": "अक्षर U ढूँढो। U से छतरी",
     "answer": "U",
     "options": [
-      {
-        "key": "U",
-        "correct": true,
-        "text": "U"
-      },
-      {
-        "key": "V",
-        "correct": false,
-        "text": "V"
-      },
-      {
-        "key": "E",
-        "correct": false,
-        "text": "E"
-      },
-      {
-        "key": "D",
-        "correct": false,
-        "text": "D"
-      }
-    ]
+      "A",
+      "Q",
+      "U",
+      "G"
+    ],
+    "voiceEnglish": "Find the letter U",
+    "voiceHindi": "अक्षर U ढूँढो"
   },
   {
-    "id": "abc-word-22",
+    "id": "abc_word_v_022",
     "category": "abc",
-    "english": "Find the Van 🚐",
-    "hindi": "वैन 🚐 ढूँढो",
-    "voiceEnglish": "Find the Van. V for Van",
-    "voiceHindi": "वैन ढूँढो। V से वैन",
+    "english": "Find the Van",
+    "hindi": "वैन ढूँढो",
     "answer": "V",
     "options": [
-      {
-        "key": "C",
-        "correct": false,
-        "emoji": "🐱"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      },
-      {
-        "key": "V",
-        "correct": true,
-        "emoji": "🚐"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      }
-    ]
+      "O",
+      "N",
+      "V",
+      "T"
+    ],
+    "voiceEnglish": "Find the Van",
+    "voiceHindi": "वैन ढूँढो"
   },
   {
-    "id": "abc-letter-22",
+    "id": "abc_letter_v_022",
     "category": "abc",
     "english": "Find the letter V",
     "hindi": "अक्षर V ढूँढो",
-    "voiceEnglish": "Find the letter V. V for Van",
-    "voiceHindi": "अक्षर V ढूँढो। V से वैन",
     "answer": "V",
     "options": [
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      },
-      {
-        "key": "C",
-        "correct": false,
-        "text": "C"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      },
-      {
-        "key": "V",
-        "correct": true,
-        "text": "V"
-      }
-    ]
+      "N",
+      "O",
+      "T",
+      "V"
+    ],
+    "voiceEnglish": "Find the letter V",
+    "voiceHindi": "अक्षर V ढूँढो"
   },
   {
-    "id": "abc-word-23",
+    "id": "abc_word_w_023",
     "category": "abc",
-    "english": "Find the Watermelon 🍉",
-    "hindi": "तरबूज़ 🍉 ढूँढो",
-    "voiceEnglish": "Find the Watermelon. W for Watermelon",
-    "voiceHindi": "तरबूज़ ढूँढो। W से तरबूज़",
+    "english": "Find the Watermelon",
+    "hindi": "तरबूज़ ढूँढो",
     "answer": "W",
     "options": [
-      {
-        "key": "W",
-        "correct": true,
-        "emoji": "🍉"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "emoji": "🐰"
-      },
-      {
-        "key": "N",
-        "correct": false,
-        "emoji": "🪺"
-      },
-      {
-        "key": "L",
-        "correct": false,
-        "emoji": "🦁"
-      }
-    ]
+      "B",
+      "W",
+      "S",
+      "P"
+    ],
+    "voiceEnglish": "Find the Watermelon",
+    "voiceHindi": "तरबूज़ ढूँढो"
   },
   {
-    "id": "abc-letter-23",
+    "id": "abc_letter_w_023",
     "category": "abc",
     "english": "Find the letter W",
     "hindi": "अक्षर W ढूँढो",
-    "voiceEnglish": "Find the letter W. W for Watermelon",
-    "voiceHindi": "अक्षर W ढूँढो। W से तरबूज़",
     "answer": "W",
     "options": [
-      {
-        "key": "L",
-        "correct": false,
-        "text": "L"
-      },
-      {
-        "key": "N",
-        "correct": false,
-        "text": "N"
-      },
-      {
-        "key": "R",
-        "correct": false,
-        "text": "R"
-      },
-      {
-        "key": "W",
-        "correct": true,
-        "text": "W"
-      }
-    ]
+      "P",
+      "B",
+      "W",
+      "S"
+    ],
+    "voiceEnglish": "Find the letter W",
+    "voiceHindi": "अक्षर W ढूँढो"
   },
   {
-    "id": "abc-word-24",
+    "id": "abc_word_x_024",
     "category": "abc",
-    "english": "Find the Xylophone 🎹",
-    "hindi": "बाजा 🎹 ढूँढो",
-    "voiceEnglish": "Find the Xylophone. X for Xylophone",
-    "voiceHindi": "बाजा ढूँढो। X से बाजा",
+    "english": "Find the Xylophone",
+    "hindi": "बाजा ढूँढो",
     "answer": "X",
     "options": [
-      {
-        "key": "X",
-        "correct": true,
-        "emoji": "🎹"
-      },
-      {
-        "key": "Q",
-        "correct": false,
-        "emoji": "👑"
-      },
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      },
-      {
-        "key": "T",
-        "correct": false,
-        "emoji": "🚂"
-      }
-    ]
+      "T",
+      "J",
+      "X",
+      "F"
+    ],
+    "voiceEnglish": "Find the Xylophone",
+    "voiceHindi": "बाजा ढूँढो"
   },
   {
-    "id": "abc-letter-24",
+    "id": "abc_letter_x_024",
     "category": "abc",
     "english": "Find the letter X",
     "hindi": "अक्षर X ढूँढो",
-    "voiceEnglish": "Find the letter X. X for Xylophone",
-    "voiceHindi": "अक्षर X ढूँढो। X से बाजा",
     "answer": "X",
     "options": [
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      },
-      {
-        "key": "T",
-        "correct": false,
-        "text": "T"
-      },
-      {
-        "key": "X",
-        "correct": true,
-        "text": "X"
-      },
-      {
-        "key": "Q",
-        "correct": false,
-        "text": "Q"
-      }
-    ]
+      "F",
+      "T",
+      "X",
+      "J"
+    ],
+    "voiceEnglish": "Find the letter X",
+    "voiceHindi": "अक्षर X ढूँढो"
   },
   {
-    "id": "abc-word-25",
+    "id": "abc_word_y_025",
     "category": "abc",
-    "english": "Find the Yo-yo 🪀",
-    "hindi": "यो-यो 🪀 ढूँढो",
-    "voiceEnglish": "Find the Yo-yo. Y for Yo-yo",
-    "voiceHindi": "यो-यो ढूँढो। Y से यो-यो",
+    "english": "Find the Yo-yo",
+    "hindi": "यो-यो ढूँढो",
     "answer": "Y",
     "options": [
-      {
-        "key": "P",
-        "correct": false,
-        "emoji": "🐼"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "emoji": "🌙"
-      },
-      {
-        "key": "Y",
-        "correct": true,
-        "emoji": "🪀"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "emoji": "☂️"
-      }
-    ]
+      "I",
+      "Y",
+      "Z",
+      "X"
+    ],
+    "voiceEnglish": "Find the Yo-yo",
+    "voiceHindi": "यो-यो ढूँढो"
   },
   {
-    "id": "abc-letter-25",
+    "id": "abc_letter_y_025",
     "category": "abc",
     "english": "Find the letter Y",
     "hindi": "अक्षर Y ढूँढो",
-    "voiceEnglish": "Find the letter Y. Y for Yo-yo",
-    "voiceHindi": "अक्षर Y ढूँढो। Y से यो-यो",
     "answer": "Y",
     "options": [
-      {
-        "key": "P",
-        "correct": false,
-        "text": "P"
-      },
-      {
-        "key": "Y",
-        "correct": true,
-        "text": "Y"
-      },
-      {
-        "key": "M",
-        "correct": false,
-        "text": "M"
-      },
-      {
-        "key": "U",
-        "correct": false,
-        "text": "U"
-      }
-    ]
+      "Z",
+      "Y",
+      "I",
+      "X"
+    ],
+    "voiceEnglish": "Find the letter Y",
+    "voiceHindi": "अक्षर Y ढूँढो"
   },
   {
-    "id": "abc-word-26",
+    "id": "abc_word_z_026",
     "category": "abc",
-    "english": "Find the Zebra 🦓",
-    "hindi": "ज़ेबरा 🦓 ढूँढो",
-    "voiceEnglish": "Find the Zebra. Z for Zebra",
-    "voiceHindi": "ज़ेबरा ढूँढो। Z से ज़ेबरा",
+    "english": "Find the Zebra",
+    "hindi": "ज़ेबरा ढूँढो",
     "answer": "Z",
     "options": [
-      {
-        "key": "S",
-        "correct": false,
-        "emoji": "☀️"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "Z",
-        "correct": true,
-        "emoji": "🦓"
-      },
-      {
-        "key": "C",
-        "correct": false,
-        "emoji": "🐱"
-      }
-    ]
+      "V",
+      "Z",
+      "M",
+      "B"
+    ],
+    "voiceEnglish": "Find the Zebra",
+    "voiceHindi": "ज़ेबरा ढूँढो"
   },
   {
-    "id": "abc-letter-26",
+    "id": "abc_letter_z_026",
     "category": "abc",
     "english": "Find the letter Z",
     "hindi": "अक्षर Z ढूँढो",
-    "voiceEnglish": "Find the letter Z. Z for Zebra",
-    "voiceHindi": "अक्षर Z ढूँढो। Z से ज़ेबरा",
     "answer": "Z",
     "options": [
-      {
-        "key": "C",
-        "correct": false,
-        "text": "C"
-      },
-      {
-        "key": "Z",
-        "correct": true,
-        "text": "Z"
-      },
-      {
-        "key": "O",
-        "correct": false,
-        "text": "O"
-      },
-      {
-        "key": "S",
-        "correct": false,
-        "text": "S"
-      }
-    ]
+      "B",
+      "V",
+      "Z",
+      "M"
+    ],
+    "voiceEnglish": "Find the letter Z",
+    "voiceHindi": "अक्षर Z ढूँढो"
   }
 ]

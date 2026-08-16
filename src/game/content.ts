@@ -37,7 +37,7 @@ function randomOf<T>(pool: readonly T[]): T {
 export const COLORS = [
   { name: "Red", hi: "लाल", hex: "#ef4444", family: "warm" },
   { name: "Pink", hi: "गुलाबी", hex: "#ec4899", family: "warm" },
-  { name: "Orange", hi: "नारंगी", hex: "#f97316", family: "warm" },
+  { name: "Orange", hi: "संतरा", hex: "#f97316", family: "warm" },
   { name: "Yellow", hi: "पीला", hex: "#facc15", family: "warm" },
   { name: "Green", hi: "हरा", hex: "#22c55e", family: "cool" },
   { name: "Blue", hi: "नीला", hex: "#3b82f6", family: "cool" },
@@ -369,7 +369,7 @@ interface JSONQuestion {
   voiceEnglish: string;
   voiceHindi: string;
   answer: string;
-  options: GameOption[];
+  options: string[];
 }
 
 export function buildRound(categoryId: string, levelIndex: number): Question[] {
@@ -397,7 +397,8 @@ export function buildRound(categoryId: string, levelIndex: number): Question[] {
     } else if (categoryId === "numbers") {
       pool = pool.filter(q => {
         const num = Number(q.answer);
-        return isNaN(num) ? q.options[0].groupCount! <= 5 : num <= 5;
+        const firstOptionVal = Number(q.options[0]);
+        return isNaN(num) ? firstOptionVal <= 5 : num <= 5;
       });
     } else if (categoryId === "colors") {
       const earlyColors = ["Red", "Pink", "Orange", "Yellow", "Green", "Blue"];
@@ -408,16 +409,78 @@ export function buildRound(categoryId: string, levelIndex: number): Question[] {
   // Shuffle and take level.questions
   const selected = shuffle(pool).slice(0, level.questions);
 
-  return selected.map(q => ({
-    id: q.id,
-    prompt: q.english,
-    speak: q.voiceEnglish,
-    hint: `Look for the ${q.answer}!`,
-    promptHi: q.hindi,
-    speakHi: q.voiceHindi,
-    hintHi: `${q.answer} ढूँढो!`,
-    options: q.options,
-  }));
+  return selected.map(q => {
+    // Determine number count mode
+    const isCount = q.id.includes("count") || q.english.toLowerCase().includes("count");
+    
+    const mappedOptions: GameOption[] = q.options.map(optKey => {
+      const correct = optKey === q.answer;
+      switch (categoryId) {
+        case "colors": {
+          const match = COLORS.find(c => c.name === optKey);
+          return { key: optKey, correct, color: match?.hex ?? "#cccccc" };
+        }
+        case "abc": {
+          const match = ALPHABET.find(a => a.letter === optKey);
+          return { key: optKey, correct, emoji: match?.emoji ?? "🔤", text: optKey };
+        }
+        case "numbers": {
+          if (isCount) {
+            return { key: optKey, correct, groupEmoji: "⭐", groupCount: Number(optKey) };
+          }
+          return { key: optKey, correct, text: optKey };
+        }
+        case "animals": {
+          const match = ANIMALS.find(a => a.name === optKey);
+          return { key: optKey, correct, emoji: match?.emoji ?? "🐶" };
+        }
+        case "fruits": {
+          const match = FRUITS.find(f => f.name === optKey);
+          return { key: optKey, correct, emoji: match?.emoji ?? "🍎" };
+        }
+        case "vehicles": {
+          const match = VEHICLES.find(v => v.name === optKey);
+          return { key: optKey, correct, emoji: match?.emoji ?? "🚗" };
+        }
+        case "birds": {
+          const match = BIRDS.find(b => b.name === optKey);
+          return { key: optKey, correct, emoji: match?.emoji ?? "🦅" };
+        }
+        case "body": {
+          const match = BODY.find(b => b.name === optKey);
+          return { key: optKey, correct, emoji: match?.emoji ?? "🖐️" };
+        }
+        case "shapes": {
+          const shapeMap: Record<string, ShapeName> = {
+            Circle: "circle",
+            Square: "square",
+            Triangle: "triangle",
+            Rectangle: "rectangle",
+            Star: "star",
+            Heart: "heart",
+            Oval: "oval",
+            Diamond: "diamond",
+          };
+          const colorsList = ["#ef4444", "#3b82f6", "#22c55e", "#facc15", "#a855f7", "#ec4899", "#f97316"];
+          const shapeColor = colorsList[Math.floor(Math.random() * colorsList.length)]!;
+          return { key: optKey, correct, shape: shapeMap[optKey] ?? "circle", shapeColor };
+        }
+        default:
+          return { key: optKey, correct };
+      }
+    });
+
+    return {
+      id: q.id,
+      prompt: q.english,
+      speak: q.voiceEnglish,
+      hint: `Look for the ${q.answer}!`,
+      promptHi: q.hindi,
+      speakHi: q.voiceHindi,
+      hintHi: `${q.answer} ढूँढो!`,
+      options: mappedOptions,
+    };
+  });
 }
 
 /** Emoji deck used by the matching game. */

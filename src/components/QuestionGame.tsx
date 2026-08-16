@@ -97,30 +97,30 @@ export function QuestionGame({
     const success = rewardEarned || !adManager.enabled;
 
     if (success) {
-      const hintTypes = ["removeOptions", "highlightCorrect", "showVisualClue", "voiceHint"];
-      const chosenType = hintTypes[Math.floor(Math.random() * hintTypes.length)];
       const correctOption = question.options.find(o => o.correct);
 
-      if (chosenType === "removeOptions") {
-        const incorrects = question.options.filter(o => !o.correct);
-        const toDisable = shuffle(incorrects).slice(0, 2);
-        const nextDisabled: Record<string, boolean> = {};
-        toDisable.forEach(o => {
-          nextDisabled[o.key] = true;
-        });
-        setDisabledOptions(nextDisabled);
-      } else if (chosenType === "highlightCorrect") {
-        if (correctOption) {
-          setHighlightedOptions({ [correctOption.key]: true });
-          later(() => {
-            setHighlightedOptions({});
-          }, 3000);
-        }
-      } else if (chosenType === "showVisualClue") {
-        setShowHint(true);
-      } else if (chosenType === "voiceHint") {
-        sound.sayBilingual(question.hint, question.hintHi);
+      // 1. Remove two wrong answers
+      const incorrects = question.options.filter(o => !o.correct);
+      const toDisable = shuffle(incorrects).slice(0, 2);
+      const nextDisabled: Record<string, boolean> = {};
+      toDisable.forEach(o => {
+        nextDisabled[o.key] = true;
+      });
+      setDisabledOptions(nextDisabled);
+
+      // 2. Highlight correct answer for 3 seconds
+      if (correctOption) {
+        setHighlightedOptions({ [correctOption.key]: true });
+        later(() => {
+          setHighlightedOptions({});
+        }, 3000);
       }
+
+      // 3. Visual hint
+      setShowHint(true);
+
+      // 4. Voice hint
+      sound.sayBilingual(question.hint, question.hintHi);
     }
   };
 
@@ -181,12 +181,7 @@ export function QuestionGame({
         <div className="glass-card mx-4 mt-3 flex items-center gap-3 px-4 py-4">
           <Mascot size={64} float={false} />
           <p className="min-w-0 flex-1 font-display text-2xl leading-snug text-secondary-foreground">
-            {lang !== "hi" && <span className="block">{question.prompt}</span>}
-            {lang !== "en" && (
-              <span className={`block ${lang === "both" ? "text-xl text-muted-foreground" : ""}`}>
-                {question.promptHi}
-              </span>
-            )}
+            {lang === "hi" ? question.promptHi : question.prompt}
           </p>
           <div className="flex gap-2 shrink-0">
             <button

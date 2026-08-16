@@ -62,10 +62,28 @@ class AdManager {
   private admob: AdMobPlugin | null = null;
   private interstitialReady = false;
   private rewardedReady = false;
+  private adsConfig = {
+    interstitial: AD_CONFIG.INTERSTITIAL_ID,
+    rewarded: AD_CONFIG.REWARDED_ID,
+  };
 
   /** Call once at app startup */
   async initialize(): Promise<void> {
     if (this.initialized) return;
+    
+    // Fetch remote ads config
+    try {
+      const res = await fetch("https://kids.vistora.workers.dev/api/ads.json");
+      const data = await res.json();
+      if (data && data.interstitial && data.rewarded) {
+        this.adsConfig.interstitial = data.interstitial;
+        this.adsConfig.rewarded = data.rewarded;
+        console.info("[AdManager] Remote ad unit IDs loaded");
+      }
+    } catch {
+      /* fallback to local defaults */
+    }
+
     this.admob = await getAdMobPlugin();
     if (!this.admob) {
       console.info("[AdManager] Running in web mode — ads disabled");
@@ -93,7 +111,7 @@ class AdManager {
     if (!this.admob) return;
     try {
       await this.admob.prepareInterstitial({
-        adId: AD_CONFIG.INTERSTITIAL_ID,
+        adId: this.adsConfig.interstitial,
         isTesting: true,
       });
       this.interstitialReady = true;
@@ -128,7 +146,7 @@ class AdManager {
     if (!this.admob) return;
     try {
       await this.admob.prepareRewardVideoAd({
-        adId: AD_CONFIG.REWARDED_ID,
+        adId: this.adsConfig.rewarded,
         isTesting: true,
       });
       this.rewardedReady = true;

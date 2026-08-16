@@ -1,0 +1,2540 @@
+{
+  "colors": [
+    {
+      "id": "color_red_001",
+      "category": "colors",
+      "english": "Find the Red color",
+      "hindi": "लाल रंग ढूँढो",
+      "answer": "Red",
+      "options": [
+        "Brown",
+        "White",
+        "Black",
+        "Red"
+      ],
+      "voiceEnglish": "Find the Red color",
+      "voiceHindi": "लाल रंग ढूँढो"
+    },
+    {
+      "id": "color_pink_002",
+      "category": "colors",
+      "english": "Find the Pink color",
+      "hindi": "गुलाबी रंग ढूँढो",
+      "answer": "Pink",
+      "options": [
+        "Green",
+        "Blue",
+        "Yellow",
+        "Pink"
+      ],
+      "voiceEnglish": "Find the Pink color",
+      "voiceHindi": "गुलाबी रंग ढूँढो"
+    },
+    {
+      "id": "color_orange_003",
+      "category": "colors",
+      "english": "Find the Orange color",
+      "hindi": "संतरा रंग ढूँढो",
+      "answer": "Orange",
+      "options": [
+        "Blue",
+        "Orange",
+        "White",
+        "Green"
+      ],
+      "voiceEnglish": "Find the Orange color",
+      "voiceHindi": "संतरा रंग ढूँढो"
+    },
+    {
+      "id": "color_yellow_004",
+      "category": "colors",
+      "english": "Find the Yellow color",
+      "hindi": "पीला रंग ढूँढो",
+      "answer": "Yellow",
+      "options": [
+        "Orange",
+        "White",
+        "Purple",
+        "Yellow"
+      ],
+      "voiceEnglish": "Find the Yellow color",
+      "voiceHindi": "पीला रंग ढूँढो"
+    },
+    {
+      "id": "color_green_005",
+      "category": "colors",
+      "english": "Find the Green color",
+      "hindi": "हरा रंग ढूँढो",
+      "answer": "Green",
+      "options": [
+        "Blue",
+        "Green",
+        "Yellow",
+        "Red"
+      ],
+      "voiceEnglish": "Find the Green color",
+      "voiceHindi": "हरा रंग ढूँढो"
+    },
+    {
+      "id": "color_blue_006",
+      "category": "colors",
+      "english": "Find the Blue color",
+      "hindi": "नीला रंग ढूँढो",
+      "answer": "Blue",
+      "options": [
+        "Orange",
+        "Yellow",
+        "Blue",
+        "White"
+      ],
+      "voiceEnglish": "Find the Blue color",
+      "voiceHindi": "नीला रंग ढूँढो"
+    },
+    {
+      "id": "color_purple_007",
+      "category": "colors",
+      "english": "Find the Purple color",
+      "hindi": "बैंगनी रंग ढूँढो",
+      "answer": "Purple",
+      "options": [
+        "Brown",
+        "Yellow",
+        "Green",
+        "Purple"
+      ],
+      "voiceEnglish": "Find the Purple color",
+      "voiceHindi": "बैंगनी रंग ढूँढो"
+    },
+    {
+      "id": "color_brown_008",
+      "category": "colors",
+      "english": "Find the Brown color",
+      "hindi": "भूरा रंग ढूँढो",
+      "answer": "Brown",
+      "options": [
+        "Orange",
+        "Pink",
+        "Brown",
+        "Yellow"
+      ],
+      "voiceEnglish": "Find the Brown color",
+      "voiceHindi": "भूरा रंग ढूँढो"
+    },
+    {
+      "id": "color_black_009",
+      "category": "colors",
+      "english": "Find the Black color",
+      "hindi": "काला रंग ढूँढो",
+      "answer": "Black",
+      "options": [
+        "Blue",
+        "Pink",
+        "Purple",
+        "Black"
+      ],
+      "voiceEnglish": "Find the Black color",
+      "voiceHindi": "काला रंग ढूँढो"
+    },
+    {
+      "id": "color_white_010",
+      "category": "colors",
+      "english": "Find the White color",
+      "hindi": "सफ़ेद रंग ढूँढो",
+      "answer": "White",
+      "options": [
+        "Purple",
+        "White",
+        "Brown",
+        "Green"
+      ],
+      "voiceEnglish": "Find the White color",
+      "voiceHindi": "सफ़ेद रंग ढूँढो"
+    }
+  ],
+  "abc": [
+    {
+      "id": "abc_word_a_001",
+      "category": "abc",
+      "english": "Find the Apple",
+      "hindi": "सेब ढूँढो",
+      "answer": "A",
+      "options": [
+        "U",
+        "A",
+        "P",
+        "F"
+      ],
+      "voiceEnglish": "Find the Apple",
+      "voiceHindi": "सेब ढूँढो"
+    },
+    {
+      "id": "abc_letter_a_001",
+      "category": "abc",
+      "english": "Find the letter A",
+      "hindi": "अक्षर A ढूँढो",
+      "answer": "A",
+      "options": [
+        "A",
+        "U",
+        "F",
+        "P"
+      ],
+      "voiceEnglish": "Find the letter A",
+      "voiceHindi": "अक्षर A ढूँढो"
+    },
+    {
+      "id": "abc_word_b_002",
+      "category": "abc",
+      "english": "Find the Ball",
+      "hindi": "गेंद ढूँढो",
+      "answer": "B",
+      "options": [
+        "D",
+        "K",
+        "W",
+        "B"
+      ],
+      "voiceEnglish": "Find the Ball",
+      "voiceHindi": "गेंद ढूँढो"
+    },
+    {
+      "id": "abc_letter_b_002",
+      "category": "abc",
+      "english": "Find the letter B",
+      "hindi": "अक्षर B ढूँढो",
+      "answer": "B",
+      "options": [
+        "K",
+        "B",
+        "D",
+        "W"
+      ],
+      "voiceEnglish": "Find the letter B",
+      "voiceHindi": "अक्षर B ढूँढो"
+    },
+    {
+      "id": "abc_word_c_003",
+      "category": "abc",
+      "english": "Find the Cat",
+      "hindi": "बिल्ली ढूँढो",
+      "answer": "C",
+      "options": [
+        "R",
+        "H",
+        "B",
+        "C"
+      ],
+      "voiceEnglish": "Find the Cat",
+      "voiceHindi": "बिल्ली ढूँढो"
+    },
+    {
+      "id": "abc_letter_c_003",
+      "category": "abc",
+      "english": "Find the letter C",
+      "hindi": "अक्षर C ढूँढो",
+      "answer": "C",
+      "options": [
+        "C",
+        "R",
+        "H",
+        "B"
+      ],
+      "voiceEnglish": "Find the letter C",
+      "voiceHindi": "अक्षर C ढूँढो"
+    },
+    {
+      "id": "abc_word_d_004",
+      "category": "abc",
+      "english": "Find the Dog",
+      "hindi": "कुत्ता ढूँढो",
+      "answer": "D",
+      "options": [
+        "Z",
+        "O",
+        "A",
+        "D"
+      ],
+      "voiceEnglish": "Find the Dog",
+      "voiceHindi": "कुत्ता ढूँढो"
+    },
+    {
+      "id": "abc_letter_d_004",
+      "category": "abc",
+      "english": "Find the letter D",
+      "hindi": "अक्षर D ढूँढो",
+      "answer": "D",
+      "options": [
+        "A",
+        "Z",
+        "O",
+        "D"
+      ],
+      "voiceEnglish": "Find the letter D",
+      "voiceHindi": "अक्षर D ढूँढो"
+    },
+    {
+      "id": "abc_word_e_005",
+      "category": "abc",
+      "english": "Find the Elephant",
+      "hindi": "हाथी ढूँढो",
+      "answer": "E",
+      "options": [
+        "E",
+        "M",
+        "U",
+        "S"
+      ],
+      "voiceEnglish": "Find the Elephant",
+      "voiceHindi": "हाथी ढूँढो"
+    },
+    {
+      "id": "abc_letter_e_005",
+      "category": "abc",
+      "english": "Find the letter E",
+      "hindi": "अक्षर E ढूँढो",
+      "answer": "E",
+      "options": [
+        "S",
+        "U",
+        "M",
+        "E"
+      ],
+      "voiceEnglish": "Find the letter E",
+      "voiceHindi": "अक्षर E ढूँढो"
+    },
+    {
+      "id": "abc_word_f_006",
+      "category": "abc",
+      "english": "Find the Fish",
+      "hindi": "मछली ढूँढो",
+      "answer": "F",
+      "options": [
+        "Q",
+        "I",
+        "F",
+        "B"
+      ],
+      "voiceEnglish": "Find the Fish",
+      "voiceHindi": "मछली ढूँढो"
+    },
+    {
+      "id": "abc_letter_f_006",
+      "category": "abc",
+      "english": "Find the letter F",
+      "hindi": "अक्षर F ढूँढो",
+      "answer": "F",
+      "options": [
+        "Q",
+        "I",
+        "B",
+        "F"
+      ],
+      "voiceEnglish": "Find the letter F",
+      "voiceHindi": "अक्षर F ढूँढो"
+    },
+    {
+      "id": "abc_word_g_007",
+      "category": "abc",
+      "english": "Find the Grapes",
+      "hindi": "अंगूर ढूँढो",
+      "answer": "G",
+      "options": [
+        "I",
+        "G",
+        "Y",
+        "Q"
+      ],
+      "voiceEnglish": "Find the Grapes",
+      "voiceHindi": "अंगूर ढूँढो"
+    },
+    {
+      "id": "abc_letter_g_007",
+      "category": "abc",
+      "english": "Find the letter G",
+      "hindi": "अक्षर G ढूँढो",
+      "answer": "G",
+      "options": [
+        "Y",
+        "G",
+        "Q",
+        "I"
+      ],
+      "voiceEnglish": "Find the letter G",
+      "voiceHindi": "अक्षर G ढूँढो"
+    },
+    {
+      "id": "abc_word_h_008",
+      "category": "abc",
+      "english": "Find the Hat",
+      "hindi": "टोपी ढूँढो",
+      "answer": "H",
+      "options": [
+        "E",
+        "T",
+        "K",
+        "H"
+      ],
+      "voiceEnglish": "Find the Hat",
+      "voiceHindi": "टोपी ढूँढो"
+    },
+    {
+      "id": "abc_letter_h_008",
+      "category": "abc",
+      "english": "Find the letter H",
+      "hindi": "अक्षर H ढूँढो",
+      "answer": "H",
+      "options": [
+        "E",
+        "K",
+        "H",
+        "T"
+      ],
+      "voiceEnglish": "Find the letter H",
+      "voiceHindi": "अक्षर H ढूँढो"
+    },
+    {
+      "id": "abc_word_i_009",
+      "category": "abc",
+      "english": "Find the Ice cream",
+      "hindi": "आइसक्रीम ढूँढो",
+      "answer": "I",
+      "options": [
+        "I",
+        "M",
+        "J",
+        "N"
+      ],
+      "voiceEnglish": "Find the Ice cream",
+      "voiceHindi": "आइसक्रीम ढूँढो"
+    },
+    {
+      "id": "abc_letter_i_009",
+      "category": "abc",
+      "english": "Find the letter I",
+      "hindi": "अक्षर I ढूँढो",
+      "answer": "I",
+      "options": [
+        "N",
+        "M",
+        "I",
+        "J"
+      ],
+      "voiceEnglish": "Find the letter I",
+      "voiceHindi": "अक्षर I ढूँढो"
+    },
+    {
+      "id": "abc_word_j_010",
+      "category": "abc",
+      "english": "Find the Jug",
+      "hindi": "जग ढूँढो",
+      "answer": "J",
+      "options": [
+        "X",
+        "V",
+        "C",
+        "J"
+      ],
+      "voiceEnglish": "Find the Jug",
+      "voiceHindi": "जग ढूँढो"
+    },
+    {
+      "id": "abc_letter_j_010",
+      "category": "abc",
+      "english": "Find the letter J",
+      "hindi": "अक्षर J ढूँढो",
+      "answer": "J",
+      "options": [
+        "V",
+        "C",
+        "X",
+        "J"
+      ],
+      "voiceEnglish": "Find the letter J",
+      "voiceHindi": "अक्षर J ढूँढो"
+    },
+    {
+      "id": "abc_word_k_011",
+      "category": "abc",
+      "english": "Find the Kite",
+      "hindi": "पतंग ढूँढो",
+      "answer": "K",
+      "options": [
+        "H",
+        "K",
+        "Y",
+        "L"
+      ],
+      "voiceEnglish": "Find the Kite",
+      "voiceHindi": "पतंग ढूँढो"
+    },
+    {
+      "id": "abc_letter_k_011",
+      "category": "abc",
+      "english": "Find the letter K",
+      "hindi": "अक्षर K ढूँढो",
+      "answer": "K",
+      "options": [
+        "L",
+        "K",
+        "H",
+        "Y"
+      ],
+      "voiceEnglish": "Find the letter K",
+      "voiceHindi": "अक्षर K ढूँढो"
+    },
+    {
+      "id": "abc_word_l_012",
+      "category": "abc",
+      "english": "Find the Lion",
+      "hindi": "शेर ढूँढो",
+      "answer": "L",
+      "options": [
+        "M",
+        "L",
+        "X",
+        "I"
+      ],
+      "voiceEnglish": "Find the Lion",
+      "voiceHindi": "शेर ढूँढो"
+    },
+    {
+      "id": "abc_letter_l_012",
+      "category": "abc",
+      "english": "Find the letter L",
+      "hindi": "अक्षर L ढूँढो",
+      "answer": "L",
+      "options": [
+        "L",
+        "I",
+        "M",
+        "X"
+      ],
+      "voiceEnglish": "Find the letter L",
+      "voiceHindi": "अक्षर L ढूँढो"
+    },
+    {
+      "id": "abc_word_m_013",
+      "category": "abc",
+      "english": "Find the Moon",
+      "hindi": "चाँद ढूँढो",
+      "answer": "M",
+      "options": [
+        "I",
+        "D",
+        "M",
+        "Y"
+      ],
+      "voiceEnglish": "Find the Moon",
+      "voiceHindi": "चाँद ढूँढो"
+    },
+    {
+      "id": "abc_letter_m_013",
+      "category": "abc",
+      "english": "Find the letter M",
+      "hindi": "अक्षर M ढूँढो",
+      "answer": "M",
+      "options": [
+        "M",
+        "I",
+        "D",
+        "Y"
+      ],
+      "voiceEnglish": "Find the letter M",
+      "voiceHindi": "अक्षर M ढूँढो"
+    },
+    {
+      "id": "abc_word_n_014",
+      "category": "abc",
+      "english": "Find the Nest",
+      "hindi": "घोंसला ढूँढो",
+      "answer": "N",
+      "options": [
+        "G",
+        "R",
+        "E",
+        "N"
+      ],
+      "voiceEnglish": "Find the Nest",
+      "voiceHindi": "घोंसला ढूँढो"
+    },
+    {
+      "id": "abc_letter_n_014",
+      "category": "abc",
+      "english": "Find the letter N",
+      "hindi": "अक्षर N ढूँढो",
+      "answer": "N",
+      "options": [
+        "N",
+        "E",
+        "R",
+        "G"
+      ],
+      "voiceEnglish": "Find the letter N",
+      "voiceHindi": "अक्षर N ढूँढो"
+    },
+    {
+      "id": "abc_word_o_015",
+      "category": "abc",
+      "english": "Find the Orange",
+      "hindi": "संतरा ढूँढो",
+      "answer": "O",
+      "options": [
+        "F",
+        "U",
+        "L",
+        "O"
+      ],
+      "voiceEnglish": "Find the Orange",
+      "voiceHindi": "संतरा ढूँढो"
+    },
+    {
+      "id": "abc_letter_o_015",
+      "category": "abc",
+      "english": "Find the letter O",
+      "hindi": "अक्षर O ढूँढो",
+      "answer": "O",
+      "options": [
+        "U",
+        "F",
+        "O",
+        "L"
+      ],
+      "voiceEnglish": "Find the letter O",
+      "voiceHindi": "अक्षर O ढूँढो"
+    },
+    {
+      "id": "abc_word_p_016",
+      "category": "abc",
+      "english": "Find the Panda",
+      "hindi": "पांडा ढूँढो",
+      "answer": "P",
+      "options": [
+        "L",
+        "P",
+        "E",
+        "T"
+      ],
+      "voiceEnglish": "Find the Panda",
+      "voiceHindi": "पांडा ढूँढो"
+    },
+    {
+      "id": "abc_letter_p_016",
+      "category": "abc",
+      "english": "Find the letter P",
+      "hindi": "अक्षर P ढूँढो",
+      "answer": "P",
+      "options": [
+        "L",
+        "T",
+        "P",
+        "E"
+      ],
+      "voiceEnglish": "Find the letter P",
+      "voiceHindi": "अक्षर P ढूँढो"
+    },
+    {
+      "id": "abc_word_q_017",
+      "category": "abc",
+      "english": "Find the Queen",
+      "hindi": "रानी ढूँढो",
+      "answer": "Q",
+      "options": [
+        "R",
+        "X",
+        "Y",
+        "Q"
+      ],
+      "voiceEnglish": "Find the Queen",
+      "voiceHindi": "रानी ढूँढो"
+    },
+    {
+      "id": "abc_letter_q_017",
+      "category": "abc",
+      "english": "Find the letter Q",
+      "hindi": "अक्षर Q ढूँढो",
+      "answer": "Q",
+      "options": [
+        "Y",
+        "X",
+        "Q",
+        "R"
+      ],
+      "voiceEnglish": "Find the letter Q",
+      "voiceHindi": "अक्षर Q ढूँढो"
+    },
+    {
+      "id": "abc_word_r_018",
+      "category": "abc",
+      "english": "Find the Rabbit",
+      "hindi": "खरगोश ढूँढो",
+      "answer": "R",
+      "options": [
+        "W",
+        "M",
+        "R",
+        "Q"
+      ],
+      "voiceEnglish": "Find the Rabbit",
+      "voiceHindi": "खरगोश ढूँढो"
+    },
+    {
+      "id": "abc_letter_r_018",
+      "category": "abc",
+      "english": "Find the letter R",
+      "hindi": "अक्षर R ढूँढो",
+      "answer": "R",
+      "options": [
+        "W",
+        "Q",
+        "R",
+        "M"
+      ],
+      "voiceEnglish": "Find the letter R",
+      "voiceHindi": "अक्षर R ढूँढो"
+    },
+    {
+      "id": "abc_word_s_019",
+      "category": "abc",
+      "english": "Find the Sun",
+      "hindi": "सूरज ढूँढो",
+      "answer": "S",
+      "options": [
+        "X",
+        "G",
+        "K",
+        "S"
+      ],
+      "voiceEnglish": "Find the Sun",
+      "voiceHindi": "सूरज ढूँढो"
+    },
+    {
+      "id": "abc_letter_s_019",
+      "category": "abc",
+      "english": "Find the letter S",
+      "hindi": "अक्षर S ढूँढो",
+      "answer": "S",
+      "options": [
+        "G",
+        "X",
+        "K",
+        "S"
+      ],
+      "voiceEnglish": "Find the letter S",
+      "voiceHindi": "अक्षर S ढूँढो"
+    },
+    {
+      "id": "abc_word_t_020",
+      "category": "abc",
+      "english": "Find the Train",
+      "hindi": "रेलगाड़ी ढूँढो",
+      "answer": "T",
+      "options": [
+        "T",
+        "F",
+        "Q",
+        "A"
+      ],
+      "voiceEnglish": "Find the Train",
+      "voiceHindi": "रेलगाड़ी ढूँढो"
+    },
+    {
+      "id": "abc_letter_t_020",
+      "category": "abc",
+      "english": "Find the letter T",
+      "hindi": "अक्षर T ढूँढो",
+      "answer": "T",
+      "options": [
+        "T",
+        "F",
+        "A",
+        "Q"
+      ],
+      "voiceEnglish": "Find the letter T",
+      "voiceHindi": "अक्षर T ढूँढो"
+    },
+    {
+      "id": "abc_word_u_021",
+      "category": "abc",
+      "english": "Find the Umbrella",
+      "hindi": "छतरी ढूँढो",
+      "answer": "U",
+      "options": [
+        "A",
+        "Q",
+        "G",
+        "U"
+      ],
+      "voiceEnglish": "Find the Umbrella",
+      "voiceHindi": "छतरी ढूँढो"
+    },
+    {
+      "id": "abc_letter_u_021",
+      "category": "abc",
+      "english": "Find the letter U",
+      "hindi": "अक्षर U ढूँढो",
+      "answer": "U",
+      "options": [
+        "A",
+        "Q",
+        "U",
+        "G"
+      ],
+      "voiceEnglish": "Find the letter U",
+      "voiceHindi": "अक्षर U ढूँढो"
+    },
+    {
+      "id": "abc_word_v_022",
+      "category": "abc",
+      "english": "Find the Van",
+      "hindi": "वैन ढूँढो",
+      "answer": "V",
+      "options": [
+        "O",
+        "N",
+        "V",
+        "T"
+      ],
+      "voiceEnglish": "Find the Van",
+      "voiceHindi": "वैन ढूँढो"
+    },
+    {
+      "id": "abc_letter_v_022",
+      "category": "abc",
+      "english": "Find the letter V",
+      "hindi": "अक्षर V ढूँढो",
+      "answer": "V",
+      "options": [
+        "N",
+        "O",
+        "T",
+        "V"
+      ],
+      "voiceEnglish": "Find the letter V",
+      "voiceHindi": "अक्षर V ढूँढो"
+    },
+    {
+      "id": "abc_word_w_023",
+      "category": "abc",
+      "english": "Find the Watermelon",
+      "hindi": "तरबूज़ ढूँढो",
+      "answer": "W",
+      "options": [
+        "B",
+        "W",
+        "S",
+        "P"
+      ],
+      "voiceEnglish": "Find the Watermelon",
+      "voiceHindi": "तरबूज़ ढूँढो"
+    },
+    {
+      "id": "abc_letter_w_023",
+      "category": "abc",
+      "english": "Find the letter W",
+      "hindi": "अक्षर W ढूँढो",
+      "answer": "W",
+      "options": [
+        "P",
+        "B",
+        "W",
+        "S"
+      ],
+      "voiceEnglish": "Find the letter W",
+      "voiceHindi": "अक्षर W ढूँढो"
+    },
+    {
+      "id": "abc_word_x_024",
+      "category": "abc",
+      "english": "Find the Xylophone",
+      "hindi": "बाजा ढूँढो",
+      "answer": "X",
+      "options": [
+        "T",
+        "J",
+        "X",
+        "F"
+      ],
+      "voiceEnglish": "Find the Xylophone",
+      "voiceHindi": "बाजा ढूँढो"
+    },
+    {
+      "id": "abc_letter_x_024",
+      "category": "abc",
+      "english": "Find the letter X",
+      "hindi": "अक्षर X ढूँढो",
+      "answer": "X",
+      "options": [
+        "F",
+        "T",
+        "X",
+        "J"
+      ],
+      "voiceEnglish": "Find the letter X",
+      "voiceHindi": "अक्षर X ढूँढो"
+    },
+    {
+      "id": "abc_word_y_025",
+      "category": "abc",
+      "english": "Find the Yo-yo",
+      "hindi": "यो-यो ढूँढो",
+      "answer": "Y",
+      "options": [
+        "I",
+        "Y",
+        "Z",
+        "X"
+      ],
+      "voiceEnglish": "Find the Yo-yo",
+      "voiceHindi": "यो-यो ढूँढो"
+    },
+    {
+      "id": "abc_letter_y_025",
+      "category": "abc",
+      "english": "Find the letter Y",
+      "hindi": "अक्षर Y ढूँढो",
+      "answer": "Y",
+      "options": [
+        "Z",
+        "Y",
+        "I",
+        "X"
+      ],
+      "voiceEnglish": "Find the letter Y",
+      "voiceHindi": "अक्षर Y ढूँढो"
+    },
+    {
+      "id": "abc_word_z_026",
+      "category": "abc",
+      "english": "Find the Zebra",
+      "hindi": "ज़ेबरा ढूँढो",
+      "answer": "Z",
+      "options": [
+        "V",
+        "Z",
+        "M",
+        "B"
+      ],
+      "voiceEnglish": "Find the Zebra",
+      "voiceHindi": "ज़ेबरा ढूँढो"
+    },
+    {
+      "id": "abc_letter_z_026",
+      "category": "abc",
+      "english": "Find the letter Z",
+      "hindi": "अक्षर Z ढूँढो",
+      "answer": "Z",
+      "options": [
+        "B",
+        "V",
+        "Z",
+        "M"
+      ],
+      "voiceEnglish": "Find the letter Z",
+      "voiceHindi": "अक्षर Z ढूँढो"
+    }
+  ],
+  "numbers": [
+    {
+      "id": "numbers_find_001",
+      "category": "numbers",
+      "english": "Find the number 1",
+      "hindi": "संख्या 1 ढूँढो",
+      "answer": "1",
+      "options": [
+        "11",
+        "1",
+        "16",
+        "10"
+      ],
+      "voiceEnglish": "Find the number 1",
+      "voiceHindi": "संख्या 1 ढूँढो"
+    },
+    {
+      "id": "numbers_find_002",
+      "category": "numbers",
+      "english": "Find the number 2",
+      "hindi": "संख्या 2 ढूँढो",
+      "answer": "2",
+      "options": [
+        "2",
+        "10",
+        "12",
+        "1"
+      ],
+      "voiceEnglish": "Find the number 2",
+      "voiceHindi": "संख्या 2 ढूँढो"
+    },
+    {
+      "id": "numbers_find_003",
+      "category": "numbers",
+      "english": "Find the number 3",
+      "hindi": "संख्या 3 ढूँढो",
+      "answer": "3",
+      "options": [
+        "10",
+        "14",
+        "3",
+        "7"
+      ],
+      "voiceEnglish": "Find the number 3",
+      "voiceHindi": "संख्या 3 ढूँढो"
+    },
+    {
+      "id": "numbers_find_004",
+      "category": "numbers",
+      "english": "Find the number 4",
+      "hindi": "संख्या 4 ढूँढो",
+      "answer": "4",
+      "options": [
+        "19",
+        "13",
+        "4",
+        "10"
+      ],
+      "voiceEnglish": "Find the number 4",
+      "voiceHindi": "संख्या 4 ढूँढो"
+    },
+    {
+      "id": "numbers_find_005",
+      "category": "numbers",
+      "english": "Find the number 5",
+      "hindi": "संख्या 5 ढूँढो",
+      "answer": "5",
+      "options": [
+        "12",
+        "20",
+        "5",
+        "8"
+      ],
+      "voiceEnglish": "Find the number 5",
+      "voiceHindi": "संख्या 5 ढूँढो"
+    },
+    {
+      "id": "numbers_find_006",
+      "category": "numbers",
+      "english": "Find the number 6",
+      "hindi": "संख्या 6 ढूँढो",
+      "answer": "6",
+      "options": [
+        "14",
+        "12",
+        "9",
+        "6"
+      ],
+      "voiceEnglish": "Find the number 6",
+      "voiceHindi": "संख्या 6 ढूँढो"
+    },
+    {
+      "id": "numbers_find_007",
+      "category": "numbers",
+      "english": "Find the number 7",
+      "hindi": "संख्या 7 ढूँढो",
+      "answer": "7",
+      "options": [
+        "20",
+        "17",
+        "15",
+        "7"
+      ],
+      "voiceEnglish": "Find the number 7",
+      "voiceHindi": "संख्या 7 ढूँढो"
+    },
+    {
+      "id": "numbers_find_008",
+      "category": "numbers",
+      "english": "Find the number 8",
+      "hindi": "संख्या 8 ढूँढो",
+      "answer": "8",
+      "options": [
+        "5",
+        "15",
+        "8",
+        "3"
+      ],
+      "voiceEnglish": "Find the number 8",
+      "voiceHindi": "संख्या 8 ढूँढो"
+    },
+    {
+      "id": "numbers_find_009",
+      "category": "numbers",
+      "english": "Find the number 9",
+      "hindi": "संख्या 9 ढूँढो",
+      "answer": "9",
+      "options": [
+        "5",
+        "12",
+        "9",
+        "19"
+      ],
+      "voiceEnglish": "Find the number 9",
+      "voiceHindi": "संख्या 9 ढूँढो"
+    },
+    {
+      "id": "numbers_find_010",
+      "category": "numbers",
+      "english": "Find the number 10",
+      "hindi": "संख्या 10 ढूँढो",
+      "answer": "10",
+      "options": [
+        "10",
+        "1",
+        "15",
+        "6"
+      ],
+      "voiceEnglish": "Find the number 10",
+      "voiceHindi": "संख्या 10 ढूँढो"
+    },
+    {
+      "id": "numbers_find_011",
+      "category": "numbers",
+      "english": "Find the number 11",
+      "hindi": "संख्या 11 ढूँढो",
+      "answer": "11",
+      "options": [
+        "12",
+        "11",
+        "18",
+        "6"
+      ],
+      "voiceEnglish": "Find the number 11",
+      "voiceHindi": "संख्या 11 ढूँढो"
+    },
+    {
+      "id": "numbers_find_012",
+      "category": "numbers",
+      "english": "Find the number 12",
+      "hindi": "संख्या 12 ढूँढो",
+      "answer": "12",
+      "options": [
+        "12",
+        "5",
+        "11",
+        "3"
+      ],
+      "voiceEnglish": "Find the number 12",
+      "voiceHindi": "संख्या 12 ढूँढो"
+    },
+    {
+      "id": "numbers_find_013",
+      "category": "numbers",
+      "english": "Find the number 13",
+      "hindi": "संख्या 13 ढूँढो",
+      "answer": "13",
+      "options": [
+        "7",
+        "20",
+        "19",
+        "13"
+      ],
+      "voiceEnglish": "Find the number 13",
+      "voiceHindi": "संख्या 13 ढूँढो"
+    },
+    {
+      "id": "numbers_find_014",
+      "category": "numbers",
+      "english": "Find the number 14",
+      "hindi": "संख्या 14 ढूँढो",
+      "answer": "14",
+      "options": [
+        "16",
+        "1",
+        "14",
+        "13"
+      ],
+      "voiceEnglish": "Find the number 14",
+      "voiceHindi": "संख्या 14 ढूँढो"
+    },
+    {
+      "id": "numbers_find_015",
+      "category": "numbers",
+      "english": "Find the number 15",
+      "hindi": "संख्या 15 ढूँढो",
+      "answer": "15",
+      "options": [
+        "5",
+        "15",
+        "7",
+        "2"
+      ],
+      "voiceEnglish": "Find the number 15",
+      "voiceHindi": "संख्या 15 ढूँढो"
+    },
+    {
+      "id": "numbers_find_016",
+      "category": "numbers",
+      "english": "Find the number 16",
+      "hindi": "संख्या 16 ढूँढो",
+      "answer": "16",
+      "options": [
+        "9",
+        "16",
+        "11",
+        "2"
+      ],
+      "voiceEnglish": "Find the number 16",
+      "voiceHindi": "संख्या 16 ढूँढो"
+    },
+    {
+      "id": "numbers_find_017",
+      "category": "numbers",
+      "english": "Find the number 17",
+      "hindi": "संख्या 17 ढूँढो",
+      "answer": "17",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "17"
+      ],
+      "voiceEnglish": "Find the number 17",
+      "voiceHindi": "संख्या 17 ढूँढो"
+    },
+    {
+      "id": "numbers_find_018",
+      "category": "numbers",
+      "english": "Find the number 18",
+      "hindi": "संख्या 18 ढूँढो",
+      "answer": "18",
+      "options": [
+        "12",
+        "7",
+        "18",
+        "1"
+      ],
+      "voiceEnglish": "Find the number 18",
+      "voiceHindi": "संख्या 18 ढूँढो"
+    },
+    {
+      "id": "numbers_find_019",
+      "category": "numbers",
+      "english": "Find the number 19",
+      "hindi": "संख्या 19 ढूँढो",
+      "answer": "19",
+      "options": [
+        "11",
+        "7",
+        "19",
+        "15"
+      ],
+      "voiceEnglish": "Find the number 19",
+      "voiceHindi": "संख्या 19 ढूँढो"
+    },
+    {
+      "id": "numbers_find_020",
+      "category": "numbers",
+      "english": "Find the number 20",
+      "hindi": "संख्या 20 ढूँढो",
+      "answer": "20",
+      "options": [
+        "20",
+        "5",
+        "7",
+        "12"
+      ],
+      "voiceEnglish": "Find the number 20",
+      "voiceHindi": "संख्या 20 ढूँढो"
+    },
+    {
+      "id": "numbers_count_001",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "1",
+      "options": [
+        "7",
+        "10",
+        "1",
+        "9"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_002",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "2",
+      "options": [
+        "10",
+        "2",
+        "6",
+        "1"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_003",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "3",
+      "options": [
+        "2",
+        "10",
+        "3",
+        "6"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_004",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "4",
+      "options": [
+        "4",
+        "9",
+        "3",
+        "6"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_005",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "5",
+      "options": [
+        "5",
+        "10",
+        "3",
+        "4"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_006",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "6",
+      "options": [
+        "6",
+        "10",
+        "3",
+        "5"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_007",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "7",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "5"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_008",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "8",
+      "options": [
+        "9",
+        "5",
+        "8",
+        "6"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_009",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "9",
+      "options": [
+        "10",
+        "6",
+        "9",
+        "8"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    },
+    {
+      "id": "numbers_count_010",
+      "category": "numbers",
+      "english": "Count the items",
+      "hindi": "वस्तुओं को गिनो",
+      "answer": "10",
+      "options": [
+        "5",
+        "10",
+        "8",
+        "1"
+      ],
+      "voiceEnglish": "Count the items",
+      "voiceHindi": "वस्तुओं को गिनो"
+    }
+  ],
+  "animals": [
+    {
+      "id": "animals_dog_001",
+      "category": "animals",
+      "english": "Find the Dog",
+      "hindi": "कुत्ता ढूँढो",
+      "answer": "Dog",
+      "options": [
+        "Dog",
+        "Frog",
+        "Panda",
+        "Fish"
+      ],
+      "voiceEnglish": "Find the Dog",
+      "voiceHindi": "कुत्ता ढूँढो"
+    },
+    {
+      "id": "animals_cat_002",
+      "category": "animals",
+      "english": "Find the Cat",
+      "hindi": "बिल्ली ढूँढो",
+      "answer": "Cat",
+      "options": [
+        "Cat",
+        "Zebra",
+        "Camel",
+        "Tiger"
+      ],
+      "voiceEnglish": "Find the Cat",
+      "voiceHindi": "बिल्ली ढूँढो"
+    },
+    {
+      "id": "animals_lion_003",
+      "category": "animals",
+      "english": "Find the Lion",
+      "hindi": "शेर ढूँढो",
+      "answer": "Lion",
+      "options": [
+        "Pig",
+        "Lion",
+        "Cow",
+        "Frog"
+      ],
+      "voiceEnglish": "Find the Lion",
+      "voiceHindi": "शेर ढूँढो"
+    },
+    {
+      "id": "animals_elephant_004",
+      "category": "animals",
+      "english": "Find the Elephant",
+      "hindi": "हाथी ढूँढो",
+      "answer": "Elephant",
+      "options": [
+        "Bear",
+        "Elephant",
+        "Pig",
+        "Fish"
+      ],
+      "voiceEnglish": "Find the Elephant",
+      "voiceHindi": "हाथी ढूँढो"
+    },
+    {
+      "id": "animals_tiger_005",
+      "category": "animals",
+      "english": "Find the Tiger",
+      "hindi": "बाघ ढूँढो",
+      "answer": "Tiger",
+      "options": [
+        "Camel",
+        "Tiger",
+        "Pig",
+        "Lion"
+      ],
+      "voiceEnglish": "Find the Tiger",
+      "voiceHindi": "बाघ ढूँढो"
+    },
+    {
+      "id": "animals_panda_006",
+      "category": "animals",
+      "english": "Find the Panda",
+      "hindi": "पांडा ढूँढो",
+      "answer": "Panda",
+      "options": [
+        "Sheep",
+        "Fish",
+        "Panda",
+        "Cow"
+      ],
+      "voiceEnglish": "Find the Panda",
+      "voiceHindi": "पांडा ढूँढो"
+    },
+    {
+      "id": "animals_monkey_007",
+      "category": "animals",
+      "english": "Find the Monkey",
+      "hindi": "बंदर ढूँढो",
+      "answer": "Monkey",
+      "options": [
+        "Monkey",
+        "Rabbit",
+        "Cow",
+        "Lion"
+      ],
+      "voiceEnglish": "Find the Monkey",
+      "voiceHindi": "बंदर ढूँढो"
+    },
+    {
+      "id": "animals_rabbit_008",
+      "category": "animals",
+      "english": "Find the Rabbit",
+      "hindi": "खरगोश ढूँढो",
+      "answer": "Rabbit",
+      "options": [
+        "Camel",
+        "Rabbit",
+        "Pig",
+        "Monkey"
+      ],
+      "voiceEnglish": "Find the Rabbit",
+      "voiceHindi": "खरगोश ढूँढो"
+    },
+    {
+      "id": "animals_frog_009",
+      "category": "animals",
+      "english": "Find the Frog",
+      "hindi": "मेंढक ढूँढो",
+      "answer": "Frog",
+      "options": [
+        "Elephant",
+        "Fish",
+        "Frog",
+        "Rabbit"
+      ],
+      "voiceEnglish": "Find the Frog",
+      "voiceHindi": "मेंढक ढूँढो"
+    },
+    {
+      "id": "animals_cow_010",
+      "category": "animals",
+      "english": "Find the Cow",
+      "hindi": "गाय ढूँढो",
+      "answer": "Cow",
+      "options": [
+        "Bear",
+        "Pig",
+        "Zebra",
+        "Cow"
+      ],
+      "voiceEnglish": "Find the Cow",
+      "voiceHindi": "गाय ढूँढो"
+    },
+    {
+      "id": "animals_horse_011",
+      "category": "animals",
+      "english": "Find the Horse",
+      "hindi": "घोड़ा ढूँढो",
+      "answer": "Horse",
+      "options": [
+        "Lion",
+        "Panda",
+        "Cat",
+        "Horse"
+      ],
+      "voiceEnglish": "Find the Horse",
+      "voiceHindi": "घोड़ा ढूँढो"
+    },
+    {
+      "id": "animals_bear_012",
+      "category": "animals",
+      "english": "Find the Bear",
+      "hindi": "भालू ढूँढो",
+      "answer": "Bear",
+      "options": [
+        "Camel",
+        "Bear",
+        "Pig",
+        "Monkey"
+      ],
+      "voiceEnglish": "Find the Bear",
+      "voiceHindi": "भालू ढूँढो"
+    },
+    {
+      "id": "animals_pig_013",
+      "category": "animals",
+      "english": "Find the Pig",
+      "hindi": "सूअर ढूँढो",
+      "answer": "Pig",
+      "options": [
+        "Frog",
+        "Cow",
+        "Pig",
+        "Camel"
+      ],
+      "voiceEnglish": "Find the Pig",
+      "voiceHindi": "सूअर ढूँढो"
+    },
+    {
+      "id": "animals_sheep_014",
+      "category": "animals",
+      "english": "Find the Sheep",
+      "hindi": "भेड़ ढूँढो",
+      "answer": "Sheep",
+      "options": [
+        "Sheep",
+        "Rabbit",
+        "Giraffe",
+        "Panda"
+      ],
+      "voiceEnglish": "Find the Sheep",
+      "voiceHindi": "भेड़ ढूँढो"
+    },
+    {
+      "id": "animals_giraffe_015",
+      "category": "animals",
+      "english": "Find the Giraffe",
+      "hindi": "जिराफ़ ढूँढो",
+      "answer": "Giraffe",
+      "options": [
+        "Elephant",
+        "Tiger",
+        "Cow",
+        "Giraffe"
+      ],
+      "voiceEnglish": "Find the Giraffe",
+      "voiceHindi": "जिराफ़ ढूँढो"
+    },
+    {
+      "id": "animals_zebra_016",
+      "category": "animals",
+      "english": "Find the Zebra",
+      "hindi": "ज़ेबरा ढूँढो",
+      "answer": "Zebra",
+      "options": [
+        "Cat",
+        "Bear",
+        "Zebra",
+        "Panda"
+      ],
+      "voiceEnglish": "Find the Zebra",
+      "voiceHindi": "ज़ेबरा ढूँढो"
+    },
+    {
+      "id": "animals_camel_017",
+      "category": "animals",
+      "english": "Find the Camel",
+      "hindi": "ऊँट ढूँढो",
+      "answer": "Camel",
+      "options": [
+        "Elephant",
+        "Cow",
+        "Camel",
+        "Panda"
+      ],
+      "voiceEnglish": "Find the Camel",
+      "voiceHindi": "ऊँट ढूँढो"
+    },
+    {
+      "id": "animals_fish_018",
+      "category": "animals",
+      "english": "Find the Fish",
+      "hindi": "मछली ढूँढो",
+      "answer": "Fish",
+      "options": [
+        "Camel",
+        "Panda",
+        "Cow",
+        "Fish"
+      ],
+      "voiceEnglish": "Find the Fish",
+      "voiceHindi": "मछली ढूँढो"
+    }
+  ],
+  "birds": [
+    {
+      "id": "birds_parrot_001",
+      "category": "birds",
+      "english": "Find the Parrot",
+      "hindi": "तोता ढूँढो",
+      "answer": "Parrot",
+      "options": [
+        "Swan",
+        "Parrot",
+        "Dove",
+        "Hen"
+      ],
+      "voiceEnglish": "Find the Parrot",
+      "voiceHindi": "तोता ढूँढो"
+    },
+    {
+      "id": "birds_peacock_002",
+      "category": "birds",
+      "english": "Find the Peacock",
+      "hindi": "मोर ढूँढो",
+      "answer": "Peacock",
+      "options": [
+        "Parrot",
+        "Swan",
+        "Eagle",
+        "Peacock"
+      ],
+      "voiceEnglish": "Find the Peacock",
+      "voiceHindi": "मोर ढूँढो"
+    },
+    {
+      "id": "birds_owl_003",
+      "category": "birds",
+      "english": "Find the Owl",
+      "hindi": "उल्लू ढूँढो",
+      "answer": "Owl",
+      "options": [
+        "Parrot",
+        "Owl",
+        "Swan",
+        "Eagle"
+      ],
+      "voiceEnglish": "Find the Owl",
+      "voiceHindi": "उल्लू ढूँढो"
+    },
+    {
+      "id": "birds_duck_004",
+      "category": "birds",
+      "english": "Find the Duck",
+      "hindi": "बत्तख ढूँढो",
+      "answer": "Duck",
+      "options": [
+        "Chick",
+        "Eagle",
+        "Hen",
+        "Duck"
+      ],
+      "voiceEnglish": "Find the Duck",
+      "voiceHindi": "बत्तख ढूँढो"
+    },
+    {
+      "id": "birds_hen_005",
+      "category": "birds",
+      "english": "Find the Hen",
+      "hindi": "मुर्गी ढूँढो",
+      "answer": "Hen",
+      "options": [
+        "Hen",
+        "Chick",
+        "Swan",
+        "Duck"
+      ],
+      "voiceEnglish": "Find the Hen",
+      "voiceHindi": "मुर्गी ढूँढो"
+    },
+    {
+      "id": "birds_eagle_006",
+      "category": "birds",
+      "english": "Find the Eagle",
+      "hindi": "ईगल ढूँढो",
+      "answer": "Eagle",
+      "options": [
+        "Penguin",
+        "Peacock",
+        "Eagle",
+        "Swan"
+      ],
+      "voiceEnglish": "Find the Eagle",
+      "voiceHindi": "ईगल ढूँढो"
+    },
+    {
+      "id": "birds_penguin_007",
+      "category": "birds",
+      "english": "Find the Penguin",
+      "hindi": "पेंगुइन ढूँढो",
+      "answer": "Penguin",
+      "options": [
+        "Dove",
+        "Penguin",
+        "Chick",
+        "Eagle"
+      ],
+      "voiceEnglish": "Find the Penguin",
+      "voiceHindi": "पेंगुइन ढूँढो"
+    },
+    {
+      "id": "birds_swan_008",
+      "category": "birds",
+      "english": "Find the Swan",
+      "hindi": "हंस ढूँढो",
+      "answer": "Swan",
+      "options": [
+        "Swan",
+        "Hen",
+        "Duck",
+        "Chick"
+      ],
+      "voiceEnglish": "Find the Swan",
+      "voiceHindi": "हंस ढूँढो"
+    },
+    {
+      "id": "birds_dove_009",
+      "category": "birds",
+      "english": "Find the Dove",
+      "hindi": "कबूतर ढूँढो",
+      "answer": "Dove",
+      "options": [
+        "Penguin",
+        "Dove",
+        "Parrot",
+        "Peacock"
+      ],
+      "voiceEnglish": "Find the Dove",
+      "voiceHindi": "कबूतर ढूँढो"
+    },
+    {
+      "id": "birds_chick_010",
+      "category": "birds",
+      "english": "Find the Chick",
+      "hindi": "चूज़ा ढूँढो",
+      "answer": "Chick",
+      "options": [
+        "Chick",
+        "Owl",
+        "Swan",
+        "Peacock"
+      ],
+      "voiceEnglish": "Find the Chick",
+      "voiceHindi": "चूज़ा ढूँढो"
+    }
+  ],
+  "body": [
+    {
+      "id": "body_eye_001",
+      "category": "body",
+      "english": "Find the Eye",
+      "hindi": "आँख ढूँढो",
+      "answer": "Eye",
+      "options": [
+        "Arm",
+        "Hand",
+        "Eye",
+        "Tooth"
+      ],
+      "voiceEnglish": "Find the Eye",
+      "voiceHindi": "आँख ढूँढो"
+    },
+    {
+      "id": "body_ear_002",
+      "category": "body",
+      "english": "Find the Ear",
+      "hindi": "कान ढूँढो",
+      "answer": "Ear",
+      "options": [
+        "Eye",
+        "Ear",
+        "Tooth",
+        "Foot"
+      ],
+      "voiceEnglish": "Find the Ear",
+      "voiceHindi": "कान ढूँढो"
+    },
+    {
+      "id": "body_nose_003",
+      "category": "body",
+      "english": "Find the Nose",
+      "hindi": "नाक ढूँढो",
+      "answer": "Nose",
+      "options": [
+        "Nose",
+        "Tooth",
+        "Tongue",
+        "Foot"
+      ],
+      "voiceEnglish": "Find the Nose",
+      "voiceHindi": "नाक ढूँढो"
+    },
+    {
+      "id": "body_mouth_004",
+      "category": "body",
+      "english": "Find the Mouth",
+      "hindi": "मुँह ढूँढो",
+      "answer": "Mouth",
+      "options": [
+        "Tooth",
+        "Mouth",
+        "Hand",
+        "Ear"
+      ],
+      "voiceEnglish": "Find the Mouth",
+      "voiceHindi": "मुँह ढूँढो"
+    },
+    {
+      "id": "body_hand_005",
+      "category": "body",
+      "english": "Find the Hand",
+      "hindi": "हाथ ढूँढो",
+      "answer": "Hand",
+      "options": [
+        "Eye",
+        "Tooth",
+        "Mouth",
+        "Hand"
+      ],
+      "voiceEnglish": "Find the Hand",
+      "voiceHindi": "हाथ ढूँढो"
+    },
+    {
+      "id": "body_foot_006",
+      "category": "body",
+      "english": "Find the Foot",
+      "hindi": "पैर ढूँढो",
+      "answer": "Foot",
+      "options": [
+        "Tooth",
+        "Foot",
+        "Ear",
+        "Mouth"
+      ],
+      "voiceEnglish": "Find the Foot",
+      "voiceHindi": "पैर ढूँढो"
+    },
+    {
+      "id": "body_tooth_007",
+      "category": "body",
+      "english": "Find the Tooth",
+      "hindi": "दाँत ढूँढो",
+      "answer": "Tooth",
+      "options": [
+        "Eye",
+        "Hand",
+        "Tooth",
+        "Ear"
+      ],
+      "voiceEnglish": "Find the Tooth",
+      "voiceHindi": "दाँत ढूँढो"
+    },
+    {
+      "id": "body_tongue_008",
+      "category": "body",
+      "english": "Find the Tongue",
+      "hindi": "जीभ ढूँढो",
+      "answer": "Tongue",
+      "options": [
+        "Tooth",
+        "Mouth",
+        "Nose",
+        "Tongue"
+      ],
+      "voiceEnglish": "Find the Tongue",
+      "voiceHindi": "जीभ ढूँढो"
+    },
+    {
+      "id": "body_brain_009",
+      "category": "body",
+      "english": "Find the Brain",
+      "hindi": "दिमाग़ ढूँढो",
+      "answer": "Brain",
+      "options": [
+        "Foot",
+        "Brain",
+        "Hand",
+        "Arm"
+      ],
+      "voiceEnglish": "Find the Brain",
+      "voiceHindi": "दिमाग़ ढूँढो"
+    },
+    {
+      "id": "body_arm_010",
+      "category": "body",
+      "english": "Find the Arm",
+      "hindi": "बाँह ढूँढो",
+      "answer": "Arm",
+      "options": [
+        "Mouth",
+        "Foot",
+        "Tongue",
+        "Arm"
+      ],
+      "voiceEnglish": "Find the Arm",
+      "voiceHindi": "बाँह ढूँढो"
+    }
+  ],
+  "fruits": [
+    {
+      "id": "fruits_apple_001",
+      "category": "fruits",
+      "english": "Find the Apple",
+      "hindi": "सेब ढूँढो",
+      "answer": "Apple",
+      "options": [
+        "Coconut",
+        "Apple",
+        "Watermelon",
+        "Pear"
+      ],
+      "voiceEnglish": "Find the Apple",
+      "voiceHindi": "सेब ढूँढो"
+    },
+    {
+      "id": "fruits_banana_002",
+      "category": "fruits",
+      "english": "Find the Banana",
+      "hindi": "केला ढूँढो",
+      "answer": "Banana",
+      "options": [
+        "Coconut",
+        "Banana",
+        "Watermelon",
+        "Mango"
+      ],
+      "voiceEnglish": "Find the Banana",
+      "voiceHindi": "केला ढूँढो"
+    },
+    {
+      "id": "fruits_orange_003",
+      "category": "fruits",
+      "english": "Find the Orange",
+      "hindi": "संतरा ढूँढो",
+      "answer": "Orange",
+      "options": [
+        "Orange",
+        "Kiwi",
+        "Lemon",
+        "Watermelon"
+      ],
+      "voiceEnglish": "Find the Orange",
+      "voiceHindi": "संतरा ढूँढो"
+    },
+    {
+      "id": "fruits_grapes_004",
+      "category": "fruits",
+      "english": "Find the Grapes",
+      "hindi": "अंगूर ढूँढो",
+      "answer": "Grapes",
+      "options": [
+        "Banana",
+        "Kiwi",
+        "Pineapple",
+        "Grapes"
+      ],
+      "voiceEnglish": "Find the Grapes",
+      "voiceHindi": "अंगूर ढूँढो"
+    },
+    {
+      "id": "fruits_watermelon_005",
+      "category": "fruits",
+      "english": "Find the Watermelon",
+      "hindi": "तरबूज़ ढूँढो",
+      "answer": "Watermelon",
+      "options": [
+        "Cherry",
+        "Watermelon",
+        "Pineapple",
+        "Coconut"
+      ],
+      "voiceEnglish": "Find the Watermelon",
+      "voiceHindi": "तरबूज़ ढूँढो"
+    },
+    {
+      "id": "fruits_strawberry_006",
+      "category": "fruits",
+      "english": "Find the Strawberry",
+      "hindi": "स्ट्रॉबेरी ढूँढो",
+      "answer": "Strawberry",
+      "options": [
+        "Coconut",
+        "Strawberry",
+        "Orange",
+        "Apple"
+      ],
+      "voiceEnglish": "Find the Strawberry",
+      "voiceHindi": "स्ट्रॉबेरी ढूँढो"
+    },
+    {
+      "id": "fruits_mango_007",
+      "category": "fruits",
+      "english": "Find the Mango",
+      "hindi": "आम ढूँढो",
+      "answer": "Mango",
+      "options": [
+        "Lemon",
+        "Pear",
+        "Strawberry",
+        "Mango"
+      ],
+      "voiceEnglish": "Find the Mango",
+      "voiceHindi": "आम ढूँढो"
+    },
+    {
+      "id": "fruits_pineapple_008",
+      "category": "fruits",
+      "english": "Find the Pineapple",
+      "hindi": "अनानास ढूँढो",
+      "answer": "Pineapple",
+      "options": [
+        "Kiwi",
+        "Lemon",
+        "Grapes",
+        "Pineapple"
+      ],
+      "voiceEnglish": "Find the Pineapple",
+      "voiceHindi": "अनानास ढूँढो"
+    },
+    {
+      "id": "fruits_cherry_009",
+      "category": "fruits",
+      "english": "Find the Cherry",
+      "hindi": "चेरी ढूँढो",
+      "answer": "Cherry",
+      "options": [
+        "Apple",
+        "Watermelon",
+        "Cherry",
+        "Orange"
+      ],
+      "voiceEnglish": "Find the Cherry",
+      "voiceHindi": "चेरी ढूँढो"
+    },
+    {
+      "id": "fruits_pear_010",
+      "category": "fruits",
+      "english": "Find the Pear",
+      "hindi": "नाशपाती ढूँढो",
+      "answer": "Pear",
+      "options": [
+        "Pear",
+        "Watermelon",
+        "Coconut",
+        "Lemon"
+      ],
+      "voiceEnglish": "Find the Pear",
+      "voiceHindi": "नाशपाती ढूँढो"
+    },
+    {
+      "id": "fruits_peach_011",
+      "category": "fruits",
+      "english": "Find the Peach",
+      "hindi": "आड़ू ढूँढो",
+      "answer": "Peach",
+      "options": [
+        "Coconut",
+        "Mango",
+        "Peach",
+        "Watermelon"
+      ],
+      "voiceEnglish": "Find the Peach",
+      "voiceHindi": "आड़ू ढूँढो"
+    },
+    {
+      "id": "fruits_coconut_012",
+      "category": "fruits",
+      "english": "Find the Coconut",
+      "hindi": "nariyal ढूँढो",
+      "answer": "Coconut",
+      "options": [
+        "Banana",
+        "Watermelon",
+        "Coconut",
+        "Peach"
+      ],
+      "voiceEnglish": "Find the Coconut",
+      "voiceHindi": "nariyal ढूँढो"
+    },
+    {
+      "id": "fruits_lemon_013",
+      "category": "fruits",
+      "english": "Find the Lemon",
+      "hindi": "नींबू ढूँढो",
+      "answer": "Lemon",
+      "options": [
+        "Mango",
+        "Pear",
+        "Cherry",
+        "Lemon"
+      ],
+      "voiceEnglish": "Find the Lemon",
+      "voiceHindi": "नींबू ढूँढो"
+    },
+    {
+      "id": "fruits_kiwi_014",
+      "category": "fruits",
+      "english": "Find the Kiwi",
+      "hindi": "कीवी ढूँढो",
+      "answer": "Kiwi",
+      "options": [
+        "Pineapple",
+        "Kiwi",
+        "Peach",
+        "Grapes"
+      ],
+      "voiceEnglish": "Find the Kiwi",
+      "voiceHindi": "कीवी ढूँढो"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "vehicles_car_001",
+      "category": "vehicles",
+      "english": "Find the Car",
+      "hindi": "कार ढूँढो",
+      "answer": "Car",
+      "options": [
+        "Bicycle",
+        "Ship",
+        "Car",
+        "Auto Rickshaw"
+      ],
+      "voiceEnglish": "Find the Car",
+      "voiceHindi": "कार ढूँढो"
+    },
+    {
+      "id": "vehicles_bus_002",
+      "category": "vehicles",
+      "english": "Find the Bus",
+      "hindi": "बस ढूँढो",
+      "answer": "Bus",
+      "options": [
+        "Helicopter",
+        "Car",
+        "Bus",
+        "Train"
+      ],
+      "voiceEnglish": "Find the Bus",
+      "voiceHindi": "बस ढूँढो"
+    },
+    {
+      "id": "vehicles_ambulance_003",
+      "category": "vehicles",
+      "english": "Find the Ambulance",
+      "hindi": "एम्बुलेंस ढूँढो",
+      "answer": "Ambulance",
+      "options": [
+        "Fire Engine",
+        "Ambulance",
+        "Boat",
+        "Police Car"
+      ],
+      "voiceEnglish": "Find the Ambulance",
+      "voiceHindi": "एम्बुलेंस ढूँढो"
+    },
+    {
+      "id": "vehicles_fire_engine_004",
+      "category": "vehicles",
+      "english": "Find the Fire Engine",
+      "hindi": "दमकल ढूँढो",
+      "answer": "Fire Engine",
+      "options": [
+        "Bicycle",
+        "Fire Engine",
+        "Auto Rickshaw",
+        "Bus"
+      ],
+      "voiceEnglish": "Find the Fire Engine",
+      "voiceHindi": "दमकल ढूँढो"
+    },
+    {
+      "id": "vehicles_police_car_005",
+      "category": "vehicles",
+      "english": "Find the Police Car",
+      "hindi": "पुलिस कार ढूँढो",
+      "answer": "Police Car",
+      "options": [
+        "Airplane",
+        "Bus",
+        "Police Car",
+        "Auto Rickshaw"
+      ],
+      "voiceEnglish": "Find the Police Car",
+      "voiceHindi": "पुलिस कार ढूँढो"
+    },
+    {
+      "id": "vehicles_airplane_006",
+      "category": "vehicles",
+      "english": "Find the Airplane",
+      "hindi": "हवाई जहाज़ ढूँढो",
+      "answer": "Airplane",
+      "options": [
+        "Rocket",
+        "Car",
+        "Airplane",
+        "Ambulance"
+      ],
+      "voiceEnglish": "Find the Airplane",
+      "voiceHindi": "हवाई जहाज़ ढूँढो"
+    },
+    {
+      "id": "vehicles_helicopter_007",
+      "category": "vehicles",
+      "english": "Find the Helicopter",
+      "hindi": "हेलीकॉप्टर ढूँढो",
+      "answer": "Helicopter",
+      "options": [
+        "Car",
+        "Auto Rickshaw",
+        "Airplane",
+        "Helicopter"
+      ],
+      "voiceEnglish": "Find the Helicopter",
+      "voiceHindi": "हेलीकॉप्टर ढूँढो"
+    },
+    {
+      "id": "vehicles_train_008",
+      "category": "vehicles",
+      "english": "Find the Train",
+      "hindi": "रेलगाड़ी ढूँढो",
+      "answer": "Train",
+      "options": [
+        "Airplane",
+        "Ship",
+        "Train",
+        "Bicycle"
+      ],
+      "voiceEnglish": "Find the Train",
+      "voiceHindi": "रेलगाड़ी ढूँढो"
+    },
+    {
+      "id": "vehicles_ship_009",
+      "category": "vehicles",
+      "english": "Find the Ship",
+      "hindi": "जहाज़ ढूँढो",
+      "answer": "Ship",
+      "options": [
+        "Rocket",
+        "Ambulance",
+        "Tractor",
+        "Ship"
+      ],
+      "voiceEnglish": "Find the Ship",
+      "voiceHindi": "जहाज़ ढूँढो"
+    },
+    {
+      "id": "vehicles_bicycle_010",
+      "category": "vehicles",
+      "english": "Find the Bicycle",
+      "hindi": "साइकिल ढूँढो",
+      "answer": "Bicycle",
+      "options": [
+        "Bicycle",
+        "Airplane",
+        "Police Car",
+        "Fire Engine"
+      ],
+      "voiceEnglish": "Find the Bicycle",
+      "voiceHindi": "साइकिल ढूँढो"
+    },
+    {
+      "id": "vehicles_auto_rickshaw_011",
+      "category": "vehicles",
+      "english": "Find the Auto Rickshaw",
+      "hindi": "ऑटो ढूँढो",
+      "answer": "Auto Rickshaw",
+      "options": [
+        "Scooter",
+        "Police Car",
+        "Auto Rickshaw",
+        "Tractor"
+      ],
+      "voiceEnglish": "Find the Auto Rickshaw",
+      "voiceHindi": "ऑटो ढूँढो"
+    },
+    {
+      "id": "vehicles_scooter_012",
+      "category": "vehicles",
+      "english": "Find the Scooter",
+      "hindi": "स्कूटर ढूँढो",
+      "answer": "Scooter",
+      "options": [
+        "Airplane",
+        "Bus",
+        "Car",
+        "Scooter"
+      ],
+      "voiceEnglish": "Find the Scooter",
+      "voiceHindi": "स्कूटर ढूँढो"
+    },
+    {
+      "id": "vehicles_tractor_013",
+      "category": "vehicles",
+      "english": "Find the Tractor",
+      "hindi": "ट्रैक्टर ढूँढो",
+      "answer": "Tractor",
+      "options": [
+        "Truck",
+        "Scooter",
+        "Ship",
+        "Tractor"
+      ],
+      "voiceEnglish": "Find the Tractor",
+      "voiceHindi": "ट्रैक्टर ढूँढो"
+    },
+    {
+      "id": "vehicles_truck_014",
+      "category": "vehicles",
+      "english": "Find the Truck",
+      "hindi": "ट्रक ढूँढो",
+      "answer": "Truck",
+      "options": [
+        "Ambulance",
+        "Truck",
+        "Fire Engine",
+        "Car"
+      ],
+      "voiceEnglish": "Find the Truck",
+      "voiceHindi": "ट्रक ढूँढो"
+    },
+    {
+      "id": "vehicles_rocket_015",
+      "category": "vehicles",
+      "english": "Find the Rocket",
+      "hindi": "रॉकेट ढूँढो",
+      "answer": "Rocket",
+      "options": [
+        "Ship",
+        "Scooter",
+        "Bus",
+        "Rocket"
+      ],
+      "voiceEnglish": "Find the Rocket",
+      "voiceHindi": "रॉकेट ढूँढो"
+    },
+    {
+      "id": "vehicles_boat_016",
+      "category": "vehicles",
+      "english": "Find the Boat",
+      "hindi": "नाव ढूँढो",
+      "answer": "Boat",
+      "options": [
+        "Scooter",
+        "Bicycle",
+        "Ship",
+        "Boat"
+      ],
+      "voiceEnglish": "Find the Boat",
+      "voiceHindi": "नाव ढूँढो"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "shape_circle_001",
+      "category": "shapes",
+      "english": "Find the Circle",
+      "hindi": "गोल आकार ढूँढो",
+      "answer": "Circle",
+      "options": [
+        "Triangle",
+        "Oval",
+        "Circle",
+        "Heart"
+      ],
+      "voiceEnglish": "Find the Circle",
+      "voiceHindi": "गोल आकार ढूँढो"
+    },
+    {
+      "id": "shape_square_002",
+      "category": "shapes",
+      "english": "Find the Square",
+      "hindi": "वर्ग आकार ढूँढो",
+      "answer": "Square",
+      "options": [
+        "Oval",
+        "Star",
+        "Square",
+        "Heart"
+      ],
+      "voiceEnglish": "Find the Square",
+      "voiceHindi": "वर्ग आकार ढूँढो"
+    },
+    {
+      "id": "shape_triangle_003",
+      "category": "shapes",
+      "english": "Find the Triangle",
+      "hindi": "त्रिभुज आकार ढूँढो",
+      "answer": "Triangle",
+      "options": [
+        "Triangle",
+        "Heart",
+        "Star",
+        "Rectangle"
+      ],
+      "voiceEnglish": "Find the Triangle",
+      "voiceHindi": "त्रिभुज आकार ढूँढो"
+    },
+    {
+      "id": "shape_rectangle_004",
+      "category": "shapes",
+      "english": "Find the Rectangle",
+      "hindi": "आयत आकार ढूँढो",
+      "answer": "Rectangle",
+      "options": [
+        "Triangle",
+        "Star",
+        "Circle",
+        "Rectangle"
+      ],
+      "voiceEnglish": "Find the Rectangle",
+      "voiceHindi": "आयत आकार ढूँढो"
+    },
+    {
+      "id": "shape_star_005",
+      "category": "shapes",
+      "english": "Find the Star",
+      "hindi": "तारा आकार ढूँढो",
+      "answer": "Star",
+      "options": [
+        "Star",
+        "Heart",
+        "Diamond",
+        "Rectangle"
+      ],
+      "voiceEnglish": "Find the Star",
+      "voiceHindi": "तारा आकार ढूँढो"
+    },
+    {
+      "id": "shape_heart_006",
+      "category": "shapes",
+      "english": "Find the Heart",
+      "hindi": "दिल आकार ढूँढो",
+      "answer": "Heart",
+      "options": [
+        "Star",
+        "Square",
+        "Diamond",
+        "Heart"
+      ],
+      "voiceEnglish": "Find the Heart",
+      "voiceHindi": "दिल आकार ढूँढो"
+    },
+    {
+      "id": "shape_oval_007",
+      "category": "shapes",
+      "english": "Find the Oval",
+      "hindi": "अंडाकार आकार ढूँढो",
+      "answer": "Oval",
+      "options": [
+        "Diamond",
+        "Star",
+        "Oval",
+        "Rectangle"
+      ],
+      "voiceEnglish": "Find the Oval",
+      "voiceHindi": "अंडाकार आकार ढूँढो"
+    },
+    {
+      "id": "shape_diamond_008",
+      "category": "shapes",
+      "english": "Find the Diamond",
+      "hindi": "हीरा आकार ढूँढो",
+      "answer": "Diamond",
+      "options": [
+        "Diamond",
+        "Square",
+        "Oval",
+        "Rectangle"
+      ],
+      "voiceEnglish": "Find the Diamond",
+      "voiceHindi": "हीरा आकार ढूँढो"
+    }
+  ]
+}

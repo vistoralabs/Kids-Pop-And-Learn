@@ -1,282 +1,122 @@
 [
   {
-    "id": "shapes-1",
+    "id": "shape_circle_001",
     "category": "shapes",
     "english": "Find the Circle",
     "hindi": "गोल आकार ढूँढो",
-    "voiceEnglish": "Find the Circle",
-    "voiceHindi": "गोल आकार ढूँढो",
     "answer": "Circle",
     "options": [
-      {
-        "key": "Circle",
-        "correct": true,
-        "shape": "circle",
-        "shapeColor": "#ef4444"
-      },
-      {
-        "key": "Oval",
-        "correct": false,
-        "shape": "oval",
-        "shapeColor": "#ec4899"
-      },
-      {
-        "key": "Star",
-        "correct": false,
-        "shape": "star",
-        "shapeColor": "#f97316"
-      },
-      {
-        "key": "Square",
-        "correct": false,
-        "shape": "square",
-        "shapeColor": "#22c55e"
-      }
-    ]
+      "Triangle",
+      "Oval",
+      "Circle",
+      "Heart"
+    ],
+    "voiceEnglish": "Find the Circle",
+    "voiceHindi": "गोल आकार ढूँढो"
   },
   {
-    "id": "shapes-2",
+    "id": "shape_square_002",
     "category": "shapes",
     "english": "Find the Square",
     "hindi": "वर्ग आकार ढूँढो",
-    "voiceEnglish": "Find the Square",
-    "voiceHindi": "वर्ग आकार ढूँढो",
     "answer": "Square",
     "options": [
-      {
-        "key": "Oval",
-        "correct": false,
-        "shape": "oval",
-        "shapeColor": "#f97316"
-      },
-      {
-        "key": "Heart",
-        "correct": false,
-        "shape": "heart",
-        "shapeColor": "#22c55e"
-      },
-      {
-        "key": "Diamond",
-        "correct": false,
-        "shape": "diamond",
-        "shapeColor": "#ec4899"
-      },
-      {
-        "key": "Square",
-        "correct": true,
-        "shape": "square",
-        "shapeColor": "#ef4444"
-      }
-    ]
+      "Oval",
+      "Star",
+      "Square",
+      "Heart"
+    ],
+    "voiceEnglish": "Find the Square",
+    "voiceHindi": "वर्ग आकार ढूँढो"
   },
   {
-    "id": "shapes-3",
+    "id": "shape_triangle_003",
     "category": "shapes",
     "english": "Find the Triangle",
     "hindi": "त्रिभुज आकार ढूँढो",
-    "voiceEnglish": "Find the Triangle",
-    "voiceHindi": "त्रिभुज आकार ढूँढो",
     "answer": "Triangle",
     "options": [
-      {
-        "key": "Circle",
-        "correct": false,
-        "shape": "circle",
-        "shapeColor": "#facc15"
-      },
-      {
-        "key": "Star",
-        "correct": false,
-        "shape": "star",
-        "shapeColor": "#3b82f6"
-      },
-      {
-        "key": "Triangle",
-        "correct": true,
-        "shape": "triangle",
-        "shapeColor": "#ef4444"
-      },
-      {
-        "key": "Heart",
-        "correct": false,
-        "shape": "heart",
-        "shapeColor": "#ec4899"
-      }
-    ]
+      "Triangle",
+      "Heart",
+      "Star",
+      "Rectangle"
+    ],
+    "voiceEnglish": "Find the Triangle",
+    "voiceHindi": "त्रिभुज आकार ढूँढो"
   },
   {
-    "id": "shapes-4",
+    "id": "shape_rectangle_004",
     "category": "shapes",
     "english": "Find the Rectangle",
     "hindi": "आयत आकार ढूँढो",
-    "voiceEnglish": "Find the Rectangle",
-    "voiceHindi": "आयत आकार ढूँढो",
     "answer": "Rectangle",
     "options": [
-      {
-        "key": "Diamond",
-        "correct": false,
-        "shape": "diamond",
-        "shapeColor": "#facc15"
-      },
-      {
-        "key": "Circle",
-        "correct": false,
-        "shape": "circle",
-        "shapeColor": "#ef4444"
-      },
-      {
-        "key": "Rectangle",
-        "correct": true,
-        "shape": "rectangle",
-        "shapeColor": "#3b82f6"
-      },
-      {
-        "key": "Square",
-        "correct": false,
-        "shape": "square",
-        "shapeColor": "#22c55e"
-      }
-    ]
+      "Triangle",
+      "Star",
+      "Circle",
+      "Rectangle"
+    ],
+    "voiceEnglish": "Find the Rectangle",
+    "voiceHindi": "आयत आकार ढूँढो"
   },
   {
-    "id": "shapes-5",
+    "id": "shape_star_005",
     "category": "shapes",
     "english": "Find the Star",
     "hindi": "तारा आकार ढूँढो",
-    "voiceEnglish": "Find the Star",
-    "voiceHindi": "तारा आकार ढूँढो",
     "answer": "Star",
     "options": [
-      {
-        "key": "Heart",
-        "correct": false,
-        "shape": "heart",
-        "shapeColor": "#22c55e"
-      },
-      {
-        "key": "Oval",
-        "correct": false,
-        "shape": "oval",
-        "shapeColor": "#ef4444"
-      },
-      {
-        "key": "Star",
-        "correct": true,
-        "shape": "star",
-        "shapeColor": "#3b82f6"
-      },
-      {
-        "key": "Diamond",
-        "correct": false,
-        "shape": "diamond",
-        "shapeColor": "#f97316"
-      }
-    ]
+      "Star",
+      "Heart",
+      "Diamond",
+      "Rectangle"
+    ],
+    "voiceEnglish": "Find the Star",
+    "voiceHindi": "तारा आकार ढूँढो"
   },
   {
-    "id": "shapes-6",
+    "id": "shape_heart_006",
     "category": "shapes",
     "english": "Find the Heart",
     "hindi": "दिल आकार ढूँढो",
-    "voiceEnglish": "Find the Heart",
-    "voiceHindi": "दिल आकार ढूँढो",
     "answer": "Heart",
     "options": [
-      {
-        "key": "Circle",
-        "correct": false,
-        "shape": "circle",
-        "shapeColor": "#3b82f6"
-      },
-      {
-        "key": "Star",
-        "correct": false,
-        "shape": "star",
-        "shapeColor": "#a855f7"
-      },
-      {
-        "key": "Heart",
-        "correct": true,
-        "shape": "heart",
-        "shapeColor": "#22c55e"
-      },
-      {
-        "key": "Diamond",
-        "correct": false,
-        "shape": "diamond",
-        "shapeColor": "#f97316"
-      }
-    ]
+      "Star",
+      "Square",
+      "Diamond",
+      "Heart"
+    ],
+    "voiceEnglish": "Find the Heart",
+    "voiceHindi": "दिल आकार ढूँढो"
   },
   {
-    "id": "shapes-7",
+    "id": "shape_oval_007",
     "category": "shapes",
     "english": "Find the Oval",
     "hindi": "अंडाकार आकार ढूँढो",
-    "voiceEnglish": "Find the Oval",
-    "voiceHindi": "अंडाकार आकार ढूँढो",
     "answer": "Oval",
     "options": [
-      {
-        "key": "Oval",
-        "correct": true,
-        "shape": "oval",
-        "shapeColor": "#f97316"
-      },
-      {
-        "key": "Rectangle",
-        "correct": false,
-        "shape": "rectangle",
-        "shapeColor": "#ef4444"
-      },
-      {
-        "key": "Circle",
-        "correct": false,
-        "shape": "circle",
-        "shapeColor": "#22c55e"
-      },
-      {
-        "key": "Square",
-        "correct": false,
-        "shape": "square",
-        "shapeColor": "#ec4899"
-      }
-    ]
+      "Diamond",
+      "Star",
+      "Oval",
+      "Rectangle"
+    ],
+    "voiceEnglish": "Find the Oval",
+    "voiceHindi": "अंडाकार आकार ढूँढो"
   },
   {
-    "id": "shapes-8",
+    "id": "shape_diamond_008",
     "category": "shapes",
     "english": "Find the Diamond",
     "hindi": "हीरा आकार ढूँढो",
-    "voiceEnglish": "Find the Diamond",
-    "voiceHindi": "हीरा आकार ढूँढो",
     "answer": "Diamond",
     "options": [
-      {
-        "key": "Oval",
-        "correct": false,
-        "shape": "oval",
-        "shapeColor": "#facc15"
-      },
-      {
-        "key": "Diamond",
-        "correct": true,
-        "shape": "diamond",
-        "shapeColor": "#3b82f6"
-      },
-      {
-        "key": "Star",
-        "correct": false,
-        "shape": "star",
-        "shapeColor": "#f97316"
-      },
-      {
-        "key": "Triangle",
-        "correct": false,
-        "shape": "triangle",
-        "shapeColor": "#a855f7"
-      }
-    ]
+      "Diamond",
+      "Square",
+      "Oval",
+      "Rectangle"
+    ],
+    "voiceEnglish": "Find the Diamond",
+    "voiceHindi": "हीरा आकार ढूँढो"
   }
 ]

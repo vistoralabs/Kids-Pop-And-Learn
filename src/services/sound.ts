@@ -178,13 +178,8 @@ export const sound = {
     const lang = getProgress().settings.lang;
     if (lang === "hi") {
       this.speakList([{ text: hi, lang: "hi" }]);
-    } else if (lang === "en") {
-      this.speakList([{ text: en, lang: "en" }]);
     } else {
-      this.speakList([
-        { text: en, lang: "en" },
-        { text: hi, lang: "hi" },
-      ]);
+      this.speakList([{ text: en, lang: "en" }]);
     }
   },
 

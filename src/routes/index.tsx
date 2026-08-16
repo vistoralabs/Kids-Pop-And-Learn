@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
 });
 
 const LANGS: { value: Lang; label: string }[] = [
-  { value: "en", label: "ABC" },
+  { value: "en", label: "English" },
   { value: "hi", label: "हिंदी" },
 ];
 
@@ -43,31 +43,54 @@ function Home() {
   const hi = lang === "hi";
   const [showPromoPopup, setShowPromoPopup] = useState(false);
   const [showRatePopup, setShowRatePopup] = useState(false);
+  
+  const [config, setConfig] = useState({ rewardPopupDelay: 12000, ratingPopupDelay: 30000 });
+  const [popupTexts, setPopupTexts] = useState<any>(null);
 
   useEffect(() => {
-    // Custom popup appears 12 seconds after launch if not shown yet in this session
+    // Fetch remote config for popup timings
+    fetch("https://kids.vistora.workers.dev/api/config.json")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data && typeof data.rewardPopupDelay === "number" && typeof data.ratingPopupDelay === "number") {
+          setConfig(data);
+        }
+      })
+      .catch(() => { /* fallback to default */ });
+
+    // Fetch remote custom reward popup content
+    fetch("https://kids.vistora.workers.dev/api/popup.json")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data) setPopupTexts(data);
+      })
+      .catch(() => { /* fallback to default */ });
+  }, []);
+
+  useEffect(() => {
+    // Custom popup appears dynamically based on cloud config (default 12 seconds)
     const promoTimer = setTimeout(() => {
       const shown = sessionStorage.getItem("custom_popup_shown");
       if (!shown) {
         setShowPromoPopup(true);
         sessionStorage.setItem("custom_popup_shown", "true");
       }
-    }, 12000);
+    }, config.rewardPopupDelay);
 
-    // Rating popup appears 27 seconds after launch (15 seconds gap after custom popup)
+    // Rating popup appears dynamically based on cloud config (default 30 seconds)
     const rateTimer = setTimeout(() => {
       const shown = sessionStorage.getItem("rating_popup_shown");
       if (!shown) {
         setShowRatePopup(true);
         sessionStorage.setItem("rating_popup_shown", "true");
       }
-    }, 27000);
+    }, config.ratingPopupDelay);
 
     return () => {
       clearTimeout(promoTimer);
       clearTimeout(rateTimer);
     };
-  }, []);
+  }, [config.rewardPopupDelay, config.ratingPopupDelay]);
 
   useEffect(() => {
     setCanClaim(dailyRewardAvailable());
@@ -80,10 +103,10 @@ function Home() {
   const pct = Math.round((doneLevels / allLevels) * 100);
 
   return (
-    <main className="page-sky pb-10">
+    <main className="page-sky pb-8">
       <div className="mx-auto w-full max-w-3xl px-4">
         {/* Hero */}
-        <section className="hero-gradient animate-shimmer relative mt-4 overflow-hidden rounded-[2.5rem] px-5 py-5">
+        <section className="hero-gradient animate-shimmer relative mt-2 overflow-hidden rounded-[2.5rem] px-5 py-5">
           <div className="flex items-center gap-4">
             <div className="min-w-0 flex-1">
               <p className="font-display text-xs tracking-[0.2em] text-card/80 uppercase">
@@ -236,6 +259,9 @@ function Home() {
         <CustomPopup
           open={showPromoPopup}
           lang={lang === "hi" ? "hi" : "en"}
+          title={lang === "hi" ? popupTexts?.rewardTitleHi : popupTexts?.rewardTitle}
+          desc={lang === "hi" ? popupTexts?.rewardDescHi : popupTexts?.rewardDesc}
+          btnText={lang === "hi" ? popupTexts?.buttonTextHi : popupTexts?.buttonText}
           onClose={() => setShowPromoPopup(false)}
         />
 

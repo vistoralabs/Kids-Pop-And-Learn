@@ -1,436 +1,212 @@
 [
   {
-    "id": "fruits-1",
+    "id": "fruits_apple_001",
     "category": "fruits",
-    "english": "Find the Apple 🍎",
-    "hindi": "सेब 🍎 ढूँढो",
-    "voiceEnglish": "Find the Apple",
-    "voiceHindi": "सेब ढूँढो",
+    "english": "Find the Apple",
+    "hindi": "सेब ढूँढो",
     "answer": "Apple",
     "options": [
-      {
-        "key": "Apple",
-        "correct": true,
-        "emoji": "🍎"
-      },
-      {
-        "key": "Pear",
-        "correct": false,
-        "emoji": "🍐"
-      },
-      {
-        "key": "Lemon",
-        "correct": false,
-        "emoji": "🍋"
-      },
-      {
-        "key": "Orange",
-        "correct": false,
-        "emoji": "🍊"
-      }
-    ]
+      "Coconut",
+      "Strawberry",
+      "Pineapple",
+      "Apple"
+    ],
+    "voiceEnglish": "Find the Apple",
+    "voiceHindi": "सेब ढूँढो"
   },
   {
-    "id": "fruits-2",
+    "id": "fruits_banana_002",
     "category": "fruits",
-    "english": "Find the Banana 🍌",
-    "hindi": "केला 🍌 ढूँढो",
-    "voiceEnglish": "Find the Banana",
-    "voiceHindi": "केला ढूँढो",
+    "english": "Find the Banana",
+    "hindi": "केला ढूँढो",
     "answer": "Banana",
     "options": [
-      {
-        "key": "Kiwi",
-        "correct": false,
-        "emoji": "🥝"
-      },
-      {
-        "key": "Apple",
-        "correct": false,
-        "emoji": "🍎"
-      },
-      {
-        "key": "Coconut",
-        "correct": false,
-        "emoji": "🥥"
-      },
-      {
-        "key": "Banana",
-        "correct": true,
-        "emoji": "🍌"
-      }
-    ]
+      "Pear",
+      "Banana",
+      "Watermelon",
+      "Cherry"
+    ],
+    "voiceEnglish": "Find the Banana",
+    "voiceHindi": "केला ढूँढो"
   },
   {
-    "id": "fruits-3",
+    "id": "fruits_orange_003",
     "category": "fruits",
-    "english": "Find the Orange 🍊",
-    "hindi": "संतरा 🍊 ढूँढो",
-    "voiceEnglish": "Find the Orange",
-    "voiceHindi": "संतरा ढूँढो",
+    "english": "Find the Orange",
+    "hindi": "संतरा ढूँढो",
     "answer": "Orange",
     "options": [
-      {
-        "key": "Strawberry",
-        "correct": false,
-        "emoji": "🍓"
-      },
-      {
-        "key": "Orange",
-        "correct": true,
-        "emoji": "🍊"
-      },
-      {
-        "key": "Apple",
-        "correct": false,
-        "emoji": "🍎"
-      },
-      {
-        "key": "Peach",
-        "correct": false,
-        "emoji": "🍑"
-      }
-    ]
+      "Peach",
+      "Kiwi",
+      "Pear",
+      "Orange"
+    ],
+    "voiceEnglish": "Find the Orange",
+    "voiceHindi": "संतरा ढूँढो"
   },
   {
-    "id": "fruits-4",
+    "id": "fruits_grapes_004",
     "category": "fruits",
-    "english": "Find the Grapes 🍇",
-    "hindi": "अंगूर 🍇 ढूँढो",
-    "voiceEnglish": "Find the Grapes",
-    "voiceHindi": "अंगूर ढूँढो",
+    "english": "Find the Grapes",
+    "hindi": "अंगूर ढूँढो",
     "answer": "Grapes",
     "options": [
-      {
-        "key": "Orange",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "Peach",
-        "correct": false,
-        "emoji": "🍑"
-      },
-      {
-        "key": "Mango",
-        "correct": false,
-        "emoji": "🥭"
-      },
-      {
-        "key": "Grapes",
-        "correct": true,
-        "emoji": "🍇"
-      }
-    ]
+      "Grapes",
+      "Pineapple",
+      "Strawberry",
+      "Orange"
+    ],
+    "voiceEnglish": "Find the Grapes",
+    "voiceHindi": "अंगूर ढूँढो"
   },
   {
-    "id": "fruits-5",
+    "id": "fruits_watermelon_005",
     "category": "fruits",
-    "english": "Find the Watermelon 🍉",
-    "hindi": "तरबूज़ 🍉 ढूँढो",
-    "voiceEnglish": "Find the Watermelon",
-    "voiceHindi": "तरबूज़ ढूँढो",
+    "english": "Find the Watermelon",
+    "hindi": "तरबूज़ ढूँढो",
     "answer": "Watermelon",
     "options": [
-      {
-        "key": "Lemon",
-        "correct": false,
-        "emoji": "🍋"
-      },
-      {
-        "key": "Watermelon",
-        "correct": true,
-        "emoji": "🍉"
-      },
-      {
-        "key": "Kiwi",
-        "correct": false,
-        "emoji": "🥝"
-      },
-      {
-        "key": "Apple",
-        "correct": false,
-        "emoji": "🍎"
-      }
-    ]
+      "Strawberry",
+      "Apple",
+      "Watermelon",
+      "Peach"
+    ],
+    "voiceEnglish": "Find the Watermelon",
+    "voiceHindi": "तरबूज़ ढूँढो"
   },
   {
-    "id": "fruits-6",
+    "id": "fruits_strawberry_006",
     "category": "fruits",
-    "english": "Find the Strawberry 🍓",
-    "hindi": "स्ट्रॉबेरी 🍓 ढूँढो",
-    "voiceEnglish": "Find the Strawberry",
-    "voiceHindi": "स्ट्रॉबेरी ढूँढो",
+    "english": "Find the Strawberry",
+    "hindi": "स्ट्रॉबेरी ढूँढो",
     "answer": "Strawberry",
     "options": [
-      {
-        "key": "Orange",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "Strawberry",
-        "correct": true,
-        "emoji": "🍓"
-      },
-      {
-        "key": "Cherry",
-        "correct": false,
-        "emoji": "🍒"
-      },
-      {
-        "key": "Coconut",
-        "correct": false,
-        "emoji": "🥥"
-      }
-    ]
+      "Strawberry",
+      "Apple",
+      "Mango",
+      "Orange"
+    ],
+    "voiceEnglish": "Find the Strawberry",
+    "voiceHindi": "स्ट्रॉबेरी ढूँढो"
   },
   {
-    "id": "fruits-7",
+    "id": "fruits_mango_007",
     "category": "fruits",
-    "english": "Find the Mango 🥭",
-    "hindi": "आम 🥭 ढूँढो",
-    "voiceEnglish": "Find the Mango",
-    "voiceHindi": "आम ढूँढो",
+    "english": "Find the Mango",
+    "hindi": "आम ढूँढो",
     "answer": "Mango",
     "options": [
-      {
-        "key": "Cherry",
-        "correct": false,
-        "emoji": "🍒"
-      },
-      {
-        "key": "Watermelon",
-        "correct": false,
-        "emoji": "🍉"
-      },
-      {
-        "key": "Mango",
-        "correct": true,
-        "emoji": "🥭"
-      },
-      {
-        "key": "Orange",
-        "correct": false,
-        "emoji": "🍊"
-      }
-    ]
+      "Pineapple",
+      "Lemon",
+      "Mango",
+      "Watermelon"
+    ],
+    "voiceEnglish": "Find the Mango",
+    "voiceHindi": "आम ढूँढो"
   },
   {
-    "id": "fruits-8",
+    "id": "fruits_pineapple_008",
     "category": "fruits",
-    "english": "Find the Pineapple 🍍",
-    "hindi": "अनानास 🍍 ढूँढो",
-    "voiceEnglish": "Find the Pineapple",
-    "voiceHindi": "अनानास ढूँढो",
+    "english": "Find the Pineapple",
+    "hindi": "अनानास ढूँढो",
     "answer": "Pineapple",
     "options": [
-      {
-        "key": "Coconut",
-        "correct": false,
-        "emoji": "🥥"
-      },
-      {
-        "key": "Pineapple",
-        "correct": true,
-        "emoji": "🍍"
-      },
-      {
-        "key": "Peach",
-        "correct": false,
-        "emoji": "🍑"
-      },
-      {
-        "key": "Banana",
-        "correct": false,
-        "emoji": "🍌"
-      }
-    ]
+      "Lemon",
+      "Pineapple",
+      "Strawberry",
+      "Grapes"
+    ],
+    "voiceEnglish": "Find the Pineapple",
+    "voiceHindi": "अनानास ढूँढो"
   },
   {
-    "id": "fruits-9",
+    "id": "fruits_cherry_009",
     "category": "fruits",
-    "english": "Find the Cherry 🍒",
-    "hindi": "चेरी 🍒 ढूँढो",
-    "voiceEnglish": "Find the Cherry",
-    "voiceHindi": "चेरी ढूँढो",
+    "english": "Find the Cherry",
+    "hindi": "चेरी ढूँढो",
     "answer": "Cherry",
     "options": [
-      {
-        "key": "Cherry",
-        "correct": true,
-        "emoji": "🍒"
-      },
-      {
-        "key": "Coconut",
-        "correct": false,
-        "emoji": "🥥"
-      },
-      {
-        "key": "Kiwi",
-        "correct": false,
-        "emoji": "🥝"
-      },
-      {
-        "key": "Peach",
-        "correct": false,
-        "emoji": "🍑"
-      }
-    ]
+      "Cherry",
+      "Orange",
+      "Watermelon",
+      "Mango"
+    ],
+    "voiceEnglish": "Find the Cherry",
+    "voiceHindi": "चेरी ढूँढो"
   },
   {
-    "id": "fruits-10",
+    "id": "fruits_pear_010",
     "category": "fruits",
-    "english": "Find the Pear 🍐",
-    "hindi": "नाशपाती 🍐 ढूँढो",
-    "voiceEnglish": "Find the Pear",
-    "voiceHindi": "नाशपाती ढूँढो",
+    "english": "Find the Pear",
+    "hindi": "नाशपाती ढूँढो",
     "answer": "Pear",
     "options": [
-      {
-        "key": "Strawberry",
-        "correct": false,
-        "emoji": "🍓"
-      },
-      {
-        "key": "Pear",
-        "correct": true,
-        "emoji": "🍐"
-      },
-      {
-        "key": "Cherry",
-        "correct": false,
-        "emoji": "🍒"
-      },
-      {
-        "key": "Kiwi",
-        "correct": false,
-        "emoji": "🥝"
-      }
-    ]
+      "Apple",
+      "Pineapple",
+      "Pear",
+      "Lemon"
+    ],
+    "voiceEnglish": "Find the Pear",
+    "voiceHindi": "नाशपाती ढूँढो"
   },
   {
-    "id": "fruits-11",
+    "id": "fruits_peach_011",
     "category": "fruits",
-    "english": "Find the Peach 🍑",
-    "hindi": "आड़ू 🍑 ढूँढो",
-    "voiceEnglish": "Find the Peach",
-    "voiceHindi": "आड़ू ढूँढो",
+    "english": "Find the Peach",
+    "hindi": "आड़ू ढूँढो",
     "answer": "Peach",
     "options": [
-      {
-        "key": "Mango",
-        "correct": false,
-        "emoji": "🥭"
-      },
-      {
-        "key": "Peach",
-        "correct": true,
-        "emoji": "🍑"
-      },
-      {
-        "key": "Pineapple",
-        "correct": false,
-        "emoji": "🍍"
-      },
-      {
-        "key": "Cherry",
-        "correct": false,
-        "emoji": "🍒"
-      }
-    ]
+      "Peach",
+      "Cherry",
+      "Grapes",
+      "Apple"
+    ],
+    "voiceEnglish": "Find the Peach",
+    "voiceHindi": "आड़ू ढूँढो"
   },
   {
-    "id": "fruits-12",
+    "id": "fruits_coconut_012",
     "category": "fruits",
-    "english": "Find the Coconut 🥥",
-    "hindi": "नारियल 🥥 ढूँढो",
-    "voiceEnglish": "Find the Coconut",
-    "voiceHindi": "नारियल ढूँढो",
+    "english": "Find the Coconut",
+    "hindi": "nariyal ढूँढो",
     "answer": "Coconut",
     "options": [
-      {
-        "key": "Grapes",
-        "correct": false,
-        "emoji": "🍇"
-      },
-      {
-        "key": "Orange",
-        "correct": false,
-        "emoji": "🍊"
-      },
-      {
-        "key": "Mango",
-        "correct": false,
-        "emoji": "🥭"
-      },
-      {
-        "key": "Coconut",
-        "correct": true,
-        "emoji": "🥥"
-      }
-    ]
+      "Banana",
+      "Strawberry",
+      "Coconut",
+      "Grapes"
+    ],
+    "voiceEnglish": "Find the Coconut",
+    "voiceHindi": "nariyal ढूँढो"
   },
   {
-    "id": "fruits-13",
+    "id": "fruits_lemon_013",
     "category": "fruits",
-    "english": "Find the Lemon 🍋",
-    "hindi": "नींबू 🍋 ढूँढो",
-    "voiceEnglish": "Find the Lemon",
-    "voiceHindi": "नींबू ढूँढो",
+    "english": "Find the Lemon",
+    "hindi": "नींबू ढूँढो",
     "answer": "Lemon",
     "options": [
-      {
-        "key": "Apple",
-        "correct": false,
-        "emoji": "🍎"
-      },
-      {
-        "key": "Lemon",
-        "correct": true,
-        "emoji": "🍋"
-      },
-      {
-        "key": "Grapes",
-        "correct": false,
-        "emoji": "🍇"
-      },
-      {
-        "key": "Peach",
-        "correct": false,
-        "emoji": "🍑"
-      }
-    ]
+      "Orange",
+      "Pineapple",
+      "Lemon",
+      "Grapes"
+    ],
+    "voiceEnglish": "Find the Lemon",
+    "voiceHindi": "नींबू ढूँढो"
   },
   {
-    "id": "fruits-14",
+    "id": "fruits_kiwi_014",
     "category": "fruits",
-    "english": "Find the Kiwi 🥝",
-    "hindi": "कीवी 🥝 ढूँढो",
-    "voiceEnglish": "Find the Kiwi",
-    "voiceHindi": "कीवी ढूँढो",
+    "english": "Find the Kiwi",
+    "hindi": "कीवी ढूँढो",
     "answer": "Kiwi",
     "options": [
-      {
-        "key": "Mango",
-        "correct": false,
-        "emoji": "🥭"
-      },
-      {
-        "key": "Peach",
-        "correct": false,
-        "emoji": "🍑"
-      },
-      {
-        "key": "Kiwi",
-        "correct": true,
-        "emoji": "🥝"
-      },
-      {
-        "key": "Orange",
-        "correct": false,
-        "emoji": "🍊"
-      }
-    ]
+      "Apple",
+      "Coconut",
+      "Kiwi",
+      "Strawberry"
+    ],
+    "voiceEnglish": "Find the Kiwi",
+    "voiceHindi": "कीवी ढूँढो"
   }
 ]

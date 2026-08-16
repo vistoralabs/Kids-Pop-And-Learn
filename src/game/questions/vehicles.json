@@ -1,498 +1,242 @@
 [
   {
-    "id": "vehicles-1",
+    "id": "vehicles_car_001",
     "category": "vehicles",
-    "english": "Find the Car 🚗",
-    "hindi": "कार 🚗 ढूँढो",
-    "voiceEnglish": "Find the Car",
-    "voiceHindi": "कार ढूँढो",
+    "english": "Find the Car",
+    "hindi": "कार ढूँढो",
     "answer": "Car",
     "options": [
-      {
-        "key": "Airplane",
-        "correct": false,
-        "emoji": "✈️"
-      },
-      {
-        "key": "Ambulance",
-        "correct": false,
-        "emoji": "🚑"
-      },
-      {
-        "key": "Train",
-        "correct": false,
-        "emoji": "🚂"
-      },
-      {
-        "key": "Car",
-        "correct": true,
-        "emoji": "🚗"
-      }
-    ]
+      "Train",
+      "Rocket",
+      "Ambulance",
+      "Car"
+    ],
+    "voiceEnglish": "Find the Car",
+    "voiceHindi": "कार ढूँढो"
   },
   {
-    "id": "vehicles-2",
+    "id": "vehicles_bus_002",
     "category": "vehicles",
-    "english": "Find the Bus 🚌",
-    "hindi": "बस 🚌 ढूँढो",
-    "voiceEnglish": "Find the Bus",
-    "voiceHindi": "बस ढूँढो",
+    "english": "Find the Bus",
+    "hindi": "बस ढूँढो",
     "answer": "Bus",
     "options": [
-      {
-        "key": "Bus",
-        "correct": true,
-        "emoji": "🚌"
-      },
-      {
-        "key": "Car",
-        "correct": false,
-        "emoji": "🚗"
-      },
-      {
-        "key": "Tractor",
-        "correct": false,
-        "emoji": "🚜"
-      },
-      {
-        "key": "Bicycle",
-        "correct": false,
-        "emoji": "🚲"
-      }
-    ]
+      "Ship",
+      "Bus",
+      "Auto Rickshaw",
+      "Rocket"
+    ],
+    "voiceEnglish": "Find the Bus",
+    "voiceHindi": "बस ढूँढो"
   },
   {
-    "id": "vehicles-3",
+    "id": "vehicles_ambulance_003",
     "category": "vehicles",
-    "english": "Find the Ambulance 🚑",
-    "hindi": "एम्बुलेंस 🚑 ढूँढो",
-    "voiceEnglish": "Find the Ambulance",
-    "voiceHindi": "एम्बुलेंस ढूँढो",
+    "english": "Find the Ambulance",
+    "hindi": "एम्बुलेंस ढूँढो",
     "answer": "Ambulance",
     "options": [
-      {
-        "key": "Boat",
-        "correct": false,
-        "emoji": "⛵"
-      },
-      {
-        "key": "Rocket",
-        "correct": false,
-        "emoji": "🚀"
-      },
-      {
-        "key": "Tractor",
-        "correct": false,
-        "emoji": "🚜"
-      },
-      {
-        "key": "Ambulance",
-        "correct": true,
-        "emoji": "🚑"
-      }
-    ]
+      "Ambulance",
+      "Car",
+      "Bus",
+      "Scooter"
+    ],
+    "voiceEnglish": "Find the Ambulance",
+    "voiceHindi": "एम्बुलेंस ढूँढो"
   },
   {
-    "id": "vehicles-4",
+    "id": "vehicles_fire_engine_004",
     "category": "vehicles",
-    "english": "Find the Fire Truck 🚒",
-    "hindi": "दमकल 🚒 ढूँढो",
-    "voiceEnglish": "Find the Fire Truck",
-    "voiceHindi": "दमकल ढूँढो",
-    "answer": "Fire Truck",
+    "english": "Find the Fire Engine",
+    "hindi": "दमकल ढूँढो",
+    "answer": "Fire Engine",
     "options": [
-      {
-        "key": "Fire Truck",
-        "correct": true,
-        "emoji": "🚒"
-      },
-      {
-        "key": "Bicycle",
-        "correct": false,
-        "emoji": "🚲"
-      },
-      {
-        "key": "Truck",
-        "correct": false,
-        "emoji": "🚚"
-      },
-      {
-        "key": "Auto Rickshaw",
-        "correct": false,
-        "emoji": "🛺"
-      }
-    ]
+      "Fire Engine",
+      "Train",
+      "Scooter",
+      "Truck"
+    ],
+    "voiceEnglish": "Find the Fire Engine",
+    "voiceHindi": "दमकल ढूँढो"
   },
   {
-    "id": "vehicles-5",
+    "id": "vehicles_police_car_005",
     "category": "vehicles",
-    "english": "Find the Police Car 🚓",
-    "hindi": "पुलिस कार 🚓 ढूँढो",
-    "voiceEnglish": "Find the Police Car",
-    "voiceHindi": "पुलिस कार ढूँढो",
+    "english": "Find the Police Car",
+    "hindi": "पुलिस कार ढूँढो",
     "answer": "Police Car",
     "options": [
-      {
-        "key": "Bus",
-        "correct": false,
-        "emoji": "🚌"
-      },
-      {
-        "key": "Tractor",
-        "correct": false,
-        "emoji": "🚜"
-      },
-      {
-        "key": "Police Car",
-        "correct": true,
-        "emoji": "🚓"
-      },
-      {
-        "key": "Car",
-        "correct": false,
-        "emoji": "🚗"
-      }
-    ]
+      "Helicopter",
+      "Ambulance",
+      "Police Car",
+      "Auto Rickshaw"
+    ],
+    "voiceEnglish": "Find the Police Car",
+    "voiceHindi": "पुलिस कार ढूँढो"
   },
   {
-    "id": "vehicles-6",
+    "id": "vehicles_airplane_006",
     "category": "vehicles",
-    "english": "Find the Airplane ✈️",
-    "hindi": "हवाई जहाज़ ✈️ ढूँढो",
-    "voiceEnglish": "Find the Airplane",
-    "voiceHindi": "हवाई जहाज़ ढूँढो",
+    "english": "Find the Airplane",
+    "hindi": "हवाई जहाज़ ढूँढो",
     "answer": "Airplane",
     "options": [
-      {
-        "key": "Scooter",
-        "correct": false,
-        "emoji": "🛵"
-      },
-      {
-        "key": "Airplane",
-        "correct": true,
-        "emoji": "✈️"
-      },
-      {
-        "key": "Police Car",
-        "correct": false,
-        "emoji": "🚓"
-      },
-      {
-        "key": "Train",
-        "correct": false,
-        "emoji": "🚂"
-      }
-    ]
+      "Airplane",
+      "Truck",
+      "Bus",
+      "Rocket"
+    ],
+    "voiceEnglish": "Find the Airplane",
+    "voiceHindi": "हवाई जहाज़ ढूँढो"
   },
   {
-    "id": "vehicles-7",
+    "id": "vehicles_helicopter_007",
     "category": "vehicles",
-    "english": "Find the Helicopter 🚁",
-    "hindi": "हेलीकॉप्टर 🚁 ढूँढो",
-    "voiceEnglish": "Find the Helicopter",
-    "voiceHindi": "हेलीकॉप्टर ढूँढो",
+    "english": "Find the Helicopter",
+    "hindi": "हेलीकॉप्टर ढूँढो",
     "answer": "Helicopter",
     "options": [
-      {
-        "key": "Car",
-        "correct": false,
-        "emoji": "🚗"
-      },
-      {
-        "key": "Helicopter",
-        "correct": true,
-        "emoji": "🚁"
-      },
-      {
-        "key": "Bus",
-        "correct": false,
-        "emoji": "🚌"
-      },
-      {
-        "key": "Boat",
-        "correct": false,
-        "emoji": "⛵"
-      }
-    ]
+      "Bicycle",
+      "Police Car",
+      "Truck",
+      "Helicopter"
+    ],
+    "voiceEnglish": "Find the Helicopter",
+    "voiceHindi": "हेलीकॉप्टर ढूँढो"
   },
   {
-    "id": "vehicles-8",
+    "id": "vehicles_train_008",
     "category": "vehicles",
-    "english": "Find the Train 🚂",
-    "hindi": "रेलगाड़ी 🚂 ढूँढो",
-    "voiceEnglish": "Find the Train",
-    "voiceHindi": "रेलगाड़ी ढूँढो",
+    "english": "Find the Train",
+    "hindi": "रेलगाड़ी ढूँढो",
     "answer": "Train",
     "options": [
-      {
-        "key": "Truck",
-        "correct": false,
-        "emoji": "🚚"
-      },
-      {
-        "key": "Ship",
-        "correct": false,
-        "emoji": "🚢"
-      },
-      {
-        "key": "Car",
-        "correct": false,
-        "emoji": "🚗"
-      },
-      {
-        "key": "Train",
-        "correct": true,
-        "emoji": "🚂"
-      }
-    ]
+      "Tractor",
+      "Train",
+      "Truck",
+      "Scooter"
+    ],
+    "voiceEnglish": "Find the Train",
+    "voiceHindi": "रेलगाड़ी ढूँढो"
   },
   {
-    "id": "vehicles-9",
+    "id": "vehicles_ship_009",
     "category": "vehicles",
-    "english": "Find the Ship 🚢",
-    "hindi": "जहाज़ 🚢 ढूँढो",
-    "voiceEnglish": "Find the Ship",
-    "voiceHindi": "जहाज़ ढूँढो",
+    "english": "Find the Ship",
+    "hindi": "जहाज़ ढूँढो",
     "answer": "Ship",
     "options": [
-      {
-        "key": "Tractor",
-        "correct": false,
-        "emoji": "🚜"
-      },
-      {
-        "key": "Ship",
-        "correct": true,
-        "emoji": "🚢"
-      },
-      {
-        "key": "Scooter",
-        "correct": false,
-        "emoji": "🛵"
-      },
-      {
-        "key": "Auto Rickshaw",
-        "correct": false,
-        "emoji": "🛺"
-      }
-    ]
+      "Fire Engine",
+      "Bus",
+      "Truck",
+      "Ship"
+    ],
+    "voiceEnglish": "Find the Ship",
+    "voiceHindi": "जहाज़ ढूँढो"
   },
   {
-    "id": "vehicles-10",
+    "id": "vehicles_bicycle_010",
     "category": "vehicles",
-    "english": "Find the Bicycle 🚲",
-    "hindi": "साइकिल 🚲 ढूँढो",
-    "voiceEnglish": "Find the Bicycle",
-    "voiceHindi": "साइकिल ढूँढो",
+    "english": "Find the Bicycle",
+    "hindi": "साइकिल ढूँढो",
     "answer": "Bicycle",
     "options": [
-      {
-        "key": "Car",
-        "correct": false,
-        "emoji": "🚗"
-      },
-      {
-        "key": "Fire Truck",
-        "correct": false,
-        "emoji": "🚒"
-      },
-      {
-        "key": "Rocket",
-        "correct": false,
-        "emoji": "🚀"
-      },
-      {
-        "key": "Bicycle",
-        "correct": true,
-        "emoji": "🚲"
-      }
-    ]
+      "Airplane",
+      "Police Car",
+      "Bicycle",
+      "Rocket"
+    ],
+    "voiceEnglish": "Find the Bicycle",
+    "voiceHindi": "साइकिल ढूँढो"
   },
   {
-    "id": "vehicles-11",
+    "id": "vehicles_auto_rickshaw_011",
     "category": "vehicles",
-    "english": "Find the Auto Rickshaw 🛺",
-    "hindi": "ऑटो 🛺 ढूँढो",
-    "voiceEnglish": "Find the Auto Rickshaw",
-    "voiceHindi": "ऑटो ढूँढो",
+    "english": "Find the Auto Rickshaw",
+    "hindi": "ऑटो ढूँढो",
     "answer": "Auto Rickshaw",
     "options": [
-      {
-        "key": "Bus",
-        "correct": false,
-        "emoji": "🚌"
-      },
-      {
-        "key": "Police Car",
-        "correct": false,
-        "emoji": "🚓"
-      },
-      {
-        "key": "Rocket",
-        "correct": false,
-        "emoji": "🚀"
-      },
-      {
-        "key": "Auto Rickshaw",
-        "correct": true,
-        "emoji": "🛺"
-      }
-    ]
+      "Rocket",
+      "Auto Rickshaw",
+      "Police Car",
+      "Truck"
+    ],
+    "voiceEnglish": "Find the Auto Rickshaw",
+    "voiceHindi": "ऑटो ढूँढो"
   },
   {
-    "id": "vehicles-12",
+    "id": "vehicles_scooter_012",
     "category": "vehicles",
-    "english": "Find the Scooter 🛵",
-    "hindi": "स्कूटर 🛵 ढूँढो",
-    "voiceEnglish": "Find the Scooter",
-    "voiceHindi": "स्कूटर ढूँढो",
+    "english": "Find the Scooter",
+    "hindi": "स्कूटर ढूँढो",
     "answer": "Scooter",
     "options": [
-      {
-        "key": "Scooter",
-        "correct": true,
-        "emoji": "🛵"
-      },
-      {
-        "key": "Airplane",
-        "correct": false,
-        "emoji": "✈️"
-      },
-      {
-        "key": "Truck",
-        "correct": false,
-        "emoji": "🚚"
-      },
-      {
-        "key": "Fire Truck",
-        "correct": false,
-        "emoji": "🚒"
-      }
-    ]
+      "Helicopter",
+      "Scooter",
+      "Ship",
+      "Bicycle"
+    ],
+    "voiceEnglish": "Find the Scooter",
+    "voiceHindi": "स्कूटर ढूँढो"
   },
   {
-    "id": "vehicles-13",
+    "id": "vehicles_tractor_013",
     "category": "vehicles",
-    "english": "Find the Tractor 🚜",
-    "hindi": "ट्रैक्टर 🚜 ढूँढो",
-    "voiceEnglish": "Find the Tractor",
-    "voiceHindi": "ट्रैक्टर ढूँढो",
+    "english": "Find the Tractor",
+    "hindi": "ट्रैक्टर ढूँढो",
     "answer": "Tractor",
     "options": [
-      {
-        "key": "Train",
-        "correct": false,
-        "emoji": "🚂"
-      },
-      {
-        "key": "Bicycle",
-        "correct": false,
-        "emoji": "🚲"
-      },
-      {
-        "key": "Tractor",
-        "correct": true,
-        "emoji": "🚜"
-      },
-      {
-        "key": "Fire Truck",
-        "correct": false,
-        "emoji": "🚒"
-      }
-    ]
+      "Tractor",
+      "Train",
+      "Car",
+      "Ship"
+    ],
+    "voiceEnglish": "Find the Tractor",
+    "voiceHindi": "ट्रैक्टर ढूँढो"
   },
   {
-    "id": "vehicles-14",
+    "id": "vehicles_truck_014",
     "category": "vehicles",
-    "english": "Find the Truck 🚚",
-    "hindi": "ट्रक 🚚 ढूँढो",
-    "voiceEnglish": "Find the Truck",
-    "voiceHindi": "ट्रक ढूँढो",
+    "english": "Find the Truck",
+    "hindi": "ट्रक ढूँढो",
     "answer": "Truck",
     "options": [
-      {
-        "key": "Police Car",
-        "correct": false,
-        "emoji": "🚓"
-      },
-      {
-        "key": "Truck",
-        "correct": true,
-        "emoji": "🚚"
-      },
-      {
-        "key": "Scooter",
-        "correct": false,
-        "emoji": "🛵"
-      },
-      {
-        "key": "Fire Truck",
-        "correct": false,
-        "emoji": "🚒"
-      }
-    ]
+      "Airplane",
+      "Truck",
+      "Boat",
+      "Bicycle"
+    ],
+    "voiceEnglish": "Find the Truck",
+    "voiceHindi": "ट्रक ढूँढो"
   },
   {
-    "id": "vehicles-15",
+    "id": "vehicles_rocket_015",
     "category": "vehicles",
-    "english": "Find the Rocket 🚀",
-    "hindi": "रॉकेट 🚀 ढूँढो",
-    "voiceEnglish": "Find the Rocket",
-    "voiceHindi": "रॉकेट ढूँढो",
+    "english": "Find the Rocket",
+    "hindi": "रॉकेट ढूँढो",
     "answer": "Rocket",
     "options": [
-      {
-        "key": "Police Car",
-        "correct": false,
-        "emoji": "🚓"
-      },
-      {
-        "key": "Train",
-        "correct": false,
-        "emoji": "🚂"
-      },
-      {
-        "key": "Rocket",
-        "correct": true,
-        "emoji": "🚀"
-      },
-      {
-        "key": "Tractor",
-        "correct": false,
-        "emoji": "🚜"
-      }
-    ]
+      "Rocket",
+      "Fire Engine",
+      "Police Car",
+      "Bicycle"
+    ],
+    "voiceEnglish": "Find the Rocket",
+    "voiceHindi": "रॉकेट ढूँढो"
   },
   {
-    "id": "vehicles-16",
+    "id": "vehicles_boat_016",
     "category": "vehicles",
-    "english": "Find the Boat ⛵",
-    "hindi": "नाव ⛵ ढूँढो",
-    "voiceEnglish": "Find the Boat",
-    "voiceHindi": "नाव ढूँढो",
+    "english": "Find the Boat",
+    "hindi": "नाव ढूँढो",
     "answer": "Boat",
     "options": [
-      {
-        "key": "Boat",
-        "correct": true,
-        "emoji": "⛵"
-      },
-      {
-        "key": "Helicopter",
-        "correct": false,
-        "emoji": "🚁"
-      },
-      {
-        "key": "Truck",
-        "correct": false,
-        "emoji": "🚚"
-      },
-      {
-        "key": "Ambulance",
-        "correct": false,
-        "emoji": "🚑"
-      }
-    ]
+      "Bus",
+      "Fire Engine",
+      "Boat",
+      "Ship"
+    ],
+    "voiceEnglish": "Find the Boat",
+    "voiceHindi": "नाव ढूँढो"
   }
 ]

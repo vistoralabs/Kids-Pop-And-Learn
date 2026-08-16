@@ -1,6 +1,13 @@
 name = "kids"
-main = "worker.js"
+main = ".output/server/index.mjs"
 compatibility_date = "2026-08-16"
+compatibility_flags = ["nodejs_compat"]
+no_bundle = true
 
 [assets]
-directory = "./dist"
+directory = ".output/public"
+binding = "ASSETS"
+
+[[rules]]
+type = "ESModule"
+globs = ["**/*.mjs", "**/*.js"]

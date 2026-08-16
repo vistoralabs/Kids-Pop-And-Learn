@@ -2,9 +2,9 @@
   "rewardPopup": {
     "enabled": true,
     "delay": 12000,
-    "title": "Amazing Rewards!",
+    "title": "Amazing",
     "titleHi": "अद्भुत पुरस्कार! 🏆",
-    "desc": "Play all categories, win stars, and unlock badges!",
+    "desc": "Play All Categories, And Unlock Badges!",
     "descHi": "सभी श्रेणियों को खेलें, सितारे जीतें और बैज अनलॉक करें!",
     "btnText": "Keep Playing",
     "btnTextHi": "खेल जारी रखें"
